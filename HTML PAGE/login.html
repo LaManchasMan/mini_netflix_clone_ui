@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1440, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="login" />
+    <div class="container-center-horizontal">
+      <form class="login screen" name="form1" action="form1" method="post">
+        <div class="overlap-group4">
+          <a href="home.html"
+            ><img
+              class="kisspng-netflix-stre"
+              src="img/kisspng-netflix-streaming-media-television-show-logo-netflix-log-1@2x.png"
+            />
+          </a>
+          <div class="sign-in-component-complete">
+            <div class="sign-in inter-normal-white-30px">Sign In</div>
+            <div class="email-pw-component">
+              <div class="email-or-phone-number">
+                <div class="object">
+                  <img class="icon" src="img/icon@2x.svg" />
+                  <div class="input"><div class="label roboto-normal-black-16px">Email or phone nunber</div></div>
+                </div>
+              </div>
+              <div class="overlap-group">
+                <a href="javascript:SubmitForm('form1')"> <div class="rectangle-61"></div></a>
+                <div class="password">
+                  <label class="mdc-text-field mdc-text-field--filled mdc-text-field--with--icon">
+                    <span class="mdc-text-field__ripple"></span>
+                    <span class="mdc-floating-label" id="my-label-id">Password</span>
+                    <input type="text" class="mdc-text-field__input" aria-labelledby="my-label-id" />
+                    <span class="mdc-line-ripple"></span>
+                  </label>
+                  <script>
+                    new mdc.textField.MDCTextField(document.querySelector(".password .mdc-text-field"));
+                  </script>
+                </div>
+              </div>
+            </div>
+            <div class="overlap-group2">
+              <a href="home.html"><div class="sign-in-1 valign-text-middle">Sign In</div> </a>
+            </div>
+            <div class="flex-row">
+              <div class="check-box"></div>
+              <div class="remember-me valign-text-middle">Remember me</div>
+              <div class="need-help valign-text-middle inter-normal-white-12px">Need help?</div>
+            </div>
+            <div class="overlap-group3">
+              <div class="new-to-netflix valign-text-middle inter-normal-white-12px">New to Netflix?</div>
+              <a href="sign-up.html">
+                <div class="sign-up-now">
+                  <div class="sign-container">
+                    <a href="sign-up.html" onclick="window.event.stopPropagation()">
+                      <div class="sign-up-now-box"></div></a
+                    ><a href="sign-up.html" onclick="window.event.stopPropagation()"
+                      ><div class="sign-up-now-1 valign-text-middle inter-normal-white-12px">Sign up now.</div>
+                    </a>
+                  </div>
+                </div></a
+              >
+            </div>
+            <p class="this-page-is-protect">
+              This page is protected by <br />Google reCHAPATCHA to ensure you’re not a bot. Learn more.
+            </p>
+          </div>
+          <div class="overlap-group5 inter-normal-mist-gray-12px">
+            <div class="flex-col">
+              <div class="questions-call-1-844-505-2993 valign-text-middle">Questions? Call 1-844-505-2993</div>
+              <div class="faq valign-text-bottom">FAQ</div>
+              <div class="cookie-preferences valign-text-bottom">Cookie Preferences</div>
+            </div>
+            <div class="flex-col-1 inter-normal-mist-gray-12px">
+              <div class="help-center valign-text-bottom">Help Center</div>
+              <div class="corporate-information valign-text-bottom">Corporate Information</div>
+            </div>
+            <div class="overlap-group5-item valign-text-bottom">Terms of Use</div>
+            <div class="overlap-group5-item valign-text-bottom">Privacy</div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>
