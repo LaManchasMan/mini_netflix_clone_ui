@@ -8,7 +8,7 @@
   width: 1440px;
 }
 
-.overlap-group-1 {
+.overlap-group-5 {
   align-items: flex-start;
   background-color: var(--black);
   display: flex;
@@ -24,7 +24,8 @@
   padding: 4px 17px;
 }
 
-.kisspng-netflix-stre {
+.kisspng-netflix-stre-2 {
+  cursor: pointer;
   height: 42px;
   object-fit: cover;
   width: 178px;
@@ -36,25 +37,24 @@
   width: 110px;
 }
 
-.overlap-group7 {
+.overlap-group7-1 {
   height: 448px;
-  margin-left: -11px;
   position: relative;
-  width: 1451px;
+  width: 1440px;
 }
 
 .rectangle-15 {
   background-color: var(--mist-gray);
   height: 406px;
-  left: 11px;
+  left: 0;
   position: absolute;
   top: 0;
   width: 1440px;
 }
 
-.uiuh-j6e-n7-yitw-qw-kt-b-wjv-t-3 {
+.uiuh-j6e-n7-yitw-qw-kt-b-wjv-t-3-1 {
   height: 416px;
-  left: 11px;
+  left: 0;
   position: absolute;
   top: 0;
   width: 1440px;
@@ -66,18 +66,18 @@
   left: 0;
   position: absolute;
   top: 406px;
-  width: 1451px;
+  width: 1440px;
 }
 
-.continue-watching {
+.continue-watching-4 {
   height: 33px;
-  left: 13px;
+  left: 2px;
   position: absolute;
   top: 410px;
   width: 318px;
 }
 
-.flex-row {
+.flex-row-1 {
   align-items: flex-start;
   display: flex;
   min-width: 1440px;
@@ -89,14 +89,14 @@
   width: 240px;
 }
 
-.overlap-group {
+.overlap-group-4 {
   align-items: flex-start;
   background-color: var(--black);
   display: flex;
   min-width: 240px;
 }
 
-.overlap-group2 {
+.overlap-group2-2 {
   align-items: flex-start;
   background-color: var(--black);
   display: flex;
@@ -106,12 +106,12 @@
   padding: 7px 12.5px;
 }
 
-.action {
+.action-7 {
   height: 26px;
   width: 99px;
 }
 
-.overlap-group5 {
+.overlap-group5-2 {
   height: 141px;
   margin-left: -11px;
   position: relative;
@@ -127,7 +127,7 @@
   width: 1451px;
 }
 
-.drama {
+.drama-2 {
   height: 25px;
   left: 14px;
   position: absolute;
@@ -189,7 +189,7 @@
   width: 240px;
 }
 
-.overlap-group1 {
+.overlap-group1-1 {
   align-items: flex-start;
   background-color: var(--black);
   display: flex;
@@ -199,7 +199,7 @@
   padding: 7px 12px;
 }
 
-.anime {
+.anime-2 {
   height: 26px;
   width: 98px;
 }

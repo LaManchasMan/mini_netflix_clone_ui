@@ -16,13 +16,6 @@ class SignUp extends React.Component {
 
   render() {
     const {
-      signUpPageBackground,
-      netflixLogo,
-      title,
-      watchAnywhereCancelAnytime,
-      readyToWatchEnte1,
-      getStarted1,
-      signIn,
       enjoyOnYourTv,
       watchOnSmartTvs,
       willSmithAd,
@@ -35,6 +28,13 @@ class SignUp extends React.Component {
       createProfilesForKids,
       kidsvalueprop1,
       sendKidsOnAdventu,
+      signUpPageBackground,
+      title,
+      watchAnywhereCancelAnytime,
+      readyToWatchEnte1,
+      getStarted1,
+      signIn,
+      netflixLogo,
       label1,
       frequentlyAskedQuestions,
       readyToWatchEnte2,
@@ -64,47 +64,6 @@ class SignUp extends React.Component {
       <div className="container-center-horizontal">
         <div className="sign-up screen">
           <div className="container-container">
-            <div className="hero-image-container-div">
-              <div className="overlap-group17">
-                <img className="sign-up-page-background" src={signUpPageBackground} />
-                <div className="rectangle-85"></div>
-                <img className="netflix-logo" src={netflixLogo} />
-                <div className="hero-image-text-container">
-                  <div className="hero-image-text-div">
-                    <h1 className="title valign-text-middle">{title}</h1>
-                    <div className="watch-container">
-                      <div className="watch-anywhere-cancel-anytime valign-text-middle">
-                        {watchAnywhereCancelAnytime}
-                      </div>
-                      <div className="ready-to-watch-ente valign-text-middle">{readyToWatchEnte1}</div>
-                    </div>
-                  </div>
-                  <div className="overlap-group1-2">
-                    <div className="rectangle-1"></div>
-                    <div className="rectangle-90"></div>
-                    <Link to="/home">
-                      <div className="get-started valign-text-middle inter-normal-white-30px">{getStarted1}</div>
-                    </Link>
-                    <div className="rectangle-93"></div>
-                    <div className="text-field-filled-di">
-                      <label className="mdc-text-field mdc-text-field--filled mdc-text-field--with--icon ">
-                        <span className="mdc-text-field__ripple"></span>
-                        <span className="mdc-floating-label" id="my-label-id">
-                          Email address
-                        </span>
-                        <input type="text" className="mdc-text-field__input" aria-labelledby="my-label-id" />
-                        <span className="mdc-line-ripple"></span>
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div className="overlap-group2-2">
-                  <Link to="/home">
-                    <div className="sign-in-2 valign-text-middle">{signIn}</div>
-                  </Link>
-                </div>
-              </div>
-            </div>
             <div className="media-master-container">
               <div className="container-container-1">
                 <div className="enjoy-your-tv-container">
@@ -126,11 +85,11 @@ class SignUp extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="overlap-group4-1">
-                <div className="overlap-group1-3">
+              <div className="overlap-group4-2">
+                <div className="overlap-group1-2">
                   <div className="rectangle-83"></div>
                   <div className="watch-everywhere-div">
-                    <div className="overlap-group-6">
+                    <div className="overlap-group-8">
                       <div className="watch-everywhere valign-text-middle inter-bold-white-24px">{watchEverywhere}</div>
                       <p className="stream-unlimited-mov valign-text-middle inter-normal-white-13px">
                         {streamUnlimitedMov}
@@ -154,13 +113,56 @@ class SignUp extends React.Component {
                 </div>
               </div>
             </div>
+            <div className="hero-image-container-div">
+              <div className="overlap-group18">
+                <img className="sign-up-page-background" src={signUpPageBackground} />
+                <div className="rectangle-85"></div>
+                <div className="hero-image-text-container">
+                  <div className="hero-image-text-div">
+                    <h1 className="title valign-text-middle">{title}</h1>
+                    <div className="watch-container">
+                      <div className="watch-anywhere-cancel-anytime valign-text-middle">
+                        {watchAnywhereCancelAnytime}
+                      </div>
+                      <div className="ready-to-watch-ente valign-text-middle">{readyToWatchEnte1}</div>
+                    </div>
+                  </div>
+                  <div className="overlap-group1-3">
+                    <div className="rectangle-1"></div>
+                    <div className="rectangle-90"></div>
+                    <Link to="/home">
+                      <div className="get-started valign-text-middle inter-normal-white-30px">{getStarted1}</div>
+                    </Link>
+                    <div className="rectangle-93"></div>
+                    <div className="text-field-filled-di">
+                      <label className="mdc-text-field mdc-text-field--filled mdc-text-field--with--icon ">
+                        <span className="mdc-text-field__ripple"></span>
+                        <span className="mdc-floating-label" id="my-label-id">
+                          Email address
+                        </span>
+                        <input type="text" className="mdc-text-field__input" aria-labelledby="my-label-id" />
+                        <span className="mdc-line-ripple"></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div className="overlap-group2-4">
+                  <div className="sign-in-2 valign-text-middle">{signIn}</div>
+                </div>
+              </div>
+            </div>
+            <Link to="/login">
+              <div className="netflix-logo-container">
+                <img className="netflix-logo" src={netflixLogo} />
+              </div>
+            </Link>
           </div>
           <div className="overlap-group19">
             <div className="indicator"></div>
-            <div className="overlap-group18">
+            <div className="overlap-group17">
               <div className="frequently-asked-questions-container">
                 <div className="overlap-group1-4">
-                  <div className="overlap-group-7">
+                  <div className="overlap-group-9">
                     <div className="rectangle-98"></div>
                     <div className="rectangle-99"></div>
                     <div className="rectangle-101"></div>
@@ -281,7 +283,7 @@ class SignUp extends React.Component {
                       </div>
                     </div>
                   </div>
-                  <div className="object-2">
+                  <div className="object-1">
                     <div className="input-1">
                       <p className="label-1 roboto-normal-black-16px">{label1}</p>
                     </div>
@@ -406,12 +408,12 @@ class SignUp extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="overlap-group2-4">
+              <div className="overlap-group2-5">
                 <div className="rectangle-106"></div>
                 <div className="frequently-asked-questions valign-text-middle">{frequentlyAskedQuestions}</div>
               </div>
               <div className="email-address-get-started">
-                <div className="overlap-group4-2">
+                <div className="overlap-group4-3">
                   <div className="rectangle-107"></div>
                   <p className="ready-to-watch-ente-1">{readyToWatchEnte2}</p>
                 </div>
@@ -432,62 +434,62 @@ class SignUp extends React.Component {
             <div className="footer-inner-container">
               <div className="questions-call-1-844-505-2993-1">{questionsCall18445052993}</div>
               <div className="footer-link-container">
-                <div className="overlap-group-container-1">
-                  <div className="overlap-group-4">
+                <div className="overlap-group-container-3">
+                  <div className="overlap-group-6">
                     <div className="faq-1 inter-normal-gray-11px">{faq}</div>
                   </div>
-                  <div className="overlap-group-5">
+                  <div className="overlap-group-7">
                     <div className="investor-relations inter-normal-gray-11px">{investorRelations}</div>
                   </div>
-                  <div className="overlap-group-5">
+                  <div className="overlap-group-7">
                     <div className="ways-to-watch inter-normal-gray-11px">{waysToWatch}</div>
                   </div>
-                  <div className="overlap-group-5">
+                  <div className="overlap-group-7">
                     <div className="corporate-information-1 inter-normal-gray-11px">{corporateInformation}</div>
                   </div>
-                  <div className="overlap-group4-3">
+                  <div className="overlap-group4-4">
                     <div className="only-on-netflix inter-normal-gray-11px">{onlyOnNetflix}</div>
                   </div>
                 </div>
-                <div className="overlap-group-container-2">
-                  <div className="overlap-group-4">
+                <div className="overlap-group-container-4">
+                  <div className="overlap-group-6">
                     <div className="help-center-1 inter-normal-gray-11px">{helpCenter}</div>
                   </div>
-                  <div className="overlap-group-5">
+                  <div className="overlap-group-7">
                     <div className="jobs inter-normal-gray-11px">{jobs}</div>
                   </div>
-                  <div className="overlap-group-5">
-                    <div className="terms-of-use-1 inter-normal-gray-11px">{termsOfUse}</div>
+                  <div className="overlap-group-7">
+                    <div className="terms-of-use inter-normal-gray-11px">{termsOfUse}</div>
                   </div>
-                  <div className="overlap-group-5">
+                  <div className="overlap-group-7">
                     <div className="contact-us inter-normal-gray-11px">{contactUs}</div>
                   </div>
                 </div>
-                <div className="overlap-group-container-3">
-                  <div className="overlap-group-4">
+                <div className="overlap-group-container-5">
+                  <div className="overlap-group-6">
                     <div className="account inter-normal-gray-11px">{account}</div>
                   </div>
-                  <div className="overlap-group-5">
+                  <div className="overlap-group-7">
                     <div className="redeem-giftcards inter-normal-gray-11px">{redeemGiftcards}</div>
                   </div>
-                  <div className="overlap-group-5">
-                    <div className="privacy-1 inter-normal-gray-11px">{privacy}</div>
+                  <div className="overlap-group-7">
+                    <div className="privacy inter-normal-gray-11px">{privacy}</div>
                   </div>
-                  <div className="overlap-group-5">
+                  <div className="overlap-group-7">
                     <div className="speed-test inter-normal-gray-11px">{speedTest}</div>
                   </div>
                 </div>
-                <div className="overlap-group-container-4">
-                  <div className="overlap-group-4">
+                <div className="overlap-group-container-6">
+                  <div className="overlap-group-6">
                     <div className="media-center inter-normal-gray-11px">{mediaCenter}</div>
                   </div>
-                  <div className="overlap-group-5">
+                  <div className="overlap-group-7">
                     <div className="buy-gift-cards inter-normal-gray-11px">{buyGiftCards}</div>
                   </div>
-                  <div className="overlap-group-5">
+                  <div className="overlap-group-7">
                     <div className="cookie-preferences-1 inter-normal-gray-11px">{cookiePreferences}</div>
                   </div>
-                  <div className="overlap-group-5">
+                  <div className="overlap-group-7">
                     <div className="legal-notices inter-normal-gray-11px">{legalNotices}</div>
                   </div>
                 </div>
