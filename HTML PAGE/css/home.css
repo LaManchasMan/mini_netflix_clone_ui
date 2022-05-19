@@ -470,11 +470,17 @@
 }
 
 .home .below-zero-netflix-review-1 {
+  cursor: pointer;
   height: 100px;
   left: 480px;
   position: absolute;
   top: 0;
+  transition: all 0.2s ease;
   width: 240px;
+}
+
+.home .below-zero-netflix-review-1:hover {
+  transform: scale(1.1);
 }
 
 .home .action-4 {
@@ -493,12 +499,18 @@
 }
 
 .home .hard-kill-social-1 {
+  cursor: pointer;
   height: 100px;
   left: 720px;
   object-fit: cover;
   position: absolute;
   top: 0;
+  transition: all 0.2s ease;
   width: 241px;
+}
+
+.home .hard-kill-social-1:hover {
+  transform: scale(1.1);
 }
 
 .home .action-5 {
@@ -517,11 +529,17 @@
 }
 
 .home .sentinelle-netflix-review-1 {
+  cursor: pointer;
   height: 100px;
   left: 961px;
   position: absolute;
   top: 0;
+  transition: all 0.2s ease;
   width: 239px;
+}
+
+.home .sentinelle-netflix-review-1:hover {
+  transform: scale(1.1);
 }
 
 .home .action-6 {
@@ -540,28 +558,46 @@
 }
 
 .home .the-geek-furioza-nyito-664x335-1 {
+  cursor: pointer;
   height: 99px;
   left: 1200px;
   object-fit: cover;
   position: absolute;
   top: 0;
+  transition: all 0.2s ease;
   width: 240px;
 }
 
+.home .the-geek-furioza-nyito-664x335-1:hover {
+  transform: scale(1.1);
+}
+
 .home .aaaa-be-gz-xji0f-trc {
+  cursor: pointer;
   height: 99px;
   left: 1px;
   position: absolute;
   top: 0;
+  transition: all 0.2s ease;
   width: 240px;
 }
 
+.home .aaaa-be-gz-xji0f-trc:hover {
+  transform: scale(1.1);
+}
+
 .home .aaaabzq-ddfql0-qm-j5 {
+  cursor: pointer;
   height: 99px;
   left: 241px;
   position: absolute;
   top: 0;
+  transition: all 0.2s ease;
   width: 239px;
+}
+
+.home .aaaabzq-ddfql0-qm-j5:hover {
+  transform: scale(1.1);
 }
 
 .home .overlap-group-container-1 {
@@ -592,12 +628,18 @@
   transform: scale(1.1);
 }
 
-.home .x1705945-1 {
+.home .link {
+  cursor: pointer;
   height: 100px;
   left: 0;
   position: absolute;
   top: 0;
+  transition: all 0.2s ease;
   width: 240px;
+}
+
+.home .link:hover {
+  transform: scale(1.1);
 }
 
 .home .overlap-group-1 {
@@ -606,7 +648,7 @@
   width: 239px;
 }
 
-.home .link {
+.home .drama-2 {
   background-color: var(--storm-dust);
   cursor: pointer;
   height: 100px;
@@ -617,25 +659,37 @@
   width: 239px;
 }
 
-.home .link:hover {
+.home .drama-2:hover {
   transform: scale(1.1);
 }
 
-.home .aaaab-wfruyo332-zb30 {
+.home .link-1 {
+  cursor: pointer;
   height: 100px;
   left: 0;
   position: absolute;
   top: 0;
+  transition: all 0.2s ease;
   width: 239px;
 }
 
-.home .aaaab-zzke-u4cjmc-cm {
+.home .link-1:hover {
+  transform: scale(1.1);
+}
+
+.home .link-2 {
+  cursor: pointer;
   height: 100px;
   left: 0;
   object-fit: cover;
   position: absolute;
   top: 0;
+  transition: all 0.2s ease;
   width: 240px;
+}
+
+.home .link-2:hover {
+  transform: scale(1.1);
 }
 
 .home .overlap-group6 {
@@ -660,15 +714,21 @@
 }
 
 .home .download-1 {
+  cursor: pointer;
   height: 100px;
   left: 0;
   object-fit: cover;
   position: absolute;
   top: 0;
+  transition: all 0.2s ease;
   width: 241px;
 }
 
-.home .link-1 {
+.home .download-1:hover {
+  transform: scale(1.1);
+}
+
+.home .drama-5 {
   background-color: var(--thunder);
   cursor: pointer;
   height: 100px;
@@ -679,19 +739,11 @@
   width: 239px;
 }
 
-.home .link-1:hover {
+.home .drama-5:hover {
   transform: scale(1.1);
 }
 
-.home .ecw62re60ape0ak33zce-1 {
-  height: 100px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 239px;
-}
-
-.home .link-2 {
+.home .drama-6 {
   background-color: var(--storm-dust);
   cursor: pointer;
   height: 100px;
@@ -702,17 +754,8 @@
   width: 240px;
 }
 
-.home .link-2:hover {
+.home .drama-6:hover {
   transform: scale(1.1);
-}
-
-.home .p8696131_b_h10_aa-1 {
-  height: 100px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  width: 240px;
 }
 
 .home .overlap-group-container-2 {
@@ -763,11 +806,36 @@
 }
 
 .home .x4f69d2a6bde03a53970f6c08f8dfdea3-1 {
+  cursor: pointer;
+  display: block;
   height: 101px;
   left: 0;
+  opacity: 0;
   position: absolute;
   top: 41px;
+  transform: scale(1.1);
+  transition: all 0.2s ease;
   width: 240px;
+}
+
+.home .x4f69d2a6bde03a53970f6c08f8dfdea3-1.animate-enter {
+  animation: animate-enter-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+@keyframes animate-enter-frames {
+  from{opacity: 0;
+transform: scale(1.1);
+}
+to{opacity: 1;
+transform: scale(1);
+}
+}
+
+.home .x4f69d2a6bde03a53970f6c08f8dfdea3-1:hover {
+  transform: scale(1.1);
 }
 
 .home .anime-3 {
@@ -786,12 +854,18 @@
 }
 
 .home .aaaabx_kd-ld-f-ui-ee {
+  cursor: pointer;
   height: 101px;
   left: 479px;
   object-fit: cover;
   position: absolute;
   top: 41px;
+  transition: all 0.2s ease;
   width: 240px;
+}
+
+.home .aaaabx_kd-ld-f-ui-ee:hover {
+  transform: scale(1.1);
 }
 
 .home .anime-4 {
@@ -810,11 +884,17 @@
 }
 
 .home .aaaabzx54-ubxbxnvof {
+  cursor: pointer;
   height: 101px;
   left: 719px;
   position: absolute;
   top: 41px;
+  transition: all 0.2s ease;
   width: 241px;
+}
+
+.home .aaaabzx54-ubxbxnvof:hover {
+  transform: scale(1.1);
 }
 
 .home .overlap-group11 {
@@ -825,13 +905,34 @@
   width: 239px;
 }
 
+.home .anime-2 {
+  background-color: var(--storm-dust);
+  cursor: pointer;
+  height: 100px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 239px;
+}
+
+.home .anime-2:hover {
+  transform: scale(1.1);
+}
+
 .home .aaaa-bdj-d-fpvx-owf0 {
+  cursor: pointer;
   height: 100px;
   left: 0;
   object-fit: cover;
   position: absolute;
   top: 0;
+  transition: all 0.2s ease;
   width: 239px;
+}
+
+.home .aaaa-bdj-d-fpvx-owf0:hover {
+  transform: scale(1.1);
 }
 
 .home .overlap-group7 {
@@ -842,12 +943,19 @@
   width: 239px;
 }
 
-.home .hunter_x_hunter_by_xvrcardoso-d54co4a-1 {
+.home .anime-5 {
+  background-color: var(--thunder);
+  cursor: pointer;
   height: 100px;
   left: 0;
   position: absolute;
   top: 0;
+  transition: all 0.2s ease;
   width: 239px;
+}
+
+.home .anime-5:hover {
+  transform: scale(1.1);
 }
 
 .home .overlap-group13 {
@@ -858,10 +966,17 @@
   width: 240px;
 }
 
-.home .is-my-hero-academia-on-netflix-1 {
+.home .anime-6 {
+  background-color: var(--storm-dust);
+  cursor: pointer;
   height: 100px;
   left: 0;
   position: absolute;
   top: 0;
+  transition: all 0.2s ease;
   width: 240px;
+}
+
+.home .anime-6:hover {
+  transform: scale(1.1);
 }

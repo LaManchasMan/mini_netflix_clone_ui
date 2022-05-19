@@ -1,0 +1,32 @@
+.content-page {
+  align-items: flex-start;
+  background-color: var(--storm-dust);
+  display: flex;
+  flex-direction: column;
+  height: 2048px;
+  width: 1440px;
+}
+
+.drop-down-filled-dis {
+  height: 31px;
+  left: 255px;
+  position: absolute;
+  top: 126px;
+  width: 200px;
+}
+
+.drop-down-filled-dis .mdc-select:not(.mdc-select--disabled).mdc-select--focused .mdc-floating-label {
+  color: var(--mdc-theme-primary);
+}
+
+.mdc-list-item {
+  align-items: center;
+  display: flex;
+  height: 48px;
+  position: relative;
+}
+
+.drop-down-filled-dis .custom-enhanced-select-width {
+  width: 200px;
+}
+

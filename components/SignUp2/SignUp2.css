@@ -1,0 +1,22 @@
+.sign-up-1 {
+  align-items: flex-start;
+  background-color: var(--storm-dust);
+  display: flex;
+  flex-direction: column;
+  height: 2048px;
+  position: relative;
+  width: 1440px;
+}
+
+.text-field-filled-di {
+  height: 59px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 465px;
+}
+
+.text-field-filled-di .mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-floating-label {
+  color: var(--mdc-theme-primary);
+}
+

@@ -1,0 +1,1367 @@
+/* screen - content-page */
+
+.content-page {
+  align-items: flex-start;
+  background-color: var(--storm-dust);
+  display: flex;
+  flex-direction: column;
+  height: 2048px;
+  width: 1440px;
+}
+
+.content-page .overlap-group7 {
+  height: 54px;
+  margin-top: -1px;
+  position: relative;
+  width: 1440px;
+}
+
+.content-page .rectangle-20 {
+  background-color: var(--black);
+  height: 53px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 1440px;
+}
+
+.content-page .nav-bar {
+  background-color: var(--black);
+  height: 51px;
+  left: 11px;
+  position: absolute;
+  top: 1px;
+  width: 1429px;
+}
+
+.content-page .nav-bar-logo-box {
+  background-color: var(--black);
+  height: 51px;
+  left: 11px;
+  position: absolute;
+  top: 1px;
+  width: 218px;
+}
+
+.content-page .nav-bar-home {
+  background-color: var(--black);
+  cursor: pointer;
+  height: 51px;
+  left: 222px;
+  position: absolute;
+  top: 1px;
+  transition: all 0.2s ease;
+  width: 116px;
+}
+
+.content-page .place {
+  cursor: pointer;
+  height: 51px;
+  left: 222px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 116px;
+}
+
+.content-page .place:hover {
+  transform: scale(1.1);
+}
+
+.content-page .kisspng-netflix-stre {
+  cursor: pointer;
+  height: 36px;
+  left: 56px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  transition: all 0.2s ease;
+  width: 129px;
+}
+
+.content-page .kisspng-netflix-stre:hover {
+  transform: scale(1.1);
+}
+
+.content-page .nav-bar-tv-shows {
+  background-color: var(--black);
+  cursor: pointer;
+  height: 51px;
+  left: 338px;
+  position: absolute;
+  top: 1px;
+  transition: all 0.2s ease;
+  width: 117px;
+}
+
+.content-page .tv-shows {
+  cursor: pointer;
+  height: 51px;
+  left: 338px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 117px;
+}
+
+.content-page .tv-shows:hover {
+  transform: scale(1.1);
+}
+
+.content-page .nav-bar-movies {
+  background-color: var(--black);
+  cursor: pointer;
+  height: 51px;
+  left: 448px;
+  position: absolute;
+  top: 1px;
+  transition: all 0.2s ease;
+  width: 109px;
+}
+
+.content-page .nav-bar-movies:hover {
+  background-color: #fff
+}
+
+.content-page .movies {
+  cursor: pointer;
+  height: 51px;
+  left: 448px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 109px;
+}
+
+.content-page .movies:hover {
+  transform: scale(1.1);
+}
+
+.content-page .nav-bar-my-list {
+  background-color: var(--black);
+  cursor: pointer;
+  height: 51px;
+  left: 666px;
+  position: absolute;
+  top: 1px;
+  transition: all 0.2s ease;
+  width: 109px;
+}
+
+.content-page .nav-bar-my-list:hover {
+  background-color: #fff
+}
+
+.content-page .my-list {
+  cursor: pointer;
+  height: 51px;
+  left: 666px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 109px;
+}
+
+.content-page .my-list:hover {
+  transform: scale(1.1);
+}
+
+.content-page .nav-bar-recently-added {
+  background-color: var(--black);
+  height: 51px;
+  left: 557px;
+  position: absolute;
+  top: 1px;
+  width: 109px;
+}
+
+.content-page .recently-added {
+  cursor: pointer;
+  height: 38px;
+  left: 552px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  transition: all 0.2s ease;
+  width: 120px;
+}
+
+.content-page .recently-added:hover {
+  transform: scale(1.1);
+}
+
+.content-page .rectangle-49 {
+  background-color: var(--black);
+  height: 53px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 220px;
+}
+
+.content-page .rectangle-50 {
+  background-color: var(--black);
+  height: 53px;
+  left: 220px;
+  position: absolute;
+  top: 1px;
+  width: 110px;
+}
+
+.content-page .kisspng-netflix-stre-1 {
+  cursor: pointer;
+  height: 44px;
+  left: 17px;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 178px;
+}
+
+.content-page .rectangle-51 {
+  background-color: var(--black);
+  height: 53px;
+  left: 330px;
+  position: absolute;
+  top: 1px;
+  width: 110px;
+}
+
+.content-page .rectangle-52 {
+  background-color: var(--black);
+  height: 53px;
+  left: 440px;
+  position: absolute;
+  top: 1px;
+  width: 110px;
+}
+
+.content-page .rectangle-53 {
+  background-color: var(--black);
+  height: 53px;
+  left: 550px;
+  position: absolute;
+  top: 1px;
+  width: 110px;
+}
+
+.content-page .rectangle-54 {
+  background-color: var(--black);
+  height: 53px;
+  left: 660px;
+  position: absolute;
+  top: 1px;
+  width: 110px;
+}
+
+.content-page .overlap-group15 {
+  height: 355px;
+  position: relative;
+  width: 1440px;
+}
+
+.content-page .rectangle-15 {
+  background-color: var(--mist-gray);
+  height: 336px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.content-page .houseofcards-foto-1 {
+  display: block;
+  height: 355px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.content-page .houseofcards-foto-1.animate-enter1 {
+  animation: animate-enter1-frames 0.60s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+@keyframes animate-enter1-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.content-page .pngwing-1 {
+  height: 68px;
+  left: 83px;
+  position: absolute;
+  top: 206px;
+  width: 333px;
+}
+
+.content-page .rectangle-130 {
+  background-color: var(--mist-gray);
+  height: 34px;
+  left: 83px;
+  position: absolute;
+  top: 282px;
+  width: 150px;
+}
+
+.content-page .ellipse-1-1 {
+  background-color: var(--mist-gray);
+  border-radius: 20px/17px;
+  height: 34px;
+  left: 250px;
+  position: absolute;
+  top: 282px;
+  width: 40px;
+}
+
+.content-page .ellipse-2 {
+  background-color: var(--mist-gray);
+  border-radius: 20px/17px;
+  height: 34px;
+  left: 307px;
+  position: absolute;
+  top: 282px;
+  width: 40px;
+}
+
+.content-page .ellipse-3 {
+  background-color: var(--mist-gray);
+  border-radius: 20px/17px;
+  height: 34px;
+  left: 1330px;
+  position: absolute;
+  top: 282px;
+  width: 40px;
+}
+
+.content-page .overlap-group3 {
+  align-items: flex-end;
+  background-color: var(--black);
+  display: flex;
+  height: 200px;
+  min-width: 1440px;
+  padding: 0 28px;
+}
+
+.content-page .overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 176px;
+  width: 543px;
+}
+
+.content-page .overlap-group26 {
+  height: 26px;
+  position: relative;
+  width: 435px;
+}
+
+.content-page .rectangle-242 {
+  background-color: var(--black);
+  height: 25px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 435px;
+}
+
+.content-page .rectangle-246 {
+  background-color: var(--black);
+  height: 25px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 75px;
+}
+
+.content-page .x91-match {
+  color: #008000;
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  height: 25px;
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 75px;
+}
+
+.content-page .rectangle-247 {
+  background-color: var(--black);
+  height: 25px;
+  left: 75px;
+  position: absolute;
+  top: 1px;
+  width: 75px;
+}
+
+.content-page .number-2 {
+  height: 25px;
+  left: 75px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 75px;
+}
+
+.content-page .rectangle-248 {
+  background-color: var(--black);
+  height: 25px;
+  left: 150px;
+  position: absolute;
+  top: 1px;
+  width: 75px;
+}
+
+.content-page .address {
+  height: 25px;
+  left: 150px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 75px;
+}
+
+.content-page .overlap-group24 {
+  height: 125px;
+  margin-top: 25px;
+  position: relative;
+  width: 543px;
+}
+
+.content-page .rectangle-243 {
+  background-color: var(--black);
+  height: 100px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 543px;
+}
+
+.content-page .shes-got-the-power {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: 18px;
+  font-weight: 100;
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 0;
+  width: 533px;
+}
+
+.content-page .rectangle-249 {
+  background-color: var(--black);
+  height: 24px;
+  left: 25px;
+  position: absolute;
+  top: 101px;
+  width: 242px;
+}
+
+.content-page .episodes {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 700;
+  left: 25px;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 100px;
+  white-space: nowrap;
+  width: 242px;
+}
+
+.content-page .overlap-group25 {
+  height: 157px;
+  margin-bottom: 3px;
+  margin-left: 324px;
+  position: relative;
+  width: 455px;
+}
+
+.content-page .drop-down-filled-dis {
+  height: 31px;
+  left: 255px;
+  position: absolute;
+  top: 126px;
+  width: 200px;
+}
+
+.content-page .rectangle-144 {
+  background-color: var(--mist-gray);
+  height: 30px;
+  left: 255px;
+  position: absolute;
+  top: 127px;
+  width: 200px;
+}
+
+.content-page .rectangle-244 {
+  background-color: var(--black);
+  height: 126px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 455px;
+}
+
+.content-page .cast-robin-wright {
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 0;
+  width: 276px;
+}
+
+.content-page .generas-political-t {
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 45px;
+  width: 276px;
+}
+
+.content-page .this-show-is-cerebral-dark {
+  height: 33px;
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 92px;
+  width: 257px;
+}
+
+.content-page .overlap-group {
+  background-color: var(--black);
+  height: 58px;
+  position: relative;
+  width: 1440px;
+}
+
+.content-page .rectangle {
+  background-color: var(--black);
+  height: 58px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.content-page .rectangle-1 {
+  background-color: var(--black);
+  height: 44px;
+  left: 81px;
+  position: absolute;
+  top: 7px;
+  width: 122px;
+}
+
+.content-page .screen-shot-2022-05-19-at-10 {
+  height: 44px;
+  left: 81px;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 122px;
+}
+
+.content-page .rectangle-2 {
+  background-color: var(--black);
+  height: 44px;
+  left: 33px;
+  position: absolute;
+  top: 7px;
+  width: 35px;
+}
+
+.content-page .rectangle-3 {
+  background-color: var(--black);
+  height: 10px;
+  left: 216px;
+  position: absolute;
+  top: 7px;
+  width: 75px;
+}
+
+.content-page .rectangle-4 {
+  background-color: var(--black);
+  height: 30px;
+  left: 216px;
+  position: absolute;
+  top: 21px;
+  width: 1190px;
+}
+
+.content-page .rectangle-5 {
+  background-color: var(--black);
+  height: 18px;
+  left: 1350px;
+  position: absolute;
+  top: 3px;
+  width: 56px;
+}
+
+.content-page .when-the-newly-elect {
+  left: 216px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  top: 20px;
+  width: 355px;
+}
+
+.content-page .episode {
+  height: 10px;
+  left: 216px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  top: 6px;
+  white-space: nowrap;
+  width: 75px;
+}
+
+.content-page .number {
+  height: 44px;
+  left: 33px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  width: 35px;
+}
+
+.content-page .x56m {
+  height: 18px;
+  left: 1350px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  text-align: right;
+  top: 2px;
+  white-space: nowrap;
+  width: 56px;
+}
+
+.content-page .name-1 {
+  left: 216px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  top: 20px;
+  width: 355px;
+}
+
+.content-page .x49m {
+  height: 18px;
+  left: 1350px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  text-align: right;
+  top: 2px;
+  white-space: nowrap;
+  width: 56px;
+}
+
+.content-page .name-2 {
+  left: 216px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  top: 21px;
+  width: 361px;
+}
+
+.content-page .x51m {
+  height: 18px;
+  left: 1350px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  text-align: right;
+  top: 2px;
+  white-space: nowrap;
+  width: 56px;
+}
+
+.content-page .name {
+  left: 216px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  top: 20px;
+  width: 361px;
+}
+
+.content-page .x49m-1 {
+  height: 18px;
+  left: 1350px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  text-align: right;
+  top: 2px;
+  white-space: nowrap;
+  width: 56px;
+}
+
+.content-page .franks-fight-over-t {
+  left: 216px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  top: 20px;
+  width: 358px;
+}
+
+.content-page .x52m {
+  height: 18px;
+  left: 1350px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  text-align: right;
+  top: 2px;
+  white-space: nowrap;
+  width: 56px;
+}
+
+.content-page .name-3 {
+  left: 216px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  top: 21px;
+  width: 358px;
+}
+
+.content-page .x50m {
+  height: 18px;
+  left: 1350px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  text-align: right;
+  top: 2px;
+  white-space: nowrap;
+  width: 56px;
+}
+
+.content-page .name-4 {
+  left: 216px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  top: 20px;
+  width: 358px;
+}
+
+.content-page .x54m {
+  height: 18px;
+  left: 1350px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  text-align: right;
+  top: 2px;
+  white-space: nowrap;
+  width: 56px;
+}
+
+.content-page .name-5 {
+  left: 216px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  top: 20px;
+  width: 360px;
+}
+
+.content-page .x47m {
+  height: 18px;
+  left: 1350px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  text-align: right;
+  top: 2px;
+  white-space: nowrap;
+  width: 56px;
+}
+
+.content-page .x51m-1 {
+  height: 18px;
+  left: 1350px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  text-align: right;
+  top: 2px;
+  white-space: nowrap;
+  width: 56px;
+}
+
+.content-page .rebellion-on-all-fon {
+  left: 216px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  top: 20px;
+  width: 349px;
+}
+
+.content-page .x52m-1 {
+  height: 18px;
+  left: 1350px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  text-align: right;
+  top: 2px;
+  white-space: nowrap;
+  width: 56px;
+}
+
+.content-page .overlap-group-container-1 {
+  align-items: flex-end;
+  background-color: var(--black);
+  display: flex;
+  height: 268px;
+  min-width: 1440px;
+  padding: 8px 37px;
+}
+
+.content-page .overlap-group31 {
+  height: 235px;
+  position: relative;
+  width: 201px;
+}
+
+.content-page .rectangle-25 {
+  background-color: var(--black);
+  height: 235px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 200px;
+}
+
+.content-page .rectangle-2-1 {
+  background-color: var(--apple-blossom);
+  height: 77px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 200px;
+}
+
+.content-page .screen-shot-2022-05-19-at-1208-1 {
+  cursor: pointer;
+  height: 79px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 200px;
+}
+
+.content-page .screen-shot-2022-05-19-at-1208-1:hover {
+  transform: scale(1.1);
+}
+
+.content-page .rectangle-274 {
+  background-color: var(--black);
+  height: 54px;
+  left: 0;
+  position: absolute;
+  top: 79px;
+  width: 201px;
+}
+
+.content-page .ellipse {
+  background-color: var(--scarlet);
+  border-radius: 20px/17px;
+  height: 34px;
+  left: 154px;
+  position: absolute;
+  top: 92px;
+  width: 40px;
+}
+
+.content-page .number-3 {
+  left: 2px;
+  letter-spacing: 0.15px;
+  position: absolute;
+  top: 95px;
+  width: 133px;
+}
+
+.content-page .penn-badgley-gossi-2 {
+  left: 1px;
+  letter-spacing: 0.15px;
+  position: absolute;
+  top: 132px;
+  width: 200px;
+}
+
+.content-page .overlap-group32 {
+  height: 235px;
+  margin-left: 28px;
+  position: relative;
+  width: 201px;
+}
+
+.content-page .rectangle-25-1 {
+  background-color: var(--black);
+  height: 235px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 200px;
+}
+
+.content-page .rectangle-2-2 {
+  background-color: var(--apple-blossom);
+  height: 77px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 200px;
+}
+
+.content-page .screen-shot-2022-05-19-at-12 {
+  cursor: pointer;
+  height: 77px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 200px;
+}
+
+.content-page .screen-shot-2022-05-19-at-12:hover {
+  transform: scale(1.1);
+}
+
+.content-page .rectangle-27 {
+  background-color: var(--black);
+  height: 54px;
+  left: 0;
+  position: absolute;
+  top: 77px;
+  width: 201px;
+}
+
+.content-page .ellipse-1 {
+  background-color: var(--scarlet);
+  border-radius: 20px/17px;
+  height: 34px;
+  left: 153px;
+  position: absolute;
+  top: 92px;
+  width: 40px;
+}
+
+.content-page .number-1 {
+  left: 0;
+  letter-spacing: 0.15px;
+  position: absolute;
+  top: 95px;
+  width: 133px;
+}
+
+.content-page .penn-badgley-gossi {
+  left: 0;
+  letter-spacing: 0.15px;
+  position: absolute;
+  top: 130px;
+  width: 200px;
+}
+
+.content-page .overlap-group-1 {
+  height: 235px;
+  margin-left: 27px;
+  position: relative;
+  width: 201px;
+}
+
+.content-page .overlap-group28 {
+  height: 235px;
+  margin-left: 25px;
+  position: relative;
+  width: 203px;
+}
+
+.content-page .rectangle-253 {
+  background-color: var(--black);
+  height: 235px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 200px;
+}
+
+.content-page .rectangle-259 {
+  background-color: var(--apple-blossom);
+  height: 77px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 200px;
+}
+
+.content-page .screen-shot-2022-05-19-at-1211-1 {
+  cursor: pointer;
+  height: 79px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 200px;
+}
+
+.content-page .screen-shot-2022-05-19-at-1211-1:hover {
+  transform: scale(1.1);
+}
+
+.content-page .rectangle-276 {
+  background-color: var(--black);
+  height: 54px;
+  left: 2px;
+  position: absolute;
+  top: 79px;
+  width: 201px;
+}
+
+.content-page .ellipse-6 {
+  background-color: var(--scarlet);
+  border-radius: 20px/17px;
+  height: 34px;
+  left: 155px;
+  position: absolute;
+  top: 89px;
+  width: 40px;
+}
+
+.content-page .penn-badgley-gossi-1 {
+  left: 3px;
+  letter-spacing: 0.15px;
+  position: absolute;
+  top: 132px;
+  width: 199px;
+}
+
+.content-page .overlap-group29 {
+  height: 235px;
+  margin-left: 26px;
+  position: relative;
+  width: 202px;
+}
+
+.content-page .screen-shot-2022-05-19-at-1211-2 {
+  cursor: pointer;
+  height: 77px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 200px;
+}
+
+.content-page .screen-shot-2022-05-19-at-1211-2:hover {
+  transform: scale(1.1);
+}
+
+.content-page .rectangle-275 {
+  background-color: var(--black);
+  height: 54px;
+  left: 1px;
+  position: absolute;
+  top: 77px;
+  width: 201px;
+}
+
+.content-page .screen-shot-2022-05-19-at-1212-1 {
+  cursor: pointer;
+  height: 77px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 200px;
+}
+
+.content-page .screen-shot-2022-05-19-at-1212-1:hover {
+  transform: scale(1.1);
+}
+
+.content-page .penn-badgley-gossi-3 {
+  left: 0;
+  letter-spacing: 0.15px;
+  position: absolute;
+  top: 130px;
+  width: 199px;
+}
+
+.content-page .overlap-group-container-2 {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  height: 285px;
+  min-width: 1440px;
+  padding: 20px 38px;
+}
+
+.content-page .overlap-group20 {
+  height: 236px;
+  position: relative;
+  width: 200px;
+}
+
+.content-page .rectangle-26 {
+  background-color: var(--mist-gray);
+  height: 235px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 200px;
+}
+
+.content-page .screen-shot-2022-05-19-at-235-1 {
+  height: 158px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 78px;
+  width: 200px;
+}
+
+.content-page .rectangle-2-3 {
+  background-color: var(--black);
+  height: 77px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 200px;
+}
+
+.content-page .surname-1 {
+  cursor: pointer;
+  height: 77px;
+  left: 1px;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 199px;
+}
+
+.content-page .surname-1:hover {
+  transform: scale(1.1);
+}
+
+.content-page .overlap-group-2 {
+  height: 236px;
+  margin-left: 28px;
+  position: relative;
+  width: 200px;
+}
+
+.content-page .screen-shot-2022-05-19-at-23 {
+  cursor: pointer;
+  height: 158px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 78px;
+  transition: all 0.2s ease;
+  width: 200px;
+}
+
+.content-page .screen-shot-2022-05-19-at-23:hover {
+  transform: scale(1.1);
+}
+
+.content-page .surname {
+  height: 77px;
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 0;
+  width: 199px;
+}
+
+.content-page .season-6-teaser-the-end {
+  height: 77px;
+  left: 1px;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 0;
+  width: 199px;
+}
+
+.content-page .season-6-teaser-my-house {
+  height: 77px;
+  left: 1px;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 0;
+  width: 199px;
+}
+
+.content-page .surname-2 {
+  height: 77px;
+  left: 1px;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 0;
+  width: 199px;
+}
+
+.content-page .overlap-group-container-3 {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  min-height: 307px;
+  padding: 30px 45px;
+  width: 1440px;
+}
+
+.content-page .overlap-group23 {
+  height: 51px;
+  position: relative;
+  width: 501px;
+}
+
+.content-page .rectangle-280 {
+  background-color: var(--black);
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 501px;
+}
+
+.content-page .about-house-of-cards {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: 45px;
+  font-weight: 400;
+  height: 50px;
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 0;
+  width: 501px;
+}
+
+.content-page .overlap-group22 {
+  height: 164px;
+  margin-left: 2px;
+  margin-top: 9px;
+  position: relative;
+  width: 1331px;
+}
+
+.content-page .rectangle-281 {
+  background-color: var(--black);
+  height: 163px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 1331px;
+}
+
+.content-page .cast-kevin-spacey {
+  height: 55px;
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 0;
+  width: 1035px;
+}
+
+.content-page .genres-political-tv {
+  height: 26px;
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 55px;
+  white-space: nowrap;
+  width: 647px;
+}
+
+.content-page .this-show-is-cerebral-dark-1 {
+  height: 38px;
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 81px;
+  width: 666px;
+}
+
+.content-page .maturity-rating-lan {
+  height: 44px;
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 119px;
+  width: 614px;
+}
+
+.mdc-list-item {
+  align-items: center;
+  display: flex;
+  height: 48px;
+  position: relative;
+}
+
+.drop-down-filled-dis .mdc-select:not(.mdc-select--disabled).mdc-select--focused .mdc-floating-label {
+  color: var(--mdc-theme-primary);
+}
+
+.drop-down-filled-dis .custom-enhanced-select-width {
+  width: 200px;
+}

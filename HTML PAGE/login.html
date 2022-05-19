@@ -7,7 +7,6 @@
     <meta name="og:type" content="website" />
     <meta name="twitter:card" content="photo" />
     <link rel="stylesheet" type="text/css" href="css/login.css" />
-    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     <link
       href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
       rel="stylesheet"
@@ -16,6 +15,7 @@
       href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
   </head>
@@ -33,10 +33,17 @@
           <div class="sign-in-component-complete">
             <div class="sign-in inter-normal-white-30px">Sign In</div>
             <div class="email-pw-component">
-              <div class="email-or-phone-number">
-                <div class="object">
-                  <img class="icon" src="img/icon@2x.svg" />
-                  <div class="input"><div class="label roboto-normal-black-16px">Email or phone nunber</div></div>
+              <div class="email-box">
+                <div class="text-field-filled-di">
+                  <label class="mdc-text-field mdc-text-field--filled">
+                    <span class="mdc-text-field__ripple"></span>
+                    <span class="mdc-floating-label" id="my-label-id">Email</span>
+                    <input type="text" class="mdc-text-field__input" aria-labelledby="my-label-id" />
+                    <span class="mdc-line-ripple"></span>
+                  </label>
+                  <script>
+                    new mdc.textField.MDCTextField(document.querySelector(".text-field-filled-di .mdc-text-field"));
+                  </script>
                 </div>
               </div>
               <div class="overlap-group">

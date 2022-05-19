@@ -1,0 +1,103 @@
+.drop-down-filled-dis {
+  height: 51px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 837px;
+}
+
+.drop-down-filled-dis-1 {
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 101px;
+  width: 838px;
+}
+
+.drop-down-filled-dis-2 {
+  height: 51px;
+  left: 0;
+  position: absolute;
+  top: 118px;
+  width: 838px;
+}
+
+.drop-down-filled-dis-3 {
+  height: 52px;
+  left: 0;
+  position: absolute;
+  top: 176px;
+  width: 838px;
+}
+
+.drop-down-filled-dis-4 {
+  height: 51px;
+  left: 0;
+  position: absolute;
+  top: 235px;
+  width: 838px;
+}
+
+.drop-down-filled-dis-5 {
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 294px;
+  width: 838px;
+}
+
+.drop-down-filled-dis .custom-enhanced-select-width {
+  width: 839px;
+}
+
+.drop-down-filled-dis-4 .custom-enhanced-select-width {
+  width: 200px;
+}
+
+.drop-down-filled-dis-5 .mdc-select:not(.mdc-select--disabled).mdc-select--focused .mdc-floating-label {
+  color: var(--mdc-theme-primary);
+}
+
+.drop-down-filled-dis-5 .custom-enhanced-select-width {
+  width: 200px;
+}
+
+.drop-down-filled-dis .mdc-select:not(.mdc-select--disabled).mdc-select--focused .mdc-floating-label {
+  color: var(--mdc-theme-primary);
+}
+
+.drop-down-filled-dis-2 .mdc-select:not(.mdc-select--disabled).mdc-select--focused .mdc-floating-label {
+  color: var(--mdc-theme-primary);
+}
+
+.drop-down-filled-dis-3 .custom-enhanced-select-width {
+  width: 200px;
+}
+
+.drop-down-filled-dis-2 .custom-enhanced-select-width {
+  width: 839px;
+}
+
+.drop-down-filled-dis-1 .mdc-select:not(.mdc-select--disabled).mdc-select--focused .mdc-floating-label {
+  color: var(--mdc-theme-primary);
+}
+
+.drop-down-filled-dis-4 .mdc-select:not(.mdc-select--disabled).mdc-select--focused .mdc-floating-label {
+  color: var(--mdc-theme-primary);
+}
+
+.mdc-list-item {
+  align-items: center;
+  display: flex;
+  height: 48px;
+  position: relative;
+}
+
+.drop-down-filled-dis-1 .custom-enhanced-select-width {
+  width: 839px;
+}
+
+.drop-down-filled-dis-3 .mdc-select:not(.mdc-select--disabled).mdc-select--focused .mdc-floating-label {
+  color: var(--mdc-theme-primary);
+}
+
