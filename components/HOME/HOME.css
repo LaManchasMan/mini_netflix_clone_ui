@@ -7,3 +7,826 @@
   width: 1440px;
 }
 
+.overlap-group-container-4 {
+  height: 600px;
+  margin-top: -1px;
+  position: relative;
+  width: 1440px;
+}
+
+.overlap-group2 {
+  height: 600px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.main-display-img {
+  cursor: pointer;
+  height: 406px;
+  left: 11px;
+  position: absolute;
+  top: 52px;
+  transition: all 0.2s ease;
+  width: 1429px;
+}
+
+.main-display-img:hover,
+.place-1:hover,
+.kisspng-netflix-stre-2:hover,
+.tv-shows-1:hover,
+.movies-1:hover,
+.my-list-1:hover,
+.recently-added-1:hover,
+.x02_nf_-the-witcher_:hover,
+.x63d275100591999-1:hover,
+.x158445-untitled-design-56-1:hover,
+.arcane-image:hover,
+.dbk-qw-qo-uw-aa1r-si-1:hover,
+.oitnbp-1:hover,
+.action-1:hover,
+.action-2:hover,
+.action-3:hover,
+.below-zero-netflix-review-1:hover,
+.action-4:hover,
+.hard-kill-social-1:hover,
+.action-5:hover,
+.sentinelle-netflix-review-1:hover,
+.action-6:hover,
+.the-geek-furioza-nyito-664x335-1:hover,
+.aaaa-be-gz-xji0f-trc:hover,
+.aaaabzq-ddfql0-qm-j5:hover,
+.drama:hover,
+.link:hover,
+.anime-1:hover,
+.x4f69d2a6bde03a53970f6c08f8dfdea3-1:hover,
+.anime-3:hover,
+.aaaabx_kd-ld-f-ui-ee:hover,
+.anime-4:hover,
+.aaaabzx54-ubxbxnvof:hover,
+.drama-2:hover,
+.link-1:hover,
+.link-2:hover,
+.drama-4:hover,
+.download-1:hover,
+.drama-5:hover,
+.drama-6:hover,
+.anime-2:hover,
+.aaaa-bdj-d-fpvx-owf0:hover,
+.anime-5:hover,
+.anime-6:hover {
+  transform: scale(1.1);
+}
+
+.uiuh-j6e-n7-yitw-qw-kt-b-wjv-t-3 {
+  cursor: pointer;
+  height: 406px;
+  left: 1px;
+  position: absolute;
+  top: 52px;
+  transition: all 1.5s ease;
+  width: 1439px;
+}
+
+.uiuh-j6e-n7-yitw-qw-kt-b-wjv-t-3:hover {
+  opacity: 0;
+}
+
+.continue-watching {
+  background-color: var(--black);
+  height: 42px;
+  left: 0;
+  position: absolute;
+  top: 458px;
+  width: 1430px;
+}
+
+.nav-bar-1 {
+  background-color: var(--black);
+  height: 51px;
+  left: 11px;
+  position: absolute;
+  top: 1px;
+  width: 1429px;
+}
+
+.continue-watching-1 {
+  -webkit-text-stroke: 1px var(--black);
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 457px;
+  width: 322px;
+}
+
+.continue-watching-1-1 {
+  background-color: var(--thunder);
+  height: 100px;
+  left: 1px;
+  position: absolute;
+  top: 500px;
+  width: 240px;
+}
+
+.continue-watching-2 {
+  background-color: var(--storm-dust);
+  height: 100px;
+  left: 241px;
+  position: absolute;
+  top: 500px;
+  width: 239px;
+}
+
+.continue-watching-3 {
+  background-color: var(--thunder);
+  height: 100px;
+  left: 480px;
+  position: absolute;
+  top: 500px;
+  width: 240px;
+}
+
+.nav-bar-logo-box-1 {
+  background-color: var(--black);
+  height: 51px;
+  left: 11px;
+  position: absolute;
+  top: 1px;
+  width: 218px;
+}
+
+.nav-bar-home-1 {
+  background-color: var(--black);
+  cursor: pointer;
+  height: 51px;
+  left: 222px;
+  position: absolute;
+  top: 1px;
+  transition: all 0.2s ease;
+  width: 116px;
+}
+
+.place-1 {
+  cursor: pointer;
+  height: 51px;
+  left: 222px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 116px;
+}
+
+.kisspng-netflix-stre-2 {
+  cursor: pointer;
+  height: 36px;
+  left: 56px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  transition: all 0.2s ease;
+  width: 129px;
+}
+
+.nav-bar-tv-shows-1 {
+  background-color: var(--black);
+  cursor: pointer;
+  height: 51px;
+  left: 338px;
+  position: absolute;
+  top: 1px;
+  transition: all 0.2s ease;
+  width: 117px;
+}
+
+.tv-shows-1 {
+  cursor: pointer;
+  height: 51px;
+  left: 338px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 117px;
+}
+
+.nav-bar-movies-1 {
+  background-color: var(--black);
+  cursor: pointer;
+  height: 51px;
+  left: 448px;
+  position: absolute;
+  top: 1px;
+  transition: all 0.2s ease;
+  width: 109px;
+}
+
+.nav-bar-movies-1:hover,
+.nav-bar-my-list-1:hover {
+  background-color: #fff
+}
+
+.movies-1 {
+  cursor: pointer;
+  height: 51px;
+  left: 448px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 109px;
+}
+
+.nav-bar-my-list-1 {
+  background-color: var(--black);
+  cursor: pointer;
+  height: 51px;
+  left: 666px;
+  position: absolute;
+  top: 1px;
+  transition: all 0.2s ease;
+  width: 109px;
+}
+
+.my-list-1 {
+  cursor: pointer;
+  height: 51px;
+  left: 666px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 109px;
+}
+
+.nav-bar-recently-added-1 {
+  background-color: var(--black);
+  height: 51px;
+  left: 557px;
+  position: absolute;
+  top: 1px;
+  width: 109px;
+}
+
+.recently-added-1 {
+  cursor: pointer;
+  height: 38px;
+  left: 552px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  transition: all 0.2s ease;
+  width: 120px;
+}
+
+.x02_nf_-the-witcher_ {
+  cursor: pointer;
+  height: 100px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 500px;
+  transition: all 0.2s ease;
+  width: 240px;
+}
+
+.x63d275100591999-1 {
+  cursor: pointer;
+  height: 100px;
+  left: 241px;
+  object-fit: cover;
+  position: absolute;
+  top: 500px;
+  transition: all 0.2s ease;
+  width: 239px;
+}
+
+.x158445-untitled-design-56-1 {
+  cursor: pointer;
+  height: 101px;
+  left: 480px;
+  position: absolute;
+  top: 499px;
+  transition: all 0.2s ease;
+  width: 240px;
+}
+
+.overlap-group9 {
+  align-items: flex-start;
+  background-color: var(--storm-dust);
+  display: flex;
+  height: 100px;
+  left: 720px;
+  min-width: 241px;
+  position: absolute;
+  top: 500px;
+}
+
+.arcane-image {
+  cursor: pointer;
+  height: 100px;
+  transition: all 0.2s ease;
+  width: 241px;
+}
+
+.overlap-group12 {
+  align-items: flex-start;
+  background-color: var(--thunder);
+  display: flex;
+  height: 100px;
+  left: 961px;
+  min-width: 239px;
+  position: absolute;
+  top: 500px;
+}
+
+.dbk-qw-qo-uw-aa1r-si-1 {
+  cursor: pointer;
+  height: 100px;
+  transition: all 0.2s ease;
+  width: 239px;
+}
+
+.overlap-group6 {
+  align-items: flex-start;
+  background-color: var(--storm-dust);
+  display: flex;
+  height: 100px;
+  left: 1200px;
+  min-width: 240px;
+  position: absolute;
+  top: 500px;
+}
+
+.oitnbp-1 {
+  cursor: pointer;
+  height: 100px;
+  transition: all 0.2s ease;
+  width: 240px;
+}
+
+.overlap-group7-1 {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  height: 42px;
+  min-width: 1440px;
+  padding: 0 18px;
+}
+
+.action {
+  letter-spacing: 0;
+  min-height: 41px;
+  text-align: right;
+  width: 103px;
+}
+
+.overlap-group-3 {
+  height: 141px;
+  position: relative;
+  width: 1440px;
+}
+
+.drama-title-box {
+  background-color: var(--black);
+  height: 42px;
+  left: 0;
+  position: absolute;
+  top: 99px;
+  width: 1440px;
+}
+
+.place-2 {
+  left: 20px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: right;
+  top: 99px;
+  width: 105px;
+}
+
+.action-1 {
+  background-color: var(--thunder);
+  cursor: pointer;
+  height: 100px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 240px;
+}
+
+.action-2 {
+  background-color: var(--storm-dust);
+  cursor: pointer;
+  height: 100px;
+  left: 241px;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 239px;
+}
+
+.action-3 {
+  background-color: var(--thunder);
+  cursor: pointer;
+  height: 100px;
+  left: 480px;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 240px;
+}
+
+.below-zero-netflix-review-1 {
+  cursor: pointer;
+  height: 100px;
+  left: 480px;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 240px;
+}
+
+.action-4 {
+  background-color: var(--storm-dust);
+  cursor: pointer;
+  height: 100px;
+  left: 720px;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 241px;
+}
+
+.hard-kill-social-1 {
+  cursor: pointer;
+  height: 100px;
+  left: 720px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 241px;
+}
+
+.action-5 {
+  background-color: var(--thunder);
+  cursor: pointer;
+  height: 100px;
+  left: 961px;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 239px;
+}
+
+.sentinelle-netflix-review-1 {
+  cursor: pointer;
+  height: 100px;
+  left: 961px;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 239px;
+}
+
+.action-6 {
+  background-color: var(--storm-dust);
+  cursor: pointer;
+  height: 100px;
+  left: 1200px;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 240px;
+}
+
+.the-geek-furioza-nyito-664x335-1 {
+  cursor: pointer;
+  height: 99px;
+  left: 1200px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 240px;
+}
+
+.aaaa-be-gz-xji0f-trc {
+  cursor: pointer;
+  height: 99px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 240px;
+}
+
+.aaaabzq-ddfql0-qm-j5 {
+  cursor: pointer;
+  height: 99px;
+  left: 241px;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 239px;
+}
+
+.overlap-group-container-5 {
+  height: 242px;
+  margin-left: 1px;
+  position: relative;
+  width: 1439px;
+}
+
+.overlap-group1 {
+  height: 242px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1439px;
+}
+
+.anime-title-box {
+  background-color: var(--black);
+  height: 42px;
+  left: 0;
+  position: absolute;
+  top: 100px;
+  width: 1439px;
+}
+
+.anime {
+  left: 19px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: right;
+  top: 99px;
+  width: 101px;
+}
+
+.drama {
+  background-color: var(--thunder);
+  cursor: pointer;
+  height: 100px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 240px;
+}
+
+.link {
+  cursor: pointer;
+  height: 100px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 240px;
+}
+
+.anime-1 {
+  background-color: var(--thunder);
+  cursor: pointer;
+  height: 100px;
+  left: 0;
+  position: absolute;
+  top: 142px;
+  transition: all 0.2s ease;
+  width: 240px;
+}
+
+.x4f69d2a6bde03a53970f6c08f8dfdea3-1 {
+  cursor: pointer;
+  display: block;
+  height: 101px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 141px;
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+  width: 240px;
+}
+
+.x4f69d2a6bde03a53970f6c08f8dfdea3-1.animate-enter1 {
+  animation: animate-enter1-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+.anime-3 {
+  background-color: var(--thunder);
+  cursor: pointer;
+  height: 100px;
+  left: 479px;
+  position: absolute;
+  top: 142px;
+  transition: all 0.2s ease;
+  width: 240px;
+}
+
+.aaaabx_kd-ld-f-ui-ee {
+  cursor: pointer;
+  height: 101px;
+  left: 479px;
+  object-fit: cover;
+  position: absolute;
+  top: 141px;
+  transition: all 0.2s ease;
+  width: 240px;
+}
+
+.anime-4 {
+  background-color: var(--storm-dust);
+  cursor: pointer;
+  height: 100px;
+  left: 719px;
+  position: absolute;
+  top: 142px;
+  transition: all 0.2s ease;
+  width: 241px;
+}
+
+.aaaabzx54-ubxbxnvof {
+  cursor: pointer;
+  height: 101px;
+  left: 719px;
+  position: absolute;
+  top: 141px;
+  transition: all 0.2s ease;
+  width: 241px;
+}
+
+.overlap-group14 {
+  height: 100px;
+  left: 240px;
+  position: absolute;
+  top: 0;
+  width: 239px;
+}
+
+.drama-2,
+.anime-2 {
+  background-color: var(--storm-dust);
+  cursor: pointer;
+  height: 100px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 239px;
+}
+
+.link-1 {
+  cursor: pointer;
+  height: 100px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 239px;
+}
+
+.overlap-group10 {
+  height: 100px;
+  left: 479px;
+  position: absolute;
+  top: 0;
+  width: 240px;
+}
+
+.link-2 {
+  cursor: pointer;
+  height: 100px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 240px;
+}
+
+.overlap-group8 {
+  height: 100px;
+  left: 719px;
+  position: absolute;
+  top: 0;
+  width: 241px;
+}
+
+.drama-4 {
+  background-color: var(--storm-dust);
+  cursor: pointer;
+  height: 100px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 241px;
+}
+
+.download-1 {
+  cursor: pointer;
+  height: 100px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 241px;
+}
+
+.overlap-group3-1 {
+  height: 100px;
+  left: 960px;
+  position: absolute;
+  top: 0;
+  width: 239px;
+}
+
+.drama-5,
+.anime-5 {
+  background-color: var(--thunder);
+  cursor: pointer;
+  height: 100px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 239px;
+}
+
+.overlap-group11 {
+  height: 100px;
+  left: 1199px;
+  position: absolute;
+  top: 0;
+  width: 240px;
+}
+
+.drama-6,
+.anime-6 {
+  background-color: var(--storm-dust);
+  cursor: pointer;
+  height: 100px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 240px;
+}
+
+.overlap-group13 {
+  height: 100px;
+  left: 240px;
+  position: absolute;
+  top: 142px;
+  width: 239px;
+}
+
+.aaaa-bdj-d-fpvx-owf0 {
+  cursor: pointer;
+  height: 100px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 239px;
+}
+
+.overlap-group5 {
+  height: 100px;
+  left: 960px;
+  position: absolute;
+  top: 142px;
+  width: 239px;
+}
+
+.overlap-group4 {
+  height: 100px;
+  left: 1199px;
+  position: absolute;
+  top: 142px;
+  width: 240px;
+}
+
+@keyframes animate-enter1-frames {
+  from{opacity: 0;
+transform: scale(1.1);
+}
+to{opacity: 1;
+transform: scale(1);
+}
+}
+

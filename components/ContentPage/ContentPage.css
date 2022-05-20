@@ -7,6 +7,483 @@
   width: 1440px;
 }
 
+.overlap-group7 {
+  height: 54px;
+  margin-top: -1px;
+  position: relative;
+  width: 1440px;
+}
+
+.rectangle-20 {
+  background-color: var(--black);
+  height: 53px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 1440px;
+}
+
+.nav-bar {
+  background-color: var(--black);
+  height: 51px;
+  left: 11px;
+  position: absolute;
+  top: 1px;
+  width: 1429px;
+}
+
+.nav-bar-logo-box {
+  background-color: var(--black);
+  height: 51px;
+  left: 11px;
+  position: absolute;
+  top: 1px;
+  width: 218px;
+}
+
+.nav-bar-home {
+  background-color: var(--black);
+  cursor: pointer;
+  height: 51px;
+  left: 222px;
+  position: absolute;
+  top: 1px;
+  transition: all 0.2s ease;
+  width: 116px;
+}
+
+.place {
+  cursor: pointer;
+  height: 51px;
+  left: 222px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 116px;
+}
+
+.place:hover,
+.kisspng-netflix-stre:hover,
+.tv-shows:hover,
+.movies:hover,
+.my-list:hover,
+.recently-added:hover,
+.screen-shot-2022-05-19-at-1208-1:hover,
+.screen-shot-2022-05-19-at-12:hover,
+.screen-shot-2022-05-19-at-1211-1:hover,
+.screen-shot-2022-05-19-at-1211-2:hover,
+.screen-shot-2022-05-19-at-1212-1:hover,
+.surname-1:hover,
+.screen-shot-2022-05-19-at-23:hover {
+  transform: scale(1.1);
+}
+
+.kisspng-netflix-stre {
+  cursor: pointer;
+  height: 36px;
+  left: 56px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  transition: all 0.2s ease;
+  width: 129px;
+}
+
+.nav-bar-tv-shows {
+  background-color: var(--black);
+  cursor: pointer;
+  height: 51px;
+  left: 338px;
+  position: absolute;
+  top: 1px;
+  transition: all 0.2s ease;
+  width: 117px;
+}
+
+.tv-shows {
+  cursor: pointer;
+  height: 51px;
+  left: 338px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 117px;
+}
+
+.nav-bar-movies {
+  background-color: var(--black);
+  cursor: pointer;
+  height: 51px;
+  left: 448px;
+  position: absolute;
+  top: 1px;
+  transition: all 0.2s ease;
+  width: 109px;
+}
+
+.nav-bar-movies:hover,
+.nav-bar-my-list:hover {
+  background-color: #fff
+}
+
+.movies {
+  cursor: pointer;
+  height: 51px;
+  left: 448px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 109px;
+}
+
+.nav-bar-my-list {
+  background-color: var(--black);
+  cursor: pointer;
+  height: 51px;
+  left: 666px;
+  position: absolute;
+  top: 1px;
+  transition: all 0.2s ease;
+  width: 109px;
+}
+
+.my-list {
+  cursor: pointer;
+  height: 51px;
+  left: 666px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 109px;
+}
+
+.nav-bar-recently-added {
+  background-color: var(--black);
+  height: 51px;
+  left: 557px;
+  position: absolute;
+  top: 1px;
+  width: 109px;
+}
+
+.recently-added {
+  cursor: pointer;
+  height: 38px;
+  left: 552px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  transition: all 0.2s ease;
+  width: 120px;
+}
+
+.rectangle-49 {
+  background-color: var(--black);
+  height: 53px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 220px;
+}
+
+.rectangle-50 {
+  background-color: var(--black);
+  height: 53px;
+  left: 220px;
+  position: absolute;
+  top: 1px;
+  width: 110px;
+}
+
+.kisspng-netflix-stre-1 {
+  cursor: pointer;
+  height: 44px;
+  left: 17px;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 178px;
+}
+
+.rectangle-51 {
+  background-color: var(--black);
+  height: 53px;
+  left: 330px;
+  position: absolute;
+  top: 1px;
+  width: 110px;
+}
+
+.rectangle-52 {
+  background-color: var(--black);
+  height: 53px;
+  left: 440px;
+  position: absolute;
+  top: 1px;
+  width: 110px;
+}
+
+.rectangle-53 {
+  background-color: var(--black);
+  height: 53px;
+  left: 550px;
+  position: absolute;
+  top: 1px;
+  width: 110px;
+}
+
+.rectangle-54 {
+  background-color: var(--black);
+  height: 53px;
+  left: 660px;
+  position: absolute;
+  top: 1px;
+  width: 110px;
+}
+
+.overlap-group15 {
+  height: 355px;
+  position: relative;
+  width: 1440px;
+}
+
+.rectangle-15 {
+  background-color: var(--mist-gray);
+  height: 336px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.houseofcards-foto-1 {
+  display: block;
+  height: 355px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.houseofcards-foto-1.animate-enter {
+  animation: animate-enter-frames 0.60s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+.pngwing-1 {
+  height: 68px;
+  left: 83px;
+  position: absolute;
+  top: 206px;
+  width: 333px;
+}
+
+.rectangle-130 {
+  background-color: var(--mist-gray);
+  height: 34px;
+  left: 83px;
+  position: absolute;
+  top: 282px;
+  width: 150px;
+}
+
+.ellipse-1 {
+  background-color: var(--mist-gray);
+  border-radius: 20px/17px;
+  height: 34px;
+  left: 250px;
+  position: absolute;
+  top: 282px;
+  width: 40px;
+}
+
+.ellipse-2 {
+  background-color: var(--mist-gray);
+  border-radius: 20px/17px;
+  height: 34px;
+  left: 307px;
+  position: absolute;
+  top: 282px;
+  width: 40px;
+}
+
+.ellipse-3 {
+  background-color: var(--mist-gray);
+  border-radius: 20px/17px;
+  height: 34px;
+  left: 1330px;
+  position: absolute;
+  top: 282px;
+  width: 40px;
+}
+
+.overlap-group3 {
+  align-items: flex-end;
+  background-color: var(--black);
+  display: flex;
+  height: 200px;
+  min-width: 1440px;
+  padding: 0 28px;
+}
+
+.overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 176px;
+  width: 543px;
+}
+
+.overlap-group26 {
+  height: 26px;
+  position: relative;
+  width: 435px;
+}
+
+.rectangle-242 {
+  background-color: var(--black);
+  height: 25px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 435px;
+}
+
+.rectangle-246 {
+  background-color: var(--black);
+  height: 25px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 75px;
+}
+
+.x91-match {
+  color: #008000;
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  height: 25px;
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 75px;
+}
+
+.rectangle-247 {
+  background-color: var(--black);
+  height: 25px;
+  left: 75px;
+  position: absolute;
+  top: 1px;
+  width: 75px;
+}
+
+.number-2 {
+  height: 25px;
+  left: 75px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 75px;
+}
+
+.rectangle-248 {
+  background-color: var(--black);
+  height: 25px;
+  left: 150px;
+  position: absolute;
+  top: 1px;
+  width: 75px;
+}
+
+.address {
+  height: 25px;
+  left: 150px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 75px;
+}
+
+.overlap-group24 {
+  height: 125px;
+  margin-top: 25px;
+  position: relative;
+  width: 543px;
+}
+
+.rectangle-243 {
+  background-color: var(--black);
+  height: 100px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 543px;
+}
+
+.shes-got-the-power {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxxxxl);
+  font-weight: 100;
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 0;
+  width: 533px;
+}
+
+.rectangle-249 {
+  background-color: var(--black);
+  height: 24px;
+  left: 25px;
+  position: absolute;
+  top: 101px;
+  width: 242px;
+}
+
+.episodes {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 700;
+  left: 25px;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 100px;
+  white-space: nowrap;
+  width: 242px;
+}
+
+.overlap-group25 {
+  height: 157px;
+  margin-bottom: 3px;
+  margin-left: 324px;
+  position: relative;
+  width: 455px;
+}
+
 .drop-down-filled-dis {
   height: 31px;
   left: 255px;
@@ -15,8 +492,696 @@
   width: 200px;
 }
 
-.drop-down-filled-dis .mdc-select:not(.mdc-select--disabled).mdc-select--focused .mdc-floating-label {
-  color: var(--mdc-theme-primary);
+.rectangle-144 {
+  background-color: var(--mist-gray);
+  height: 30px;
+  left: 255px;
+  position: absolute;
+  top: 127px;
+  width: 200px;
+}
+
+.rectangle-244 {
+  background-color: var(--black);
+  height: 126px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 455px;
+}
+
+.cast-robin-wright {
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 0;
+  width: 276px;
+}
+
+.generas-political-t {
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 45px;
+  width: 276px;
+}
+
+.this-show-is-cerebral-dark {
+  height: 33px;
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 92px;
+  width: 257px;
+}
+
+.overlap-group {
+  background-color: var(--black);
+  height: 58px;
+  position: relative;
+  width: 1440px;
+}
+
+.rectangle {
+  background-color: var(--black);
+  height: 58px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.rectangle-1 {
+  background-color: var(--black);
+  height: 44px;
+  left: 81px;
+  position: absolute;
+  top: 7px;
+  width: 122px;
+}
+
+.screen-shot-2022-05-19-at-10 {
+  height: 44px;
+  left: 81px;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 122px;
+}
+
+.rectangle-2 {
+  background-color: var(--black);
+  height: 44px;
+  left: 33px;
+  position: absolute;
+  top: 7px;
+  width: 35px;
+}
+
+.rectangle-3 {
+  background-color: var(--black);
+  height: 10px;
+  left: 216px;
+  position: absolute;
+  top: 7px;
+  width: 75px;
+}
+
+.rectangle-4 {
+  background-color: var(--black);
+  height: 30px;
+  left: 216px;
+  position: absolute;
+  top: 21px;
+  width: 1190px;
+}
+
+.rectangle-5 {
+  background-color: var(--black);
+  height: 18px;
+  left: 1350px;
+  position: absolute;
+  top: 3px;
+  width: 56px;
+}
+
+.when-the-newly-elect,
+.name-1 {
+  left: 216px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  top: 20px;
+  width: 355px;
+}
+
+.episode {
+  height: 10px;
+  left: 216px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  top: 6px;
+  white-space: nowrap;
+  width: 75px;
+}
+
+.number {
+  height: 44px;
+  left: 33px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  width: 35px;
+}
+
+.x56m,
+.x49m,
+.x51m,
+.x49m-1,
+.x52m,
+.x50m,
+.x54m,
+.x47m,
+.x51m-1,
+.x52m-1 {
+  height: 18px;
+  left: 1350px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  text-align: right;
+  top: 2px;
+  white-space: nowrap;
+  width: 56px;
+}
+
+.name-2 {
+  left: 216px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  top: 21px;
+  width: 361px;
+}
+
+.name {
+  left: 216px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  top: 20px;
+  width: 361px;
+}
+
+.franks-fight-over-t,
+.name-4 {
+  left: 216px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  top: 20px;
+  width: 358px;
+}
+
+.name-3 {
+  left: 216px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  top: 21px;
+  width: 358px;
+}
+
+.name-5 {
+  left: 216px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  top: 20px;
+  width: 360px;
+}
+
+.rebellion-on-all-fon {
+  left: 216px;
+  letter-spacing: 0.15px;
+  line-height: 15px;
+  position: absolute;
+  top: 20px;
+  width: 349px;
+}
+
+.overlap-group-container-1 {
+  align-items: flex-end;
+  background-color: var(--black);
+  display: flex;
+  height: 268px;
+  min-width: 1440px;
+  padding: 8px 37px;
+}
+
+.overlap-group31 {
+  height: 235px;
+  position: relative;
+  width: 201px;
+}
+
+.rectangle-25 {
+  background-color: var(--black);
+  height: 235px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 200px;
+}
+
+.rectangle-2-1 {
+  background-color: var(--apple-blossom);
+  height: 77px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 200px;
+}
+
+.screen-shot-2022-05-19-at-1208-1 {
+  cursor: pointer;
+  height: 79px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 200px;
+}
+
+.rectangle-274 {
+  background-color: var(--black);
+  height: 54px;
+  left: 0;
+  position: absolute;
+  top: 79px;
+  width: 201px;
+}
+
+.ellipse-9 {
+  background-color: #c22c2c;
+  border-radius: 20px/17px;
+  height: 34px;
+  left: 154px;
+  position: absolute;
+  top: 92px;
+  width: 40px;
+}
+
+.number-3 {
+  left: 2px;
+  letter-spacing: 0.15px;
+  position: absolute;
+  top: 95px;
+  width: 133px;
+}
+
+.penn-badgley-gossi-2 {
+  left: 1px;
+  letter-spacing: 0.15px;
+  position: absolute;
+  top: 132px;
+  width: 200px;
+}
+
+.overlap-group32 {
+  height: 235px;
+  margin-left: 28px;
+  position: relative;
+  width: 201px;
+}
+
+.rectangle-25-1 {
+  background-color: var(--black);
+  height: 235px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 200px;
+}
+
+.rectangle-2-2 {
+  background-color: var(--apple-blossom);
+  height: 77px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 200px;
+}
+
+.screen-shot-2022-05-19-at-12 {
+  cursor: pointer;
+  height: 77px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 200px;
+}
+
+.rectangle-27 {
+  background-color: var(--black);
+  height: 54px;
+  left: 0;
+  position: absolute;
+  top: 77px;
+  width: 201px;
+}
+
+.ellipse {
+  background-color: var(--tall-poppy);
+  border-radius: 20px/17px;
+  height: 34px;
+  left: 153px;
+  position: absolute;
+  top: 92px;
+  width: 40px;
+}
+
+.number-1 {
+  left: 0;
+  letter-spacing: 0.15px;
+  position: absolute;
+  top: 95px;
+  width: 133px;
+}
+
+.penn-badgley-gossi {
+  left: 0;
+  letter-spacing: 0.15px;
+  position: absolute;
+  top: 130px;
+  width: 200px;
+}
+
+.overlap-group-1 {
+  height: 235px;
+  margin-left: 27px;
+  position: relative;
+  width: 201px;
+}
+
+.overlap-group28 {
+  height: 235px;
+  margin-left: 25px;
+  position: relative;
+  width: 203px;
+}
+
+.rectangle-253 {
+  background-color: var(--black);
+  height: 235px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 200px;
+}
+
+.rectangle-259 {
+  background-color: var(--apple-blossom);
+  height: 77px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 200px;
+}
+
+.screen-shot-2022-05-19-at-1211-1 {
+  cursor: pointer;
+  height: 79px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 200px;
+}
+
+.rectangle-276 {
+  background-color: var(--black);
+  height: 54px;
+  left: 2px;
+  position: absolute;
+  top: 79px;
+  width: 201px;
+}
+
+.ellipse-6 {
+  background-color: var(--tall-poppy);
+  border-radius: 20px/17px;
+  height: 34px;
+  left: 155px;
+  position: absolute;
+  top: 89px;
+  width: 40px;
+}
+
+.penn-badgley-gossi-1 {
+  left: 3px;
+  letter-spacing: 0.15px;
+  position: absolute;
+  top: 132px;
+  width: 199px;
+}
+
+.overlap-group29 {
+  height: 235px;
+  margin-left: 26px;
+  position: relative;
+  width: 202px;
+}
+
+.screen-shot-2022-05-19-at-1211-2 {
+  cursor: pointer;
+  height: 77px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 200px;
+}
+
+.rectangle-275 {
+  background-color: var(--black);
+  height: 54px;
+  left: 1px;
+  position: absolute;
+  top: 77px;
+  width: 201px;
+}
+
+.ellipse-4 {
+  background-color: var(--tall-poppy);
+  border-radius: 20px/17px;
+  height: 34px;
+  left: 154px;
+  position: absolute;
+  top: 92px;
+  width: 40px;
+}
+
+.screen-shot-2022-05-19-at-1212-1 {
+  cursor: pointer;
+  height: 77px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 200px;
+}
+
+.penn-badgley-gossi-3 {
+  left: 0;
+  letter-spacing: 0.15px;
+  position: absolute;
+  top: 130px;
+  width: 199px;
+}
+
+.overlap-group-container-2 {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  height: 285px;
+  min-width: 1440px;
+  padding: 20px 38px;
+}
+
+.overlap-group20 {
+  height: 236px;
+  position: relative;
+  width: 200px;
+}
+
+.rectangle-26 {
+  background-color: var(--mist-gray);
+  height: 235px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 200px;
+}
+
+.screen-shot-2022-05-19-at-235-1 {
+  height: 158px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 78px;
+  width: 200px;
+}
+
+.rectangle-2-3 {
+  background-color: var(--black);
+  height: 77px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 200px;
+}
+
+.surname-1 {
+  cursor: pointer;
+  height: 77px;
+  left: 1px;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 199px;
+}
+
+.overlap-group-2 {
+  height: 236px;
+  margin-left: 28px;
+  position: relative;
+  width: 200px;
+}
+
+.screen-shot-2022-05-19-at-23 {
+  cursor: pointer;
+  height: 158px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 78px;
+  transition: all 0.2s ease;
+  width: 200px;
+}
+
+.surname {
+  height: 77px;
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 0;
+  width: 199px;
+}
+
+.season-6-teaser-the-end,
+.season-6-teaser-my-house,
+.surname-2 {
+  height: 77px;
+  left: 1px;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 0;
+  width: 199px;
+}
+
+.overlap-group-container-3 {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  min-height: 307px;
+  padding: 30px 45px;
+  width: 1440px;
+}
+
+.overlap-group23 {
+  height: 51px;
+  position: relative;
+  width: 501px;
+}
+
+.rectangle-280 {
+  background-color: var(--black);
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 501px;
+}
+
+.about-house-of-cards {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: 45px;
+  font-weight: 400;
+  height: 50px;
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 0;
+  width: 501px;
+}
+
+.overlap-group22 {
+  height: 164px;
+  margin-left: 2px;
+  margin-top: 9px;
+  position: relative;
+  width: 1331px;
+}
+
+.rectangle-281 {
+  background-color: var(--black);
+  height: 163px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 1331px;
+}
+
+.cast-kevin-spacey {
+  height: 55px;
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 0;
+  width: 1035px;
+}
+
+.genres-political-tv {
+  height: 26px;
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 55px;
+  white-space: nowrap;
+  width: 647px;
+}
+
+.this-show-is-cerebral-dark-1 {
+  height: 38px;
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 81px;
+  width: 666px;
+}
+
+.maturity-rating-lan {
+  height: 44px;
+  left: 0;
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 119px;
+  width: 614px;
+}
+
+.drop-down-filled-dis .custom-enhanced-select-width {
+  width: 200px;
 }
 
 .mdc-list-item {
@@ -26,7 +1191,14 @@
   position: relative;
 }
 
-.drop-down-filled-dis .custom-enhanced-select-width {
-  width: 200px;
+@keyframes animate-enter-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.drop-down-filled-dis .mdc-select:not(.mdc-select--disabled).mdc-select--focused .mdc-floating-label {
+  color: var(--mdc-theme-primary);
 }
 

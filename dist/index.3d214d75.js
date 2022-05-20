@@ -22647,157 +22647,96 @@ var _appCss = require("./App.css");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
-var _login = require("./components/LOGIN");
-var _loginDefault = parcelHelpers.interopDefault(_login);
+var _contentPage = require("./components/ContentPage");
+var _contentPageDefault = parcelHelpers.interopDefault(_contentPage);
 var _home = require("./components/HOME");
 var _homeDefault = parcelHelpers.interopDefault(_home);
-var _content = require("./components/Content");
-var _contentDefault = parcelHelpers.interopDefault(_content);
+var _login = require("./components/LOGIN");
+var _loginDefault = parcelHelpers.interopDefault(_login);
 var _signUp = require("./components/SignUp");
 var _signUpDefault = parcelHelpers.interopDefault(_signUp);
-class App extends _reactDefault.default.Component {
-    render() {
-        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.BrowserRouter, {
-            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Switch, {
-                children: [
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
-                        path: "/:path(|login)",
-                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_loginDefault.default, {
-                            ...lOGINData
-                        }, void 0, false, {
-                            fileName: "App.jsx",
-                            lineNumber: 15,
-                            columnNumber: 13
-                        }, this)
+function App() {
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.BrowserRouter, {
+        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Switch, {
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                    path: "/content-page",
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_contentPageDefault.default, {
+                        ...contentPageData
                     }, void 0, false, {
                         fileName: "App.jsx",
                         lineNumber: 14,
                         columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
-                        path: "/home",
-                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_homeDefault.default, {
-                            ...hOMEData
-                        }, void 0, false, {
-                            fileName: "App.jsx",
-                            lineNumber: 18,
-                            columnNumber: 13
-                        }, this)
+                    }, this)
+                }, void 0, false, {
+                    fileName: "App.jsx",
+                    lineNumber: 13,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                    path: "/home",
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_homeDefault.default, {
+                        ...hOMEData
                     }, void 0, false, {
                         fileName: "App.jsx",
                         lineNumber: 17,
                         columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
-                        path: "/content",
-                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_contentDefault.default, {
-                            kisspngNetflixStreamingMediaTelevis: "/img/kisspng-netflix-streaming-media-television-show-logo-netflix-log@2x.png",
-                            uiuhj6En7Yitwqwktbwjvt3: "/img/uiuhj6en7yitwqwktbwjvt-3@1x.png"
-                        }, void 0, false, {
-                            fileName: "App.jsx",
-                            lineNumber: 21,
-                            columnNumber: 13
-                        }, this)
+                    }, this)
+                }, void 0, false, {
+                    fileName: "App.jsx",
+                    lineNumber: 16,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                    path: "/:path(|login)",
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_loginDefault.default, {
+                        ...lOGINData
                     }, void 0, false, {
                         fileName: "App.jsx",
                         lineNumber: 20,
                         columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
-                        path: "/sign-up",
-                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_signUpDefault.default, {
-                            ...signUpData
-                        }, void 0, false, {
-                            fileName: "App.jsx",
-                            lineNumber: 27,
-                            columnNumber: 13
-                        }, this)
+                    }, this)
+                }, void 0, false, {
+                    fileName: "App.jsx",
+                    lineNumber: 19,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                    path: "/sign-up",
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_signUpDefault.default, {
+                        ...signUpData
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 26,
+                        lineNumber: 23,
                         columnNumber: 11
                     }, this)
-                ]
-            }, void 0, true, {
-                fileName: "App.jsx",
-                lineNumber: 13,
-                columnNumber: 9
-            }, this)
-        }, void 0, false, {
+                }, void 0, false, {
+                    fileName: "App.jsx",
+                    lineNumber: 22,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
             fileName: "App.jsx",
             lineNumber: 12,
             columnNumber: 7
-        }, this);
-    }
-}
-exports.default = App;
-const lOGINData = {
-    overlapGroup4: "/img/f75774ea-9a7c-44ea-a7c7-91d1e9df10e6-1@1x.png",
-    kisspngNetflixStreamingMediaTelevis: "/img/kisspng-netflix-streaming-media-television-show-logo-netflix-log-1@2x.png",
-    signIn1: "Sign In",
-    label: "Email or phone nunber",
-    signIn2: "Sign In",
-    rememberMe: "Remember me",
-    needHelp: "Need help?",
-    newToNetflix: "New to Netflix?",
-    signUpNow: "Sign up now.",
-    thisPageIsProtect: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactDefault.default.Fragment, {
-        children: [
-            "This page is protected by ",
-            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
-                fileName: "App.jsx",
-                lineNumber: 46,
-                columnNumber: 66
-            }, undefined),
-            "Google reCHAPATCHA to ensure you\u2019re not a bot. Learn more."
-        ]
-    }, void 0, true, {
+        }, this)
+    }, void 0, false, {
         fileName: "App.jsx",
-        lineNumber: 46,
-        columnNumber: 24
-    }, undefined),
-    questionsCall18445052993: "Questions? Call 1-844-505-2993",
-    faq: "FAQ",
-    cookiePreferences: "Cookie Preferences",
-    helpCenter: "Help Center",
-    corporateInformation: "Corporate Information",
-    termsOfUse: "Terms of Use",
-    privacy: "Privacy"
-};
-const hOMEData = {
-    uiuhj6En7Yitwqwktbwjvt3: "/img/uiuhj6en7yitwqwktbwjvt-3-1@1x.png",
-    place: "Home",
-    kisspngNetflixStreamingMediaTelevis: "/img/kisspng-netflix-streaming-media-television-show-logo-netflix-log-2@2x.png",
-    tvShows: "TV Shows",
-    movies: "Movies",
-    myList: "My List",
-    recentlyAdded: "Recently Added",
-    x02_Nf_Thewitcher_Socialskin_Facebo: "/img/02-nf-thewitcher-socialskin-facebook-1@2x.png",
-    x63D2751005919991: "/img/63d275100591999-1@2x.png",
-    x158445UntitledDesign561: "/img/158445-untitled-design-56-1@2x.png",
-    arcaneimage: "/img/arcaneimage@2x.png",
-    dbkqwqouwaa1Rsi1: "/img/dbkqwqouwaa1rsi-1@2x.png",
-    oitnbp1: "/img/oitnbp-1@2x.png",
-    belowZeroNetflixReview1: "/img/below-zero-netflix-review-1@2x.png",
-    hardKillSocial1: "/img/hard-kill-social-1@2x.png",
-    sentinelleNetflixReview1: "/img/sentinelle-netflix-review-1@2x.png",
-    thegeekFuriozaNyito664X3351: "/img/thegeek-furioza-nyito-664x335-1@2x.png",
-    aaaabegzxji0Ftrcqpcnphu8Jfxedkgxcwv: "/img/aaaabegzxji0ftrcqpcnphu8jfxedkgxcwvfpodhpr8wmkembdp8sljj-mly6bbt@2x.png",
-    aaaabzqddfql0Qmj54Wwkmv3Agjjlowwrr_: "/img/aaaabzqddfql0qmj54wwkmv3agjjlowwrr-ecyl4ghn2ohjgrrkcq6g1sqscx7ue@2x.png",
-    x17059451: "/img/1705945-1@2x.png",
-    aaaabwfruyo332Zb30Lix2JiN_LcOc6Jurc: "/img/aaaabwfruyo332zb30lix2ji-n-lc-oc6jurcfsccc4jxbmqga0lwltqn8lvhn7r@2x.png",
-    aaaabzzkeu4Cjmccm4Gbvjoqeh1Lwpjqwil: "/img/aaaabzzkeu4cjmccm4gbvjoqeh1lwpjqwilkj1ssy3qgh2bx9k3jxzwvku4lahfh@2x.png",
-    download1: "/img/download-1@2x.png",
-    ecw62Re60Ape0Ak33Zce1: "/img/ecw62re60ape0ak33zce-1@2x.png",
-    p8696131_B_H10_Aa1: "/img/p8696131-b-h10-aa-1@2x.png",
-    x4F69D2A6Bde03A53970F6C08F8Dfdea31: "/img/4f69d2a6bde03a53970f6c08f8dfdea3-1@2x.png",
-    aaaabx_Kdldfuieejnl3Xorajua8Ardfnn7: "/img/aaaabx-kdldfuieejnl3xorajua8ardfnn7hy5athxoz5eyrbuvfrm30cylz--v3@2x.png",
-    aaaabzx54UbxbxnvofwHc_7Oybhrb7B_8Yk: "/img/aaaabzx54ubxbxnvofw-hc-7oybhrb7b-8ykp1qmzyvk-un2m8tkh4prpqce8pjg@2x.png",
-    aaaabdjdfpvxowf0Iqf8Evdyljvgynchnid: "/img/aaaabdjdfpvxowf0iqf8evdyljvgynchnidy6qqfxsltnyhzkkpjyrvge4wcuuyk@2x.png",
-    hunter_X_Hunter_By_XvrcardosoD54Co4: "/img/hunter-x-hunter-by-xvrcardoso-d54co4a-1@2x.png",
-    isMyHeroAcademiaOnNetflix1: "/img/is-my-hero-academia-on-netflix-1@2x.png"
-};
+        lineNumber: 11,
+        columnNumber: 5
+    }, this);
+}
+_c = App;
+exports.default = App;
 const signUpData = {
+    signUpPageBackground: "/img/sign-up-page-background@1x.png",
+    title: "Unlimited movies, TV shows, and more.",
+    watchAnywhereCancelAnytime: "Watch anywhere. Cancel anytime.",
+    readyToWatchEnte1: "Ready to watch? Enter your email to create or restart your memebership.",
+    getStarted1: "Get Started >",
+    signIn: "Sign In",
+    netflixLogo: "/img/kisspng-netflix-streaming-media-television-show-logo-netflix-log@2x.png",
     enjoyOnYourTv: "Enjoy on your TV.",
     watchOnSmartTvs: "Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.",
     willSmithAd: "/img/screen-shot-2022-05-17-at-2-18-1@2x.png",
@@ -22810,44 +22749,244 @@ const signUpData = {
     createProfilesForKids: "Create profiles for kids.",
     kidsvalueprop1: "/img/kidsvalueprop-1@2x.png",
     sendKidsOnAdventu: "Send kids on adventures with their favorite characters in a space made just for them- free with your membership.",
-    signUpPageBackground: "/img/sign-up-page-background@1x.png",
-    title: "Unlimited movies, TV shows, and more.",
-    watchAnywhereCancelAnytime: "Watch anywhere. Cancel anytime.",
-    readyToWatchEnte1: "Ready to watch? Enter your email to create or restart your memebership.",
-    getStarted1: "Get Started >",
-    signIn: "Sign In",
-    netflixLogo: "/img/kisspng-netflix-streaming-media-television-show-logo-netflix-log@2x.png",
     label1: "How much does Netflix cost?",
     frequentlyAskedQuestions: "Frequently Asked Questions",
     readyToWatchEnte2: "Ready to watch? Enter your email to create or restart your membership.",
     getStarted2: "Get Started >",
-    label2: "Email address",
+    label2: "Email address"
+};
+const contentPageData = {
+    place1: "Home",
+    kisspngNetflixStreamingMediaTelevis1: "/img/kisspng-netflix-streaming-media-television-show-logo-netflix-log-2@2x.png",
+    tvShows1: "TV Shows",
+    movies1: "Movies",
+    myList1: "My List",
+    recentlyAdded1: "Recently Added",
+    kisspngNetflixStreamingMediaTelevis2: "/img/kisspng-netflix-streaming-media-television-show-logo-netflix-log@2x.png",
+    place2: "Home",
+    kisspngNetflixStreamingMediaTelevis3: "/img/kisspng-netflix-streaming-media-television-show-logo-netflix-log-2@2x.png",
+    tvShows2: "TV Shows",
+    movies2: "Movies",
+    myList2: "My List",
+    recentlyAdded2: "Recently Added",
+    houseofcardsFoto1: "/img/houseofcards-foto-1@1x.png",
+    pngwing1: "/img/pngwing-1@2x.png",
+    x91Match: "91% Match",
+    number1: "2018",
+    address: "6 Seasons",
+    shesGotThePower: "She’s got the power, and the’s forging her own path. But ruthless enemies will stop at nothing to sabotage her reign",
+    episodes: "Episodes",
+    castRobinWright: "Cast: Robin Wright, Michael Kelly, Diane Lane, more",
+    generasPoliticalT: "Generas: Political TV Shows, TV Thrillers, TV Dramas",
+    thisShowIsCerebralDark1: "This show is: Cerebral, Dark",
+    screenShot20220519At10132: "/img/screen-shot-2022-05-19-at-10-13-2@2x.png",
+    whenTheNewlyElect: "When the newly elected PResident reneges on a promise, Frank and Claire decide to sever all allegiances and toss the rules out the window.",
+    episode1: "Episode 1",
+    number2: "1",
+    x56M: "56m",
+    screenShot20220519At10133: "/img/screen-shot-2022-05-19-at-10-13-3@2x.png",
+    screenShot20220519At10391: "/img/screen-shot-2022-05-19-at-10-39-1@2x.png",
+    name1: "Frank uses a young reporter, Zoe Barnes, to spin a story that puts the White House on its heels. Claire makes a cold-blooded move at work",
+    episode2: "Episode 2",
+    number3: "2",
+    x49M1: "49m",
+    screenShot20220519At10401: "/img/screen-shot-2022-05-19-at-10-40-1@2x.png",
+    name2: "Frank must leave union negotaiations to deal with a crisis in his home district. Zoe negotiates the politics of being a journalist on the rise.",
+    episode3: "Episode 3",
+    number4: "3",
+    x51M1: "51m",
+    screenShot20220519At10411: "/img/screen-shot-2022-05-19-at-10-41-1@2x.png",
+    name3: "Frank shakes down the Congressional leadership. Peter Russo must choose between politics and his family.",
+    episode4: "Episode 4",
+    number5: "4",
+    x49M2: "49m",
+    screenShot20220519At10421: "/img/screen-shot-2022-05-19-at-10-42-1@2x.png",
+    franksFightOverT: "Frank’s fight over the Education Bill threatens Claire’s own ambitions. Zoe mixes work and play.",
+    episode5: "Episode 5",
+    number6: "5",
+    x52M1: "52m",
+    screenShot20220519At10138: "/img/screen-shot-2022-05-19-at-10-13-3@2x.png",
+    screenShot20220519At10422: "/img/screen-shot-2022-05-19-at-10-42-2@2x.png",
+    name4: "Frank strikes back at the striking teachers. Claire is caught off guard by a deathbed confession.",
+    episode6: "Episode 6",
+    number7: "6",
+    x50M: "50m",
+    screenShot20220519At10423: "/img/screen-shot-2022-05-19-at-10-42-3@2x.png",
+    name5: "Frank wins a major battle, but doesn’t pause to rest on his laurels. Peter must face his past. Stamper hushes a secret.",
+    episode7: "Episode 7",
+    number8: "7",
+    x54M: "54m",
+    screenShot20220519At10431: "/img/screen-shot-2022-05-19-at-10-43-1@2x.png",
+    name6: "Frank is honored at his ala mater, while Peter returns to Philly. Both men tackle unfinished business.",
+    episode8: "Episode 8",
+    number9: "8",
+    x47M: "47m",
+    screenShot20220519At10432: "/img/screen-shot-2022-05-19-at-10-43-2@2x.png",
+    surname1: "Russo hits the road with V.P Matthews Frank and Stamper try to whip up support in Congress. Claire looks out for herself.",
+    episode9: "Episode 9",
+    number10: "9",
+    x51M2: "51m",
+    screenShot20220519At10433: "/img/screen-shot-2022-05-19-at-10-43-3@2x.png",
+    rebellionOnAllFon: "Rebellion on all fonts. Claire defies Frank, Zoe finds comfort in someone new, and peter makes an ultimatum.",
+    episode10: "Episode 10",
+    number11: "10",
+    x52M2: "52m",
+    screenShot20220519At12081: "/img/screen-shot-2022-05-19-at-12-08-1@2x.png",
+    number12: "2021",
+    pennBadgleyGossi1: "Penn Badgley (“Gossip Girl”) takes a dark turn in this series that also features Victoria Pedretti (“The Haunting of Hill House and John Stamos”)",
+    screenShot20220519At12091: "/img/screen-shot-2022-05-19-at-12-09-1@2x.png",
+    number13: "2022",
+    pennBadgleyGossi2: "Penn Badgley (“Gossip Girl”) takes a dark turn in this series that also features Victoria Pedretti (“The Haunting of Hill House and John Stamos”)",
+    screenShot20220519At12101: "/img/screen-shot-2022-05-19-at-12-10-1@2x.png",
+    number14: "2019",
+    pennBadgleyGossi3: "Penn Badgley (“Gossip Girl”) takes a dark turn in this series that also features Victoria Pedretti (“The Haunting of Hill House and John Stamos”)",
+    screenShot20220519At12111: "/img/screen-shot-2022-05-19-at-12-11-1@2x.png",
+    number15: "2020",
+    pennBadgleyGossi4: "Penn Badgley (“Gossip Girl”) takes a dark turn in this series that also features Victoria Pedretti (“The Haunting of Hill House and John Stamos”)",
+    screenShot20220519At12112: "/img/screen-shot-2022-05-19-at-12-11-2@2x.png",
+    number16: "2018",
+    pennBadgleyGossi5: "Penn Badgley (“Gossip Girl”) takes a dark turn in this series that also features Victoria Pedretti (“The Haunting of Hill House and John Stamos”)",
+    screenShot20220519At12121: "/img/screen-shot-2022-05-19-at-12-12-1@2x.png",
+    number17: "2022",
+    pennBadgleyGossi6: "Penn Badgley (“Gossip Girl”) takes a dark turn in this series that also features Victoria Pedretti (“The Haunting of Hill House and John Stamos”)",
+    screenShot20220519At2351: "/img/screen-shot-2022-05-19-at-2-35-1@2x.png",
+    surname2: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactDefault.default.Fragment, {
+        children: [
+            "House of Cards Season 6",
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                fileName: "App.jsx",
+                lineNumber: 153,
+                columnNumber: 54
+            }, undefined),
+            "Date Announcement"
+        ]
+    }, void 0, true, {
+        fileName: "App.jsx",
+        lineNumber: 153,
+        columnNumber: 15
+    }, undefined),
+    screenShot20220519At2352: "/img/screen-shot-2022-05-19-at-2-35-2@2x.png",
+    surname3: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactDefault.default.Fragment, {
+        children: [
+            "House of Cards Season 6",
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                fileName: "App.jsx",
+                lineNumber: 155,
+                columnNumber: 54
+            }, undefined),
+            "(Trailer)"
+        ]
+    }, void 0, true, {
+        fileName: "App.jsx",
+        lineNumber: 155,
+        columnNumber: 15
+    }, undefined),
+    screenShot20220519At2361: "/img/screen-shot-2022-05-19-at-2-36-1@2x.png",
+    season6TeaserTheEnd: "Season 6 Teaser:  The End",
+    screenShot20220519At2362: "/img/screen-shot-2022-05-19-at-2-36-2@2x.png",
+    season6TeaserMyHouse: "Season 6 Teaser: My House",
+    screenShot20220519At2363: "/img/screen-shot-2022-05-19-at-2-36-3@2x.png",
+    surname4: "House of Cards: Season 5 (Trailer)",
+    screenShot20220519At2371: "/img/screen-shot-2022-05-19-at-2-37-1@2x.png",
+    surname5: "House of Cards: Season 5 (Recap)",
+    aboutHouseOfCards: "About House of Cards",
+    castKevinSpacey: "Cast: Kevin Spacey, Francis Underwood, Robin Wright, Claire Underwood, Kate Mara, Zoe Barnes, Rachel Brosnahan, Rachel Posner, Molly Parker, Jackie Sharp, Michael Kelly, Doug Stamper, Corey Stoll, Rep. Peter Russo, Kristen Connolly, Christina Gallagher...",
+    genresPoliticalTv: "Genres: Political TV Shows, TV Thrillers, TV Dramas",
+    thisShowIsCerebralDark2: "This show is: Cerebral, Dark",
+    maturityRatingLan: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactDefault.default.Fragment, {
+        children: [
+            "Maturity Rating: Language sex, nudity, smoking",
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                fileName: "App.jsx",
+                lineNumber: 168,
+                columnNumber: 86
+            }, undefined),
+            "                             For Mature Audiences. May not be sutiable for ages 17 and under."
+        ]
+    }, void 0, true, {
+        fileName: "App.jsx",
+        lineNumber: 168,
+        columnNumber: 24
+    }, undefined)
+};
+const hOMEData = {
+    uiuhj6En7Yitwqwktbwjvt3: "/img/uiuhj6en7yitwqwktbwjvt-3-1@1x.png",
+    continueWatching: "  Continue Watching..",
+    place1: "Home",
+    kisspngNetflixStreamingMediaTelevis: "/img/kisspng-netflix-streaming-media-television-show-logo-netflix-log-2@2x.png",
+    tvShows: "TV Shows",
+    movies: "Movies",
+    myList: "My List",
+    recentlyAdded: "Recently Added",
+    x02_Nf_Thewitcher_Socialskin_Facebo: "/img/02-nf-thewitcher-socialskin-facebook-1@2x.png",
+    x63D2751005919991: "/img/63d275100591999-1@2x.png",
+    x158445UntitledDesign561: "/img/158445-untitled-design-56-1@2x.png",
+    arcaneimage: "/img/arcaneimage@2x.png",
+    dbkqwqouwaa1Rsi1: "/img/dbkqwqouwaa1rsi-1@2x.png",
+    oitnbp1: "/img/oitnbp-1@2x.png",
+    action: "Action",
+    place2: "Drama",
+    belowZeroNetflixReview1: "/img/below-zero-netflix-review-1@2x.png",
+    hardKillSocial1: "/img/hard-kill-social-1@2x.png",
+    sentinelleNetflixReview1: "/img/sentinelle-netflix-review-1@2x.png",
+    thegeekFuriozaNyito664X3351: "/img/thegeek-furioza-nyito-664x335-1@2x.png",
+    aaaabegzxji0Ftrcqpcnphu8Jfxedkgxcwv: "/img/aaaabegzxji0ftrcqpcnphu8jfxedkgxcwvfpodhpr8wmkembdp8sljj-mly6bbt@2x.png",
+    aaaabzqddfql0Qmj54Wwkmv3Agjjlowwrr_: "/img/aaaabzqddfql0qmj54wwkmv3agjjlowwrr-ecyl4ghn2ohjgrrkcq6g1sqscx7ue@2x.png",
+    anime: "Anime",
+    x17059451: "/img/1705945-1@2x.png",
+    x4F69D2A6Bde03A53970F6C08F8Dfdea31: "/img/4f69d2a6bde03a53970f6c08f8dfdea3-1@2x.png",
+    aaaabx_Kdldfuieejnl3Xorajua8Ardfnn7: "/img/aaaabx-kdldfuieejnl3xorajua8ardfnn7hy5athxoz5eyrbuvfrm30cylz--v3@2x.png",
+    aaaabzx54UbxbxnvofwHc_7Oybhrb7B_8Yk: "/img/aaaabzx54ubxbxnvofw-hc-7oybhrb7b-8ykp1qmzyvk-un2m8tkh4prpqce8pjg@2x.png",
+    aaaabwfruyo332Zb30Lix2JiN_LcOc6Jurc: "/img/aaaabwfruyo332zb30lix2ji-n-lc-oc6jurcfsccc4jxbmqga0lwltqn8lvhn7r@2x.png",
+    aaaabzzkeu4Cjmccm4Gbvjoqeh1Lwpjqwil: "/img/aaaabzzkeu4cjmccm4gbvjoqeh1lwpjqwilkj1ssy3qgh2bx9k3jxzwvku4lahfh@2x.png",
+    download1: "/img/download-1@2x.png",
+    ecw62Re60Ape0Ak33Zce1: "/img/ecw62re60ape0ak33zce-1@2x.png",
+    p8696131_B_H10_Aa1: "/img/p8696131-b-h10-aa-1@2x.png",
+    aaaabdjdfpvxowf0Iqf8Evdyljvgynchnid: "/img/aaaabdjdfpvxowf0iqf8evdyljvgynchnidy6qqfxsltnyhzkkpjyrvge4wcuuyk@2x.png",
+    hunter_X_Hunter_By_XvrcardosoD54Co4: "/img/hunter-x-hunter-by-xvrcardoso-d54co4a-1@2x.png",
+    isMyHeroAcademiaOnNetflix1: "/img/is-my-hero-academia-on-netflix-1@2x.png"
+};
+const lOGINData = {
+    overlapGroup4: "/img/f75774ea-9a7c-44ea-a7c7-91d1e9df10e6-1@1x.png",
+    kisspngNetflixStreamingMediaTelevis: "/img/kisspng-netflix-streaming-media-television-show-logo-netflix-log-1@2x.png",
+    signIn1: "Sign In",
+    signIn2: "Sign In",
+    rememberMe: "Remember me",
+    needHelp: "Need help?",
+    newToNetflix: "New to Netflix?",
+    signUpNow: "Sign up now.",
+    thisPageIsProtect: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactDefault.default.Fragment, {
+        children: [
+            "This page is protected by ",
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                fileName: "App.jsx",
+                lineNumber: 218,
+                columnNumber: 66
+            }, undefined),
+            "Google reCHAPATCHA to ensure you\u2019re not a bot. Learn more."
+        ]
+    }, void 0, true, {
+        fileName: "App.jsx",
+        lineNumber: 218,
+        columnNumber: 24
+    }, undefined),
     questionsCall18445052993: "Questions? Call 1-844-505-2993",
     faq: "FAQ",
-    investorRelations: "Investor Relations",
-    waysToWatch: "Ways to Watch",
-    corporateInformation: "Corporate Information",
-    onlyOnNetflix: "Only on Netflix",
-    helpCenter: "Help Center",
-    jobs: "Jobs",
-    termsOfUse: "Terms of Use",
-    contactUs: "Contact Us",
-    account: "Account",
-    redeemGiftcards: "Redeem Giftcards",
-    privacy: "Privacy",
-    speedTest: "Speed Test",
-    mediaCenter: "Media Center",
-    buyGiftCards: "Buy Gift Cards",
     cookiePreferences: "Cookie Preferences",
-    legalNotices: "Legal Notices"
+    helpCenter: "Help Center",
+    corporateInformation: "Corporate Information",
+    termsOfUse: "Terms of Use",
+    privacy: "Privacy"
 };
+var _c;
+$RefreshReg$(_c, "App");
 
   $parcel$ReactRefreshHelpers$53a7.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./App.css":"7g3a6","react":"21dqq","react-router-dom":"cHIiW","./components/Content":"iXtoo","./components/HOME":"5iTWs","./components/LOGIN":"hEY69","./components/SignUp":"1TuAn","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7g3a6":[function() {},{}],"cHIiW":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","./App.css":"7g3a6","react":"21dqq","react-router-dom":"cHIiW","./components/HOME":"5iTWs","./components/LOGIN":"hEY69","./components/SignUp":"1TuAn","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/ContentPage":"hvyDQ"}],"7g3a6":[function() {},{}],"cHIiW":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "MemoryRouter", ()=>_reactRouter.MemoryRouter
@@ -25861,11 +26000,11 @@ function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
 }
 module.exports = hoistNonReactStatics;
 
-},{"react-is":"7EuwB"}],"iXtoo":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$3b7a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react-is":"7EuwB"}],"5iTWs":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$cf1d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$3b7a.prelude(module);
+$parcel$ReactRefreshHelpers$cf1d.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -25873,411 +26012,918 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _contentCss = require("./Content.css");
-class Content extends _reactDefault.default.Component {
-    render() {
-        const { kisspngNetflixStreamingMediaTelevis , uiuhj6En7Yitwqwktbwjvt3  } = this.props;
-        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-            className: "container-center-horizontal",
-            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                className: "content screen",
-                children: [
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                        className: "overlap-group-1",
-                        children: [
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "overlap-group8",
-                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                    className: "kisspng-netflix-stre",
-                                    src: kisspngNetflixStreamingMediaTelevis
+var _reactRouterDom = require("react-router-dom");
+var _homeCss = require("./HOME.css");
+function HOME(props) {
+    const { uiuhj6En7Yitwqwktbwjvt3 , continueWatching , place1 , kisspngNetflixStreamingMediaTelevis , tvShows , movies , myList , recentlyAdded , x02_Nf_Thewitcher_Socialskin_Facebo , x63D2751005919991 , x158445UntitledDesign561 , arcaneimage , dbkqwqouwaa1Rsi1 , oitnbp1 , action , place2 , belowZeroNetflixReview1 , hardKillSocial1 , sentinelleNetflixReview1 , thegeekFuriozaNyito664X3351 , aaaabegzxji0Ftrcqpcnphu8Jfxedkgxcwv , aaaabzqddfql0Qmj54Wwkmv3Agjjlowwrr_ , anime , x17059451 , x4F69D2A6Bde03A53970F6C08F8Dfdea31 , aaaabx_Kdldfuieejnl3Xorajua8Ardfnn7 , aaaabzx54UbxbxnvofwHc_7Oybhrb7B_8Yk , aaaabwfruyo332Zb30Lix2JiN_LcOc6Jurc , aaaabzzkeu4Cjmccm4Gbvjoqeh1Lwpjqwil , download1 , ecw62Re60Ape0Ak33Zce1 , p8696131_B_H10_Aa1 , aaaabdjdfpvxowf0Iqf8Evdyljvgynchnid , hunter_X_Hunter_By_XvrcardosoD54Co4 , isMyHeroAcademiaOnNetflix1 ,  } = props;
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+        className: "container-center-horizontal",
+        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            className: "home screen",
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "overlap-group-container-4",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group2",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "main-display-img",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("video", {
+                                        width: "100%",
+                                        height: "100%",
+                                        src: "https://cdn.animaapp.com/projects/62839e2b0f409b66f1c6f683/files/netflix.mp4",
+                                        loop: true,
+                                        controls: true,
+                                        autoplay: "autoplay",
+                                        playsinline: true,
+                                        muted: true
+                                    }, void 0, false, {
+                                        fileName: "components/HOME/index.jsx",
+                                        lineNumber: 50,
+                                        columnNumber: 15
+                                    }, this)
                                 }, void 0, false, {
-                                    fileName: "components/Content/index.jsx",
-                                    lineNumber: 13,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 12,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle-5"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 15,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle-5"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 16,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle-5"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 17,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle-5"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 18,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle-5"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 19,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/Content/index.jsx",
-                        lineNumber: 11,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                        className: "overlap-group7",
-                        children: [
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle-15"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 22,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                className: "uiuh-j6e-n7-yitw-qw-kt-b-wjv-t-3",
-                                src: uiuhj6En7Yitwqwktbwjvt3
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 23,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle-16"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 24,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                className: "continue-watching",
-                                src: "/img/continue-watching---1@2x.svg"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 25,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/Content/index.jsx",
-                        lineNumber: 21,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                        className: "flex-row",
-                        children: [
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 28,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 29,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "overlap-group",
-                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                    className: "rectangle"
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 49,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/content-page",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                        className: "uiuh-j6e-n7-yitw-qw-kt-b-wjv-t-3",
+                                        src: uiuhj6En7Yitwqwktbwjvt3
+                                    }, void 0, false, {
+                                        fileName: "components/HOME/index.jsx",
+                                        lineNumber: 62,
+                                        columnNumber: 15
+                                    }, this)
                                 }, void 0, false, {
-                                    fileName: "components/Content/index.jsx",
-                                    lineNumber: 31,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 30,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 33,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 34,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 35,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/Content/index.jsx",
-                        lineNumber: 27,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                        className: "overlap-group2",
-                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                            className: "action",
-                            src: "/img/action@2x.svg"
-                        }, void 0, false, {
-                            fileName: "components/Content/index.jsx",
-                            lineNumber: 38,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "components/Content/index.jsx",
-                        lineNumber: 37,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                        className: "overlap-group5",
-                        children: [
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle-18"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 41,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                className: "drama",
-                                src: "/img/drama@2x.svg"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 42,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle-28"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 43,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle-29"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 44,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle-3"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 45,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle-3"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 46,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle-32"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 47,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle-33"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 48,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle-34"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 49,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/Content/index.jsx",
-                        lineNumber: 40,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                        className: "flex-row",
-                        children: [
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 52,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 53,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "overlap-group",
-                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                    className: "rectangle"
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 61,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "continue-watching"
                                 }, void 0, false, {
-                                    fileName: "components/Content/index.jsx",
-                                    lineNumber: 55,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 54,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 57,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 58,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 59,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/Content/index.jsx",
-                        lineNumber: 51,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                        className: "overlap-group1",
-                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                            className: "anime",
-                            src: "/img/anime@2x.svg"
-                        }, void 0, false, {
-                            fileName: "components/Content/index.jsx",
-                            lineNumber: 62,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "components/Content/index.jsx",
-                        lineNumber: 61,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                        className: "flex-row",
-                        children: [
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 65,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 66,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "overlap-group",
-                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                    className: "rectangle"
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 64,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "nav-bar-1"
                                 }, void 0, false, {
-                                    fileName: "components/Content/index.jsx",
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 65,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "continue-watching-1 inter-normal-white-34px",
+                                    children: continueWatching
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 66,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "continue-watching-1-1"
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 67,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "continue-watching-2"
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
                                     lineNumber: 68,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "continue-watching-3"
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 69,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "nav-bar-logo-box-1"
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 70,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "nav-bar-home-1"
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 71,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/sign-up",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "place-1 valign-text-middle inter-normal-gray-16px",
+                                        children: place1
+                                    }, void 0, false, {
+                                        fileName: "components/HOME/index.jsx",
+                                        lineNumber: 73,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 72,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/login",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                        className: "kisspng-netflix-stre-2",
+                                        src: kisspngNetflixStreamingMediaTelevis
+                                    }, void 0, false, {
+                                        fileName: "components/HOME/index.jsx",
+                                        lineNumber: 76,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 75,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "nav-bar-tv-shows-1"
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 78,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/sign-up",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "tv-shows-1 valign-text-middle inter-normal-gray-16px",
+                                        children: tvShows
+                                    }, void 0, false, {
+                                        fileName: "components/HOME/index.jsx",
+                                        lineNumber: 80,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 79,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "nav-bar-movies-1"
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 82,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/sign-up",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "movies-1 valign-text-middle inter-normal-gray-16px",
+                                        children: movies
+                                    }, void 0, false, {
+                                        fileName: "components/HOME/index.jsx",
+                                        lineNumber: 84,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 83,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "nav-bar-my-list-1"
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 86,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/login",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "my-list-1 valign-text-middle inter-normal-gray-16px",
+                                        children: myList
+                                    }, void 0, false, {
+                                        fileName: "components/HOME/index.jsx",
+                                        lineNumber: 88,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 87,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "nav-bar-recently-added-1"
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 90,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/login",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "recently-added-1 valign-text-middle inter-normal-gray-16px",
+                                        children: recentlyAdded
+                                    }, void 0, false, {
+                                        fileName: "components/HOME/index.jsx",
+                                        lineNumber: 92,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 91,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/content-page",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                        className: "x02_nf_-the-witcher_",
+                                        src: x02_Nf_Thewitcher_Socialskin_Facebo
+                                    }, void 0, false, {
+                                        fileName: "components/HOME/index.jsx",
+                                        lineNumber: 95,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 94,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/content-page",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                        className: "x63d275100591999-1",
+                                        src: x63D2751005919991
+                                    }, void 0, false, {
+                                        fileName: "components/HOME/index.jsx",
+                                        lineNumber: 98,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 97,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/content-page",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                        className: "x158445-untitled-design-56-1",
+                                        src: x158445UntitledDesign561
+                                    }, void 0, false, {
+                                        fileName: "components/HOME/index.jsx",
+                                        lineNumber: 101,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 100,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 48,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group9",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                to: "/content-page",
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                    className: "arcane-image",
+                                    src: arcaneimage
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 106,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 67,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 70,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 71,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "rectangle"
-                            }, void 0, false, {
-                                fileName: "components/Content/index.jsx",
-                                lineNumber: 72,
+                                fileName: "components/HOME/index.jsx",
+                                lineNumber: 105,
                                 columnNumber: 13
                             }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/Content/index.jsx",
-                        lineNumber: 64,
+                        }, void 0, false, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 104,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group12",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                to: "/content-page",
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                    className: "dbk-qw-qo-uw-aa1r-si-1",
+                                    src: dbkqwqouwaa1Rsi1
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 111,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "components/HOME/index.jsx",
+                                lineNumber: 110,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 109,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group6",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                to: "/content-page",
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                    className: "oitnbp-1",
+                                    src: oitnbp1
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 116,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "components/HOME/index.jsx",
+                                lineNumber: 115,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 114,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/HOME/index.jsx",
+                    lineNumber: 47,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "overlap-group7-1",
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        className: "action inter-normal-white-34px",
+                        children: action
+                    }, void 0, false, {
+                        fileName: "components/HOME/index.jsx",
+                        lineNumber: 121,
                         columnNumber: 11
                     }, this)
-                ]
-            }, void 0, true, {
-                fileName: "components/Content/index.jsx",
-                lineNumber: 10,
-                columnNumber: 9
-            }, this)
-        }, void 0, false, {
-            fileName: "components/Content/index.jsx",
-            lineNumber: 9,
+                }, void 0, false, {
+                    fileName: "components/HOME/index.jsx",
+                    lineNumber: 120,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "overlap-group-3",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "drama-title-box"
+                        }, void 0, false, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 124,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "place-2 inter-normal-white-34px",
+                            children: place2
+                        }, void 0, false, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 125,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "action-1"
+                        }, void 0, false, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 126,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "action-2"
+                        }, void 0, false, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 127,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "action-3"
+                        }, void 0, false, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 128,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                            to: "/content-page",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                className: "below-zero-netflix-review-1",
+                                src: belowZeroNetflixReview1
+                            }, void 0, false, {
+                                fileName: "components/HOME/index.jsx",
+                                lineNumber: 130,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 129,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "action-4"
+                        }, void 0, false, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 132,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                            to: "/content-page",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                className: "hard-kill-social-1",
+                                src: hardKillSocial1
+                            }, void 0, false, {
+                                fileName: "components/HOME/index.jsx",
+                                lineNumber: 134,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 133,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "action-5"
+                        }, void 0, false, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 136,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                            to: "/content-page",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                className: "sentinelle-netflix-review-1",
+                                src: sentinelleNetflixReview1
+                            }, void 0, false, {
+                                fileName: "components/HOME/index.jsx",
+                                lineNumber: 138,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 137,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "action-6"
+                        }, void 0, false, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 140,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                            to: "/content-page",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                className: "the-geek-furioza-nyito-664x335-1",
+                                src: thegeekFuriozaNyito664X3351
+                            }, void 0, false, {
+                                fileName: "components/HOME/index.jsx",
+                                lineNumber: 142,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 141,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                            to: "/content-page",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                className: "aaaa-be-gz-xji0f-trc",
+                                src: aaaabegzxji0Ftrcqpcnphu8Jfxedkgxcwv
+                            }, void 0, false, {
+                                fileName: "components/HOME/index.jsx",
+                                lineNumber: 145,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 144,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                            to: "/content-page",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                className: "aaaabzq-ddfql0-qm-j5",
+                                src: aaaabzqddfql0Qmj54Wwkmv3Agjjlowwrr_
+                            }, void 0, false, {
+                                fileName: "components/HOME/index.jsx",
+                                lineNumber: 148,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 147,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/HOME/index.jsx",
+                    lineNumber: 123,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "overlap-group-container-5",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group1",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "anime-title-box"
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 153,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "anime inter-normal-white-34px",
+                                    children: anime
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 154,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "drama"
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 155,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/content-page",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                        className: "link",
+                                        src: x17059451
+                                    }, void 0, false, {
+                                        fileName: "components/HOME/index.jsx",
+                                        lineNumber: 157,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 156,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "anime-1"
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 159,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/content-page",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                        className: "x4f69d2a6bde03a53970f6c08f8dfdea3-1 animate-enter1",
+                                        src: x4F69D2A6Bde03A53970F6C08F8Dfdea31
+                                    }, void 0, false, {
+                                        fileName: "components/HOME/index.jsx",
+                                        lineNumber: 161,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 160,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "anime-3"
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 166,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/content-page",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                        className: "aaaabx_kd-ld-f-ui-ee",
+                                        src: aaaabx_Kdldfuieejnl3Xorajua8Ardfnn7
+                                    }, void 0, false, {
+                                        fileName: "components/HOME/index.jsx",
+                                        lineNumber: 168,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 167,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "anime-4"
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 170,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/content-page",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                        className: "aaaabzx54-ubxbxnvof",
+                                        src: aaaabzx54UbxbxnvofwHc_7Oybhrb7B_8Yk
+                                    }, void 0, false, {
+                                        fileName: "components/HOME/index.jsx",
+                                        lineNumber: 172,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 171,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 152,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group14",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "drama-2"
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 176,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/content-page",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                        className: "link-1",
+                                        src: aaaabwfruyo332Zb30Lix2JiN_LcOc6Jurc
+                                    }, void 0, false, {
+                                        fileName: "components/HOME/index.jsx",
+                                        lineNumber: 178,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 177,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 175,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group10",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "drama"
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 182,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/content-page",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                        className: "link-2",
+                                        src: aaaabzzkeu4Cjmccm4Gbvjoqeh1Lwpjqwil
+                                    }, void 0, false, {
+                                        fileName: "components/HOME/index.jsx",
+                                        lineNumber: 184,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 183,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 181,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group8",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "drama-4"
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 188,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/content-page",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                        className: "download-1",
+                                        src: download1
+                                    }, void 0, false, {
+                                        fileName: "components/HOME/index.jsx",
+                                        lineNumber: 190,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 189,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 187,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group3-1",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "drama-5"
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 194,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/content-page",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                        className: "link-1",
+                                        src: ecw62Re60Ape0Ak33Zce1
+                                    }, void 0, false, {
+                                        fileName: "components/HOME/index.jsx",
+                                        lineNumber: 196,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 195,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 193,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group11",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "drama-6"
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 200,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/content-page",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                        className: "link-2",
+                                        src: p8696131_B_H10_Aa1
+                                    }, void 0, false, {
+                                        fileName: "components/HOME/index.jsx",
+                                        lineNumber: 202,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 201,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 199,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group13",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "anime-2"
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 206,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/content-page",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                        className: "aaaa-bdj-d-fpvx-owf0",
+                                        src: aaaabdjdfpvxowf0Iqf8Evdyljvgynchnid
+                                    }, void 0, false, {
+                                        fileName: "components/HOME/index.jsx",
+                                        lineNumber: 208,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 207,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 205,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group5",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "anime-5"
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 212,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/content-page",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                        className: "link-1",
+                                        src: hunter_X_Hunter_By_XvrcardosoD54Co4
+                                    }, void 0, false, {
+                                        fileName: "components/HOME/index.jsx",
+                                        lineNumber: 214,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 213,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 211,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group4",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "anime-6"
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 218,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/content-page",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                        className: "link",
+                                        src: isMyHeroAcademiaOnNetflix1
+                                    }, void 0, false, {
+                                        fileName: "components/HOME/index.jsx",
+                                        lineNumber: 220,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/HOME/index.jsx",
+                                    lineNumber: 219,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/HOME/index.jsx",
+                            lineNumber: 217,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/HOME/index.jsx",
+                    lineNumber: 151,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "components/HOME/index.jsx",
+            lineNumber: 46,
             columnNumber: 7
-        }, this);
-    }
+        }, this)
+    }, void 0, false, {
+        fileName: "components/HOME/index.jsx",
+        lineNumber: 45,
+        columnNumber: 5
+    }, this);
 }
-exports.default = Content;
+_c = HOME;
+exports.default = HOME;
+var _c;
+$RefreshReg$(_c, "HOME");
 
-  $parcel$ReactRefreshHelpers$3b7a.postlude(module);
+  $parcel$ReactRefreshHelpers$cf1d.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Content.css":"ko7Am","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"ko7Am":[function() {},{}],"km3Ru":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","./HOME.css":"9vgp9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9vgp9":[function() {},{}],"km3Ru":[function(require,module,exports) {
 "use strict";
 var Refresh = require('react-refresh/runtime');
 function debounce(func, delay) {
@@ -26397,935 +27043,7 @@ function registerExportsForReactRefresh(module) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"5iTWs":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$cf1d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$cf1d.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactRouterDom = require("react-router-dom");
-var _homeCss = require("./HOME.css");
-class HOME extends _reactDefault.default.Component {
-    render() {
-        const { uiuhj6En7Yitwqwktbwjvt3 , place , kisspngNetflixStreamingMediaTelevis , tvShows , movies , myList , recentlyAdded , x02_Nf_Thewitcher_Socialskin_Facebo , x63D2751005919991 , x158445UntitledDesign561 , arcaneimage , dbkqwqouwaa1Rsi1 , oitnbp1 , belowZeroNetflixReview1 , hardKillSocial1 , sentinelleNetflixReview1 , thegeekFuriozaNyito664X3351 , aaaabegzxji0Ftrcqpcnphu8Jfxedkgxcwv , aaaabzqddfql0Qmj54Wwkmv3Agjjlowwrr_ , x17059451 , aaaabwfruyo332Zb30Lix2JiN_LcOc6Jurc , aaaabzzkeu4Cjmccm4Gbvjoqeh1Lwpjqwil , download1 , ecw62Re60Ape0Ak33Zce1 , p8696131_B_H10_Aa1 , x4F69D2A6Bde03A53970F6C08F8Dfdea31 , aaaabx_Kdldfuieejnl3Xorajua8Ardfnn7 , aaaabzx54UbxbxnvofwHc_7Oybhrb7B_8Yk , aaaabdjdfpvxowf0Iqf8Evdyljvgynchnid , hunter_X_Hunter_By_XvrcardosoD54Co4 , isMyHeroAcademiaOnNetflix1 ,  } = this.props;
-        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-            className: "container-center-horizontal",
-            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                className: "home screen",
-                children: [
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                        className: "overlap-group2-1 inter-normal-gray-16px",
-                        children: [
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "main-display-img",
-                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("video", {
-                                    width: "100%",
-                                    height: "100%",
-                                    src: "https://cdn.animaapp.com/projects/62839e2b0f409b66f1c6f683/files/netflix.mp4",
-                                    loop: true,
-                                    controls: true,
-                                    autoplay: "autoplay",
-                                    playsinline: true,
-                                    muted: true
-                                }, void 0, false, {
-                                    fileName: "components/HOME/index.jsx",
-                                    lineNumber: 46,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 45,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                to: "/content",
-                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                    className: "uiuh-j6e-n7-yitw-qw-kt-b-wjv-t-3",
-                                    src: uiuhj6En7Yitwqwktbwjvt3
-                                }, void 0, false, {
-                                    fileName: "components/HOME/index.jsx",
-                                    lineNumber: 58,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 57,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "nav-bar"
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 60,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "nav-bar-logo-box"
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 61,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "nav-bar-home"
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 62,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "place valign-text-middle",
-                                children: place
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 63,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                to: "/login",
-                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                    className: "kisspng-netflix-stre-1",
-                                    src: kisspngNetflixStreamingMediaTelevis
-                                }, void 0, false, {
-                                    fileName: "components/HOME/index.jsx",
-                                    lineNumber: 65,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 64,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                to: "/content",
-                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                    className: "nav-bar-tv-shows"
-                                }, void 0, false, {
-                                    fileName: "components/HOME/index.jsx",
-                                    lineNumber: 68,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 67,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "tv-shows valign-text-middle",
-                                children: tvShows
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 70,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                to: "/content",
-                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                    className: "nav-bar-movies"
-                                }, void 0, false, {
-                                    fileName: "components/HOME/index.jsx",
-                                    lineNumber: 72,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 71,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "movies valign-text-middle",
-                                children: movies
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 74,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "nav-bar-my-list"
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 75,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "my-list valign-text-middle",
-                                children: myList
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 76,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "nav-bar-recently-added"
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 77,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "recently-added valign-text-middle",
-                                children: recentlyAdded
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 78,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/HOME/index.jsx",
-                        lineNumber: 44,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                        className: "overlap-group-container",
-                        children: [
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "overlap-group9",
-                                children: [
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                        className: "continue-watching"
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 82,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                        className: "continue-watching-1",
-                                        src: "/img/continue-watching---1@2x.svg"
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 83,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                        className: "continue-watching-1-1"
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 84,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                        className: "continue-watching-2"
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 85,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                        className: "continue-watching-3"
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 86,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                        to: "/content",
-                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                            className: "x02_nf_-the-witcher_",
-                                            src: x02_Nf_Thewitcher_Socialskin_Facebo
-                                        }, void 0, false, {
-                                            fileName: "components/HOME/index.jsx",
-                                            lineNumber: 88,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 87,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                        to: "/content",
-                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                            className: "x63d275100591999-1",
-                                            src: x63D2751005919991
-                                        }, void 0, false, {
-                                            fileName: "components/HOME/index.jsx",
-                                            lineNumber: 91,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 90,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                        to: "/content",
-                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                            className: "x158445-untitled-design-56-1",
-                                            src: x158445UntitledDesign561
-                                        }, void 0, false, {
-                                            fileName: "components/HOME/index.jsx",
-                                            lineNumber: 94,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 93,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 81,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "overlap-group14",
-                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                    to: "/content",
-                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                        className: "arcane-image",
-                                        src: arcaneimage
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 99,
-                                        columnNumber: 17
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/HOME/index.jsx",
-                                    lineNumber: 98,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 97,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "overlap-group15",
-                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                    to: "/content",
-                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                        className: "dbk-qw-qo-uw-aa1r-si-1",
-                                        src: dbkqwqouwaa1Rsi1
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 104,
-                                        columnNumber: 17
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/HOME/index.jsx",
-                                    lineNumber: 103,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 102,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "overlap-group4-1",
-                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                    to: "/content",
-                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                        className: "oitnbp-1",
-                                        src: oitnbp1
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 109,
-                                        columnNumber: 17
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/HOME/index.jsx",
-                                    lineNumber: 108,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 107,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/HOME/index.jsx",
-                        lineNumber: 80,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                        className: "overlap-group5-1",
-                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                            className: "action",
-                            src: "/img/action-1@2x.svg"
-                        }, void 0, false, {
-                            fileName: "components/HOME/index.jsx",
-                            lineNumber: 114,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "components/HOME/index.jsx",
-                        lineNumber: 113,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                        className: "overlap-group-3",
-                        children: [
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "drama-title-box"
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 117,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                className: "drama-1",
-                                src: "/img/drama-1@2x.svg"
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 118,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                to: "/content",
-                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                    className: "action-1"
-                                }, void 0, false, {
-                                    fileName: "components/HOME/index.jsx",
-                                    lineNumber: 120,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 119,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                to: "/content",
-                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                    className: "action-2"
-                                }, void 0, false, {
-                                    fileName: "components/HOME/index.jsx",
-                                    lineNumber: 123,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 122,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                to: "/content",
-                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                    className: "action-3"
-                                }, void 0, false, {
-                                    fileName: "components/HOME/index.jsx",
-                                    lineNumber: 126,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 125,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                className: "below-zero-netflix-review-1",
-                                src: belowZeroNetflixReview1
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 128,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                to: "/content",
-                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                    className: "action-4"
-                                }, void 0, false, {
-                                    fileName: "components/HOME/index.jsx",
-                                    lineNumber: 130,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 129,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                className: "hard-kill-social-1",
-                                src: hardKillSocial1
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 132,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                to: "/content",
-                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                    className: "action-5"
-                                }, void 0, false, {
-                                    fileName: "components/HOME/index.jsx",
-                                    lineNumber: 134,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 133,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                className: "sentinelle-netflix-review-1",
-                                src: sentinelleNetflixReview1
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 136,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                to: "/content",
-                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                    className: "action-6"
-                                }, void 0, false, {
-                                    fileName: "components/HOME/index.jsx",
-                                    lineNumber: 138,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 137,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                className: "the-geek-furioza-nyito-664x335-1",
-                                src: thegeekFuriozaNyito664X3351
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 140,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                className: "aaaa-be-gz-xji0f-trc",
-                                src: aaaabegzxji0Ftrcqpcnphu8Jfxedkgxcwv
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 141,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                className: "aaaabzq-ddfql0-qm-j5",
-                                src: aaaabzqddfql0Qmj54Wwkmv3Agjjlowwrr_
-                            }, void 0, false, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 142,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/HOME/index.jsx",
-                        lineNumber: 116,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                        className: "overlap-group-container-1",
-                        children: [
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "overlap-group-1",
-                                children: [
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                        to: "/content",
-                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "drama"
-                                        }, void 0, false, {
-                                            fileName: "components/HOME/index.jsx",
-                                            lineNumber: 147,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 146,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                        className: "x1705945-1",
-                                        src: x17059451
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 149,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 145,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "overlap-group-2",
-                                children: [
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                        to: "/content",
-                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "link"
-                                        }, void 0, false, {
-                                            fileName: "components/HOME/index.jsx",
-                                            lineNumber: 153,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 152,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                        className: "aaaab-wfruyo332-zb30",
-                                        src: aaaabwfruyo332Zb30Lix2JiN_LcOc6Jurc
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 155,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 151,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "overlap-group-1",
-                                children: [
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                        to: "/content",
-                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "drama"
-                                        }, void 0, false, {
-                                            fileName: "components/HOME/index.jsx",
-                                            lineNumber: 159,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 158,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                        className: "aaaab-zzke-u4cjmc-cm",
-                                        src: aaaabzzkeu4Cjmccm4Gbvjoqeh1Lwpjqwil
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 161,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 157,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "overlap-group6",
-                                children: [
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                        to: "/content",
-                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "drama-4"
-                                        }, void 0, false, {
-                                            fileName: "components/HOME/index.jsx",
-                                            lineNumber: 165,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 164,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                        className: "download-1",
-                                        src: download1
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 167,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 163,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "overlap-group-2",
-                                children: [
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                        to: "/content",
-                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "link-1"
-                                        }, void 0, false, {
-                                            fileName: "components/HOME/index.jsx",
-                                            lineNumber: 171,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 170,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                        className: "ecw62re60ape0ak33zce-1",
-                                        src: ecw62Re60Ape0Ak33Zce1
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 173,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 169,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "overlap-group-1",
-                                children: [
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                        to: "/content",
-                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "link-2"
-                                        }, void 0, false, {
-                                            fileName: "components/HOME/index.jsx",
-                                            lineNumber: 177,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 176,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                        className: "p8696131_b_h10_aa-1",
-                                        src: p8696131_B_H10_Aa1
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 179,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 175,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/HOME/index.jsx",
-                        lineNumber: 144,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                        className: "overlap-group-container-2",
-                        children: [
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "overlap-group1",
-                                children: [
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                        className: "anime-title-box"
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 184,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                        className: "anime",
-                                        src: "/img/anime-1@2x.svg"
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 185,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                        to: "/content",
-                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "anime-1"
-                                        }, void 0, false, {
-                                            fileName: "components/HOME/index.jsx",
-                                            lineNumber: 187,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 186,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                        className: "x4f69d2a6bde03a53970f6c08f8dfdea3-1",
-                                        src: x4F69D2A6Bde03A53970F6C08F8Dfdea31
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 189,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                        to: "/content",
-                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "anime-3"
-                                        }, void 0, false, {
-                                            fileName: "components/HOME/index.jsx",
-                                            lineNumber: 191,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 190,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                        className: "aaaabx_kd-ld-f-ui-ee",
-                                        src: aaaabx_Kdldfuieejnl3Xorajua8Ardfnn7
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 193,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                        to: "/content",
-                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "anime-4"
-                                        }, void 0, false, {
-                                            fileName: "components/HOME/index.jsx",
-                                            lineNumber: 195,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 194,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                        className: "aaaabzx54-ubxbxnvof",
-                                        src: aaaabzx54UbxbxnvofwHc_7Oybhrb7B_8Yk
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 197,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 183,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "overlap-group11",
-                                children: [
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                        to: "/content",
-                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "link"
-                                        }, void 0, false, {
-                                            fileName: "components/HOME/index.jsx",
-                                            lineNumber: 201,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 200,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                        className: "aaaa-bdj-d-fpvx-owf0",
-                                        src: aaaabdjdfpvxowf0Iqf8Evdyljvgynchnid
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 203,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 199,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "overlap-group7",
-                                children: [
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                        to: "/content",
-                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "link-1"
-                                        }, void 0, false, {
-                                            fileName: "components/HOME/index.jsx",
-                                            lineNumber: 207,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 206,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                        className: "hunter_x_hunter_by_xvrcardoso-d54co4a-1",
-                                        src: hunter_X_Hunter_By_XvrcardosoD54Co4
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 209,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 205,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "overlap-group13",
-                                children: [
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                        to: "/content",
-                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "link-2"
-                                        }, void 0, false, {
-                                            fileName: "components/HOME/index.jsx",
-                                            lineNumber: 213,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 212,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                        className: "is-my-hero-academia-on-netflix-1",
-                                        src: isMyHeroAcademiaOnNetflix1
-                                    }, void 0, false, {
-                                        fileName: "components/HOME/index.jsx",
-                                        lineNumber: 215,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/HOME/index.jsx",
-                                lineNumber: 211,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/HOME/index.jsx",
-                        lineNumber: 182,
-                        columnNumber: 11
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "components/HOME/index.jsx",
-                lineNumber: 43,
-                columnNumber: 9
-            }, this)
-        }, void 0, false, {
-            fileName: "components/HOME/index.jsx",
-            lineNumber: 42,
-            columnNumber: 7
-        }, this);
-    }
-}
-exports.default = HOME;
-
-  $parcel$ReactRefreshHelpers$cf1d.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","./HOME.css":"9vgp9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9vgp9":[function() {},{}],"hEY69":[function(require,module,exports) {
+},{"react-refresh/runtime":"786KC"}],"hEY69":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$5794 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27340,80 +27058,94 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
 var _materialComponentsWeb = require("material-components-web");
 var _loginCss = require("./LOGIN.css");
-class LOGIN extends _reactDefault.default.Component {
-    componentDidMount() {
+var _s = $RefreshSig$();
+function LOGIN(props) {
+    _s();
+    const { overlapGroup4 , kisspngNetflixStreamingMediaTelevis , signIn1 , signIn2 , rememberMe , needHelp , newToNetflix , signUpNow , thisPageIsProtect , questionsCall18445052993 , faq , cookiePreferences , helpCenter , corporateInformation , termsOfUse , privacy ,  } = props;
+    _react.useEffect(()=>{
+        new _materialComponentsWeb.textField.MDCTextField(document.querySelector(".text-field-filled-di .mdc-text-field"));
         new _materialComponentsWeb.textField.MDCTextField(document.querySelector(".password .mdc-text-field"));
-    }
-    render() {
-        const { overlapGroup4 , kisspngNetflixStreamingMediaTelevis , signIn1 , label , signIn2 , rememberMe , needHelp , newToNetflix , signUpNow , thisPageIsProtect , questionsCall18445052993 , faq , cookiePreferences , helpCenter , corporateInformation , termsOfUse , privacy ,  } = this.props;
-        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-            className: "container-center-horizontal",
-            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
-                className: "login screen",
-                name: "form1",
-                action: "form1",
-                method: "post",
-                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                    className: "overlap-group4",
-                    style: {
-                        backgroundImage: `url(${overlapGroup4})`
-                    },
-                    children: [
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                            to: "/home",
-                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                className: "kisspng-netflix-stre",
-                                src: kisspngNetflixStreamingMediaTelevis
-                            }, void 0, false, {
-                                fileName: "components/LOGIN/index.jsx",
-                                lineNumber: 37,
-                                columnNumber: 15
-                            }, this)
+    }, []);
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+        className: "container-center-horizontal",
+        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
+            className: "login screen",
+            name: "form1",
+            action: "form1",
+            method: "post",
+            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                className: "overlap-group4-1",
+                style: {
+                    backgroundImage: `url(${overlapGroup4})`
+                },
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                        to: "/home",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                            className: "kisspng-netflix-stre-3",
+                            src: kisspngNetflixStreamingMediaTelevis
                         }, void 0, false, {
                             fileName: "components/LOGIN/index.jsx",
                             lineNumber: 36,
                             columnNumber: 13
-                        }, this),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                            className: "sign-in-component-complete",
-                            children: [
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                    className: "sign-in inter-normal-white-30px",
-                                    children: signIn1
-                                }, void 0, false, {
-                                    fileName: "components/LOGIN/index.jsx",
-                                    lineNumber: 40,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                    className: "email-pw-component",
-                                    children: [
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "email-or-phone-number",
-                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                className: "object",
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "components/LOGIN/index.jsx",
+                        lineNumber: 35,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        className: "sign-in-component-complete",
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "sign-in inter-normal-white-30px",
+                                children: signIn1
+                            }, void 0, false, {
+                                fileName: "components/LOGIN/index.jsx",
+                                lineNumber: 39,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "email-pw-component",
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "email-box",
+                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "text-field-filled-di",
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                className: "mdc-text-field mdc-text-field--filled",
                                                 children: [
-                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                                        className: "icon",
-                                                        src: "/img/icon@2x.svg"
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                        className: "mdc-text-field__ripple"
                                                     }, void 0, false, {
                                                         fileName: "components/LOGIN/index.jsx",
                                                         lineNumber: 44,
                                                         columnNumber: 21
                                                     }, this),
-                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "input",
-                                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                            className: "label roboto-normal-black-16px",
-                                                            children: label
-                                                        }, void 0, false, {
-                                                            fileName: "components/LOGIN/index.jsx",
-                                                            lineNumber: 46,
-                                                            columnNumber: 23
-                                                        }, this)
+                                                    " ",
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                        className: "mdc-floating-label",
+                                                        id: "my-label-id",
+                                                        children: "Email"
                                                     }, void 0, false, {
                                                         fileName: "components/LOGIN/index.jsx",
                                                         lineNumber: 45,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                        type: "text",
+                                                        className: "mdc-text-field__input",
+                                                        "aria-labelledby": "my-label-id"
+                                                    }, void 0, false, {
+                                                        fileName: "components/LOGIN/index.jsx",
+                                                        lineNumber: 48,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                        className: "mdc-line-ripple"
+                                                    }, void 0, false, {
+                                                        fileName: "components/LOGIN/index.jsx",
+                                                        lineNumber: 49,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
@@ -27426,311 +27158,311 @@ class LOGIN extends _reactDefault.default.Component {
                                             fileName: "components/LOGIN/index.jsx",
                                             lineNumber: 42,
                                             columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "overlap-group",
-                                            children: [
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
-                                                    href: "javascript:SubmitForm('form1')",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "rectangle-61"
-                                                    }, void 0, false, {
-                                                        fileName: "components/LOGIN/index.jsx",
-                                                        lineNumber: 52,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/LOGIN/index.jsx",
-                                                    lineNumber: 51,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "password",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
-                                                        className: "mdc-text-field mdc-text-field--filled mdc-text-field--with--icon ",
-                                                        children: [
-                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                className: "mdc-text-field__ripple"
-                                                            }, void 0, false, {
-                                                                fileName: "components/LOGIN/index.jsx",
-                                                                lineNumber: 56,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                className: "mdc-floating-label",
-                                                                id: "my-label-id",
-                                                                children: "Password"
-                                                            }, void 0, false, {
-                                                                fileName: "components/LOGIN/index.jsx",
-                                                                lineNumber: 57,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
-                                                                type: "text",
-                                                                className: "mdc-text-field__input",
-                                                                "aria-labelledby": "my-label-id"
-                                                            }, void 0, false, {
-                                                                fileName: "components/LOGIN/index.jsx",
-                                                                lineNumber: 60,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                className: "mdc-line-ripple"
-                                                            }, void 0, false, {
-                                                                fileName: "components/LOGIN/index.jsx",
-                                                                lineNumber: 61,
-                                                                columnNumber: 23
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "components/LOGIN/index.jsx",
-                                                        lineNumber: 55,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/LOGIN/index.jsx",
-                                                    lineNumber: 54,
-                                                    columnNumber: 19
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "components/LOGIN/index.jsx",
-                                            lineNumber: 50,
-                                            columnNumber: 17
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "components/LOGIN/index.jsx",
-                                    lineNumber: 41,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                    className: "overlap-group2",
-                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                        to: "/home",
-                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "sign-in-1 valign-text-middle",
-                                            children: signIn2
-                                        }, void 0, false, {
-                                            fileName: "components/LOGIN/index.jsx",
-                                            lineNumber: 68,
-                                            columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "components/LOGIN/index.jsx",
-                                        lineNumber: 67,
-                                        columnNumber: 17
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/LOGIN/index.jsx",
-                                    lineNumber: 66,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                    className: "flex-row",
-                                    children: [
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "check-box"
-                                        }, void 0, false, {
-                                            fileName: "components/LOGIN/index.jsx",
-                                            lineNumber: 72,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "remember-me valign-text-middle",
-                                            children: rememberMe
-                                        }, void 0, false, {
-                                            fileName: "components/LOGIN/index.jsx",
-                                            lineNumber: 73,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "need-help valign-text-middle inter-normal-white-12px",
-                                            children: needHelp
-                                        }, void 0, false, {
-                                            fileName: "components/LOGIN/index.jsx",
-                                            lineNumber: 74,
-                                            columnNumber: 17
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "components/LOGIN/index.jsx",
-                                    lineNumber: 71,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                    className: "overlap-group3",
-                                    children: [
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "new-to-netflix valign-text-middle inter-normal-white-12px",
-                                            children: newToNetflix
-                                        }, void 0, false, {
-                                            fileName: "components/LOGIN/index.jsx",
-                                            lineNumber: 77,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                            to: "/sign-up",
-                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                className: "sign-up-now",
+                                        lineNumber: 41,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "overlap-group-4",
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: "javascript:SubmitForm('form1')",
                                                 children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "sign-container",
+                                                    className: "rectangle-61"
+                                                }, void 0, false, {
+                                                    fileName: "components/LOGIN/index.jsx",
+                                                    lineNumber: 55,
+                                                    columnNumber: 19
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "components/LOGIN/index.jsx",
+                                                lineNumber: 54,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "password",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    className: "mdc-text-field mdc-text-field--filled mdc-text-field--with--icon ",
                                                     children: [
-                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                                            to: "/sign-up",
-                                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                                className: "sign-up-now-box"
-                                                            }, void 0, false, {
-                                                                fileName: "components/LOGIN/index.jsx",
-                                                                lineNumber: 82,
-                                                                columnNumber: 25
-                                                            }, this)
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                            className: "mdc-text-field__ripple"
                                                         }, void 0, false, {
                                                             fileName: "components/LOGIN/index.jsx",
-                                                            lineNumber: 81,
-                                                            columnNumber: 23
+                                                            lineNumber: 59,
+                                                            columnNumber: 21
                                                         }, this),
-                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                                            to: "/sign-up",
-                                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                                className: "sign-up-now-1 valign-text-middle inter-normal-white-12px",
-                                                                children: signUpNow
-                                                            }, void 0, false, {
-                                                                fileName: "components/LOGIN/index.jsx",
-                                                                lineNumber: 85,
-                                                                columnNumber: 25
-                                                            }, this)
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                            className: "mdc-floating-label",
+                                                            id: "my-label-id",
+                                                            children: "Password"
                                                         }, void 0, false, {
                                                             fileName: "components/LOGIN/index.jsx",
-                                                            lineNumber: 84,
-                                                            columnNumber: 23
+                                                            lineNumber: 60,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                            type: "text",
+                                                            className: "mdc-text-field__input",
+                                                            "aria-labelledby": "my-label-id"
+                                                        }, void 0, false, {
+                                                            fileName: "components/LOGIN/index.jsx",
+                                                            lineNumber: 63,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                            className: "mdc-line-ripple"
+                                                        }, void 0, false, {
+                                                            fileName: "components/LOGIN/index.jsx",
+                                                            lineNumber: 64,
+                                                            columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "components/LOGIN/index.jsx",
-                                                    lineNumber: 80,
-                                                    columnNumber: 21
+                                                    lineNumber: 58,
+                                                    columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "components/LOGIN/index.jsx",
-                                                lineNumber: 79,
+                                                lineNumber: 57,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/LOGIN/index.jsx",
+                                        lineNumber: 53,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/LOGIN/index.jsx",
+                                lineNumber: 40,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "overlap-group2-1",
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/home",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "sign-in-1 valign-text-middle",
+                                        children: signIn2
+                                    }, void 0, false, {
+                                        fileName: "components/LOGIN/index.jsx",
+                                        lineNumber: 71,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/LOGIN/index.jsx",
+                                    lineNumber: 70,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "components/LOGIN/index.jsx",
+                                lineNumber: 69,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "flex-row",
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "check-box"
+                                    }, void 0, false, {
+                                        fileName: "components/LOGIN/index.jsx",
+                                        lineNumber: 75,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "remember-me valign-text-middle",
+                                        children: rememberMe
+                                    }, void 0, false, {
+                                        fileName: "components/LOGIN/index.jsx",
+                                        lineNumber: 76,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "need-help valign-text-middle inter-normal-white-12px",
+                                        children: needHelp
+                                    }, void 0, false, {
+                                        fileName: "components/LOGIN/index.jsx",
+                                        lineNumber: 77,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/LOGIN/index.jsx",
+                                lineNumber: 74,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "overlap-group3-2",
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "new-to-netflix valign-text-middle inter-normal-white-12px",
+                                        children: newToNetflix
+                                    }, void 0, false, {
+                                        fileName: "components/LOGIN/index.jsx",
+                                        lineNumber: 80,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                        to: "/sign-up",
+                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "sign-up-now",
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "sign-container",
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                                        to: "/sign-up",
+                                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                            className: "sign-up-now-box"
+                                                        }, void 0, false, {
+                                                            fileName: "components/LOGIN/index.jsx",
+                                                            lineNumber: 85,
+                                                            columnNumber: 23
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "components/LOGIN/index.jsx",
+                                                        lineNumber: 84,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                                        to: "/sign-up",
+                                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                            className: "sign-up-now-1 valign-text-middle inter-normal-white-12px",
+                                                            children: signUpNow
+                                                        }, void 0, false, {
+                                                            fileName: "components/LOGIN/index.jsx",
+                                                            lineNumber: 88,
+                                                            columnNumber: 23
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "components/LOGIN/index.jsx",
+                                                        lineNumber: 87,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "components/LOGIN/index.jsx",
+                                                lineNumber: 83,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "components/LOGIN/index.jsx",
-                                            lineNumber: 78,
+                                            lineNumber: 82,
                                             columnNumber: 17
                                         }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "components/LOGIN/index.jsx",
-                                    lineNumber: 76,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
-                                    className: "this-page-is-protect",
-                                    children: thisPageIsProtect
-                                }, void 0, false, {
-                                    fileName: "components/LOGIN/index.jsx",
-                                    lineNumber: 91,
-                                    columnNumber: 15
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/LOGIN/index.jsx",
-                            lineNumber: 39,
-                            columnNumber: 13
-                        }, this),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                            className: "overlap-group5 inter-normal-mist-gray-12px",
-                            children: [
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                    className: "flex-col",
-                                    children: [
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "questions-call-1-844-505-2993 valign-text-middle",
-                                            children: questionsCall18445052993
-                                        }, void 0, false, {
-                                            fileName: "components/LOGIN/index.jsx",
-                                            lineNumber: 95,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "faq valign-text-bottom",
-                                            children: faq
-                                        }, void 0, false, {
-                                            fileName: "components/LOGIN/index.jsx",
-                                            lineNumber: 96,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "cookie-preferences valign-text-bottom",
-                                            children: cookiePreferences
-                                        }, void 0, false, {
-                                            fileName: "components/LOGIN/index.jsx",
-                                            lineNumber: 97,
-                                            columnNumber: 17
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "components/LOGIN/index.jsx",
-                                    lineNumber: 94,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                    className: "flex-col-1 inter-normal-mist-gray-12px",
-                                    children: [
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "help-center valign-text-bottom",
-                                            children: helpCenter
-                                        }, void 0, false, {
-                                            fileName: "components/LOGIN/index.jsx",
-                                            lineNumber: 100,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "corporate-information valign-text-bottom",
-                                            children: corporateInformation
-                                        }, void 0, false, {
-                                            fileName: "components/LOGIN/index.jsx",
-                                            lineNumber: 101,
-                                            columnNumber: 17
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "components/LOGIN/index.jsx",
-                                    lineNumber: 99,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                    className: "overlap-group5-item valign-text-bottom",
-                                    children: termsOfUse
-                                }, void 0, false, {
-                                    fileName: "components/LOGIN/index.jsx",
-                                    lineNumber: 103,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                    className: "overlap-group5-item valign-text-bottom",
-                                    children: privacy
-                                }, void 0, false, {
-                                    fileName: "components/LOGIN/index.jsx",
-                                    lineNumber: 104,
-                                    columnNumber: 15
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/LOGIN/index.jsx",
-                            lineNumber: 93,
-                            columnNumber: 13
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/LOGIN/index.jsx",
-                    lineNumber: 35,
-                    columnNumber: 11
-                }, this)
-            }, void 0, false, {
+                                    }, void 0, false, {
+                                        fileName: "components/LOGIN/index.jsx",
+                                        lineNumber: 81,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/LOGIN/index.jsx",
+                                lineNumber: 79,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                className: "this-page-is-protect",
+                                children: thisPageIsProtect
+                            }, void 0, false, {
+                                fileName: "components/LOGIN/index.jsx",
+                                lineNumber: 94,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/LOGIN/index.jsx",
+                        lineNumber: 38,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        className: "overlap-group5-1 inter-normal-mist-gray-12px",
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "flex-col",
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "questions-call-1-844-505-2993 valign-text-middle",
+                                        children: questionsCall18445052993
+                                    }, void 0, false, {
+                                        fileName: "components/LOGIN/index.jsx",
+                                        lineNumber: 98,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "faq valign-text-bottom",
+                                        children: faq
+                                    }, void 0, false, {
+                                        fileName: "components/LOGIN/index.jsx",
+                                        lineNumber: 99,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "cookie-preferences valign-text-bottom",
+                                        children: cookiePreferences
+                                    }, void 0, false, {
+                                        fileName: "components/LOGIN/index.jsx",
+                                        lineNumber: 100,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/LOGIN/index.jsx",
+                                lineNumber: 97,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "flex-col-1 inter-normal-mist-gray-12px",
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "help-center valign-text-bottom",
+                                        children: helpCenter
+                                    }, void 0, false, {
+                                        fileName: "components/LOGIN/index.jsx",
+                                        lineNumber: 103,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "corporate-information valign-text-bottom",
+                                        children: corporateInformation
+                                    }, void 0, false, {
+                                        fileName: "components/LOGIN/index.jsx",
+                                        lineNumber: 104,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/LOGIN/index.jsx",
+                                lineNumber: 102,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "overlap-group5-item valign-text-bottom",
+                                children: termsOfUse
+                            }, void 0, false, {
+                                fileName: "components/LOGIN/index.jsx",
+                                lineNumber: 106,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "overlap-group5-item valign-text-bottom",
+                                children: privacy
+                            }, void 0, false, {
+                                fileName: "components/LOGIN/index.jsx",
+                                lineNumber: 107,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/LOGIN/index.jsx",
+                        lineNumber: 96,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "components/LOGIN/index.jsx",
                 lineNumber: 34,
                 columnNumber: 9
@@ -27739,10 +27471,18 @@ class LOGIN extends _reactDefault.default.Component {
             fileName: "components/LOGIN/index.jsx",
             lineNumber: 33,
             columnNumber: 7
-        }, this);
-    }
+        }, this)
+    }, void 0, false, {
+        fileName: "components/LOGIN/index.jsx",
+        lineNumber: 32,
+        columnNumber: 5
+    }, this);
 }
+_s(LOGIN, "OD7bBpZva5O2jO+Puf00hKivP7c=");
+_c = LOGIN;
 exports.default = LOGIN;
+var _c;
+$RefreshReg$(_c, "LOGIN");
 
   $parcel$ReactRefreshHelpers$5794.postlude(module);
 } finally {
@@ -51896,10 +51636,15 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
+var _footerMasterDiv = require("../FooterMasterDiv");
+var _footerMasterDivDefault = parcelHelpers.interopDefault(_footerMasterDiv);
 var _materialComponentsWeb = require("material-components-web");
 var _signUpCss = require("./SignUp.css");
-class SignUp extends _reactDefault.default.Component {
-    componentDidMount() {
+var _s = $RefreshSig$();
+function SignUp(props) {
+    _s();
+    const { signUpPageBackground , title , watchAnywhereCancelAnytime , readyToWatchEnte1 , getStarted1 , signIn , netflixLogo , enjoyOnYourTv , watchOnSmartTvs , willSmithAd , group2 , downloadYourShowsToWatchOffline , saveYourFavorites , watchEverywhere , streamUnlimitedMov , group4 , createProfilesForKids , kidsvalueprop1 , sendKidsOnAdventu , label1 , frequentlyAskedQuestions , readyToWatchEnte2 , getStarted2 , label2 ,  } = props;
+    _react.useEffect(()=>{
         new _materialComponentsWeb.textField.MDCTextField(document.querySelector(".text-field-filled-di .mdc-text-field"));
         new _materialComponentsWeb.select.MDCSelect(document.querySelector(".drop-down-filled-dis .mdc-select"));
         new _materialComponentsWeb.select.MDCSelect(document.querySelector(".drop-down-filled-dis-1 .mdc-select"));
@@ -51907,1864 +51652,4602 @@ class SignUp extends _reactDefault.default.Component {
         new _materialComponentsWeb.select.MDCSelect(document.querySelector(".drop-down-filled-dis-3 .mdc-select"));
         new _materialComponentsWeb.select.MDCSelect(document.querySelector(".drop-down-filled-dis-4 .mdc-select"));
         new _materialComponentsWeb.select.MDCSelect(document.querySelector(".drop-down-filled-dis-5 .mdc-select"));
-    }
-    render() {
-        const { enjoyOnYourTv , watchOnSmartTvs , willSmithAd , group2 , downloadYourShowsToWatchOffline , saveYourFavorites , watchEverywhere , streamUnlimitedMov , group4 , createProfilesForKids , kidsvalueprop1 , sendKidsOnAdventu , signUpPageBackground , title , watchAnywhereCancelAnytime , readyToWatchEnte1 , getStarted1 , signIn , netflixLogo , label1 , frequentlyAskedQuestions , readyToWatchEnte2 , getStarted2 , label2 , questionsCall18445052993 , faq , investorRelations , waysToWatch , corporateInformation , onlyOnNetflix , helpCenter , jobs , termsOfUse , contactUs , account , redeemGiftcards , privacy , speedTest , mediaCenter , buyGiftCards , cookiePreferences , legalNotices ,  } = this.props;
-        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-            className: "container-center-horizontal",
-            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                className: "sign-up screen",
-                children: [
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                        className: "container-container",
-                        children: [
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "media-master-container",
+    }, []);
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+        className: "container-center-horizontal",
+        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            className: "sign-up screen",
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "container-container",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "hero-image-container-div",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "overlap-group18",
                                 children: [
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                        className: "container-container-1",
-                                        children: [
-                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                className: "enjoy-your-tv-container",
-                                                children: [
-                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "on-container",
-                                                        children: [
-                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                                className: "enjoy-on-your-tv valign-text-middle inter-bold-white-24px",
-                                                                children: enjoyOnYourTv
-                                                            }, void 0, false, {
-                                                                fileName: "components/SignUp/index.jsx",
-                                                                lineNumber: 71,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
-                                                                className: "watch-on-smart-t-vs valign-text-middle inter-normal-white-13px",
-                                                                children: watchOnSmartTvs
-                                                            }, void 0, false, {
-                                                                fileName: "components/SignUp/index.jsx",
-                                                                lineNumber: 72,
-                                                                columnNumber: 21
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 70,
-                                                        columnNumber: 19
-                                                    }, this),
-                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "will-smith-ad",
-                                                        style: {
-                                                            backgroundImage: `url(${willSmithAd})`
-                                                        }
-                                                    }, void 0, false, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 74,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "components/SignUp/index.jsx",
-                                                lineNumber: 69,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                className: "download-your-shows-container-div",
-                                                children: [
-                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "group-2",
-                                                        style: {
-                                                            backgroundImage: `url(${group2})`
-                                                        }
-                                                    }, void 0, false, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 77,
-                                                        columnNumber: 19
-                                                    }, this),
-                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "group-15",
-                                                        children: [
-                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                                className: "download-your-shows-to-watch-offline valign-text-middle inter-bold-white-24px",
-                                                                children: downloadYourShowsToWatchOffline
-                                                            }, void 0, false, {
-                                                                fileName: "components/SignUp/index.jsx",
-                                                                lineNumber: 79,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
-                                                                className: "save-your-favorites valign-text-middle inter-normal-white-13px",
-                                                                children: saveYourFavorites
-                                                            }, void 0, false, {
-                                                                fileName: "components/SignUp/index.jsx",
-                                                                lineNumber: 82,
-                                                                columnNumber: 21
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 78,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "components/SignUp/index.jsx",
-                                                lineNumber: 76,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "components/SignUp/index.jsx",
-                                        lineNumber: 68,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                        className: "overlap-group4-2",
-                                        children: [
-                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                className: "overlap-group1-2",
-                                                children: [
-                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "rectangle-83"
-                                                    }, void 0, false, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 90,
-                                                        columnNumber: 19
-                                                    }, this),
-                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "watch-everywhere-div",
-                                                        children: [
-                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                                className: "overlap-group-8",
-                                                                children: [
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                                        className: "watch-everywhere valign-text-middle inter-bold-white-24px",
-                                                                        children: watchEverywhere
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 93,
-                                                                        columnNumber: 23
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
-                                                                        className: "stream-unlimited-mov valign-text-middle inter-normal-white-13px",
-                                                                        children: streamUnlimitedMov
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 94,
-                                                                        columnNumber: 23
-                                                                    }, this)
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "components/SignUp/index.jsx",
-                                                                lineNumber: 92,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                                className: "group-4",
-                                                                style: {
-                                                                    backgroundImage: `url(${group4})`
-                                                                }
-                                                            }, void 0, false, {
-                                                                fileName: "components/SignUp/index.jsx",
-                                                                lineNumber: 98,
-                                                                columnNumber: 21
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 91,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "components/SignUp/index.jsx",
-                                                lineNumber: 89,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                className: "create-profiles-for-kids-container-div",
-                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "overlap-group2-3",
-                                                    children: [
-                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                            className: "create-profiles-for-kids valign-text-middle inter-bold-white-24px",
-                                                            children: createProfilesForKids
-                                                        }, void 0, false, {
-                                                            fileName: "components/SignUp/index.jsx",
-                                                            lineNumber: 103,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                            className: "group-11",
-                                                            children: [
-                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                                                    className: "kids-value-prop-1",
-                                                                    src: kidsvalueprop1
-                                                                }, void 0, false, {
-                                                                    fileName: "components/SignUp/index.jsx",
-                                                                    lineNumber: 107,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
-                                                                    className: "send-kids-on-adventu valign-text-middle inter-normal-white-13px",
-                                                                    children: sendKidsOnAdventu
-                                                                }, void 0, false, {
-                                                                    fileName: "components/SignUp/index.jsx",
-                                                                    lineNumber: 108,
-                                                                    columnNumber: 23
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "components/SignUp/index.jsx",
-                                                            lineNumber: 106,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 102,
-                                                    columnNumber: 19
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "components/SignUp/index.jsx",
-                                                lineNumber: 101,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "components/SignUp/index.jsx",
-                                        lineNumber: 88,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/SignUp/index.jsx",
-                                lineNumber: 67,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "hero-image-container-div",
-                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                    className: "overlap-group18",
-                                    children: [
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                            className: "sign-up-page-background",
-                                            src: signUpPageBackground
-                                        }, void 0, false, {
-                                            fileName: "components/SignUp/index.jsx",
-                                            lineNumber: 118,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "rectangle-85"
-                                        }, void 0, false, {
-                                            fileName: "components/SignUp/index.jsx",
-                                            lineNumber: 119,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "hero-image-text-container",
-                                            children: [
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "hero-image-text-div",
-                                                    children: [
-                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
-                                                            className: "title valign-text-middle",
-                                                            children: title
-                                                        }, void 0, false, {
-                                                            fileName: "components/SignUp/index.jsx",
-                                                            lineNumber: 122,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                            className: "watch-container",
-                                                            children: [
-                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                                    className: "watch-anywhere-cancel-anytime valign-text-middle",
-                                                                    children: watchAnywhereCancelAnytime
-                                                                }, void 0, false, {
-                                                                    fileName: "components/SignUp/index.jsx",
-                                                                    lineNumber: 124,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                                    className: "ready-to-watch-ente valign-text-middle",
-                                                                    children: readyToWatchEnte1
-                                                                }, void 0, false, {
-                                                                    fileName: "components/SignUp/index.jsx",
-                                                                    lineNumber: 127,
-                                                                    columnNumber: 23
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "components/SignUp/index.jsx",
-                                                            lineNumber: 123,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 121,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "overlap-group1-3",
-                                                    children: [
-                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                            className: "rectangle-1"
-                                                        }, void 0, false, {
-                                                            fileName: "components/SignUp/index.jsx",
-                                                            lineNumber: 131,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                            className: "rectangle-90"
-                                                        }, void 0, false, {
-                                                            fileName: "components/SignUp/index.jsx",
-                                                            lineNumber: 132,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                                            to: "/home",
-                                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                                className: "get-started valign-text-middle inter-normal-white-30px",
-                                                                children: getStarted1
-                                                            }, void 0, false, {
-                                                                fileName: "components/SignUp/index.jsx",
-                                                                lineNumber: 134,
-                                                                columnNumber: 23
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "components/SignUp/index.jsx",
-                                                            lineNumber: 133,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                            className: "rectangle-93"
-                                                        }, void 0, false, {
-                                                            fileName: "components/SignUp/index.jsx",
-                                                            lineNumber: 136,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                            className: "text-field-filled-di",
-                                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
-                                                                className: "mdc-text-field mdc-text-field--filled mdc-text-field--with--icon ",
-                                                                children: [
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-text-field__ripple"
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 139,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-floating-label",
-                                                                        id: "my-label-id",
-                                                                        children: "Email address"
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 140,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
-                                                                        type: "text",
-                                                                        className: "mdc-text-field__input",
-                                                                        "aria-labelledby": "my-label-id"
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 143,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-line-ripple"
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 144,
-                                                                        columnNumber: 25
-                                                                    }, this)
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "components/SignUp/index.jsx",
-                                                                lineNumber: 138,
-                                                                columnNumber: 23
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "components/SignUp/index.jsx",
-                                                            lineNumber: 137,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 130,
-                                                    columnNumber: 19
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "components/SignUp/index.jsx",
-                                            lineNumber: 120,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "overlap-group2-4",
-                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                className: "sign-in-2 valign-text-middle",
-                                                children: signIn
-                                            }, void 0, false, {
-                                                fileName: "components/SignUp/index.jsx",
-                                                lineNumber: 150,
-                                                columnNumber: 19
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "components/SignUp/index.jsx",
-                                            lineNumber: 149,
-                                            columnNumber: 17
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "components/SignUp/index.jsx",
-                                    lineNumber: 117,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "components/SignUp/index.jsx",
-                                lineNumber: 116,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                to: "/login",
-                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                    className: "netflix-logo-container",
-                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                        className: "netflix-logo",
-                                        src: netflixLogo
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                        className: "sign-up-page-background",
+                                        src: signUpPageBackground
                                     }, void 0, false, {
                                         fileName: "components/SignUp/index.jsx",
-                                        lineNumber: 156,
-                                        columnNumber: 17
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/SignUp/index.jsx",
-                                    lineNumber: 155,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "components/SignUp/index.jsx",
-                                lineNumber: 154,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/SignUp/index.jsx",
-                        lineNumber: 66,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                        className: "overlap-group19",
-                        children: [
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "indicator"
-                            }, void 0, false, {
-                                fileName: "components/SignUp/index.jsx",
-                                lineNumber: 161,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                className: "overlap-group17",
-                                children: [
+                                        lineNumber: 51,
+                                        columnNumber: 15
+                                    }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                        className: "frequently-asked-questions-container",
-                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "overlap-group1-4",
-                                            children: [
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "overlap-group-9",
-                                                    children: [
-                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                            className: "rectangle-98"
-                                                        }, void 0, false, {
-                                                            fileName: "components/SignUp/index.jsx",
-                                                            lineNumber: 166,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                            className: "rectangle-99"
-                                                        }, void 0, false, {
-                                                            fileName: "components/SignUp/index.jsx",
-                                                            lineNumber: 167,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                            className: "rectangle-101"
-                                                        }, void 0, false, {
-                                                            fileName: "components/SignUp/index.jsx",
-                                                            lineNumber: 168,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                            className: "rectangle-103"
-                                                        }, void 0, false, {
-                                                            fileName: "components/SignUp/index.jsx",
-                                                            lineNumber: 169,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                            className: "rectangle-102"
-                                                        }, void 0, false, {
-                                                            fileName: "components/SignUp/index.jsx",
-                                                            lineNumber: 170,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                            className: "rectangle-104"
-                                                        }, void 0, false, {
-                                                            fileName: "components/SignUp/index.jsx",
-                                                            lineNumber: 171,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                            className: "rectangle-105"
-                                                        }, void 0, false, {
-                                                            fileName: "components/SignUp/index.jsx",
-                                                            lineNumber: 172,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 165,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "drop-down-filled-dis",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "mdc-select mdc-select--filled demo-width-class",
-                                                        "data-id": "anima-widget",
-                                                        children: [
-                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                                className: "mdc-select__anchor custom-enhanced-select-width",
-                                                                role: "button",
-                                                                "aria-haspopup": "listbox",
-                                                                "aria-expanded": "false",
-                                                                children: [
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-select__ripple"
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 182,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        id: "demo-label",
-                                                                        className: "mdc-floating-label",
-                                                                        children: "What is Netflix?"
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 183,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-select__selected-text-container",
-                                                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                            id: "demo-selected-text",
-                                                                            className: "mdc-select__selected-text"
-                                                                        }, void 0, false, {
-                                                                            fileName: "components/SignUp/index.jsx",
-                                                                            lineNumber: 187,
-                                                                            columnNumber: 27
-                                                                        }, this)
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 186,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-select__dropdown-icon",
-                                                                        children: [
-                                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                                className: "mdc-select__dropdown-icon-inactive material-icons",
-                                                                                children: "arrow_drop_down"
-                                                                            }, void 0, false, {
-                                                                                fileName: "components/SignUp/index.jsx",
-                                                                                lineNumber: 190,
-                                                                                columnNumber: 27
-                                                                            }, this),
-                                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                                className: "mdc-select__dropdown-icon-active material-icons",
-                                                                                children: "arrow_drop_up"
-                                                                            }, void 0, false, {
-                                                                                fileName: "components/SignUp/index.jsx",
-                                                                                lineNumber: 191,
-                                                                                columnNumber: 27
-                                                                            }, this)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 189,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-line-ripple"
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 193,
-                                                                        columnNumber: 25
-                                                                    }, this)
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "components/SignUp/index.jsx",
-                                                                lineNumber: 176,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                                className: "mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth",
-                                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
-                                                                    className: "mdc-list",
-                                                                    id: "select_dropdown",
-                                                                    role: "listbox",
-                                                                    "aria-label": "listbox",
-                                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                                                                        className: "mdc-list-item ",
-                                                                        "data-value": "Item",
-                                                                        role: "option",
-                                                                        children: [
-                                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                                className: "mdc-list-item__ripple"
-                                                                            }, void 0, false, {
-                                                                                fileName: "components/SignUp/index.jsx",
-                                                                                lineNumber: 198,
-                                                                                columnNumber: 29
-                                                                            }, this),
-                                                                            " ",
-                                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                                className: "mdc-list-item__text",
-                                                                                children: "Item"
-                                                                            }, void 0, false, {
-                                                                                fileName: "components/SignUp/index.jsx",
-                                                                                lineNumber: 199,
-                                                                                columnNumber: 29
-                                                                            }, this)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 197,
-                                                                        columnNumber: 27
-                                                                    }, this)
-                                                                }, void 0, false, {
-                                                                    fileName: "components/SignUp/index.jsx",
-                                                                    lineNumber: 196,
-                                                                    columnNumber: 25
-                                                                }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "components/SignUp/index.jsx",
-                                                                lineNumber: 195,
-                                                                columnNumber: 23
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 175,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 174,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "drop-down-filled-dis-1",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "mdc-select mdc-select--filled demo-width-class",
-                                                        "data-id": "anima-widget",
-                                                        children: [
-                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                                className: "mdc-select__anchor custom-enhanced-select-width",
-                                                                role: "button",
-                                                                "aria-haspopup": "listbox",
-                                                                "aria-expanded": "false",
-                                                                children: [
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-select__ripple"
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 213,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        id: "demo-label",
-                                                                        className: "mdc-floating-label",
-                                                                        children: "How much does Netflix cost?"
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 214,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-select__selected-text-container",
-                                                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                            id: "demo-selected-text",
-                                                                            className: "mdc-select__selected-text"
-                                                                        }, void 0, false, {
-                                                                            fileName: "components/SignUp/index.jsx",
-                                                                            lineNumber: 218,
-                                                                            columnNumber: 27
-                                                                        }, this)
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 217,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-select__dropdown-icon",
-                                                                        children: [
-                                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                                className: "mdc-select__dropdown-icon-inactive material-icons",
-                                                                                children: "arrow_drop_down"
-                                                                            }, void 0, false, {
-                                                                                fileName: "components/SignUp/index.jsx",
-                                                                                lineNumber: 221,
-                                                                                columnNumber: 27
-                                                                            }, this),
-                                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                                className: "mdc-select__dropdown-icon-active material-icons",
-                                                                                children: "arrow_drop_up"
-                                                                            }, void 0, false, {
-                                                                                fileName: "components/SignUp/index.jsx",
-                                                                                lineNumber: 222,
-                                                                                columnNumber: 27
-                                                                            }, this)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 220,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-line-ripple"
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 224,
-                                                                        columnNumber: 25
-                                                                    }, this)
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "components/SignUp/index.jsx",
-                                                                lineNumber: 207,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                                className: "mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth",
-                                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
-                                                                    className: "mdc-list",
-                                                                    id: "select_dropdown",
-                                                                    role: "listbox",
-                                                                    "aria-label": "listbox",
-                                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                                                                        className: "mdc-list-item ",
-                                                                        "data-value": "Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from $9.99 to $19.99 a month. No extra costs, no contracts.",
-                                                                        role: "option",
-                                                                        children: [
-                                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                                className: "mdc-list-item__ripple"
-                                                                            }, void 0, false, {
-                                                                                fileName: "components/SignUp/index.jsx",
-                                                                                lineNumber: 233,
-                                                                                columnNumber: 29
-                                                                            }, this),
-                                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                                className: "mdc-list-item__text",
-                                                                                children: "Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from $9.99 to $19.99 a month. No extra costs, no contracts."
-                                                                            }, void 0, false, {
-                                                                                fileName: "components/SignUp/index.jsx",
-                                                                                lineNumber: 234,
-                                                                                columnNumber: 29
-                                                                            }, this)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 228,
-                                                                        columnNumber: 27
-                                                                    }, this)
-                                                                }, void 0, false, {
-                                                                    fileName: "components/SignUp/index.jsx",
-                                                                    lineNumber: 227,
-                                                                    columnNumber: 25
-                                                                }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "components/SignUp/index.jsx",
-                                                                lineNumber: 226,
-                                                                columnNumber: 23
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 206,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 205,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "drop-down-filled-dis-2",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "mdc-select mdc-select--filled demo-width-class",
-                                                        "data-id": "anima-widget",
-                                                        children: [
-                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                                className: "mdc-select__anchor custom-enhanced-select-width",
-                                                                role: "button",
-                                                                "aria-haspopup": "listbox",
-                                                                "aria-expanded": "false",
-                                                                children: [
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-select__ripple"
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 252,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        id: "demo-label",
-                                                                        className: "mdc-floating-label",
-                                                                        children: "Where can I watch?"
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 253,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-select__selected-text-container",
-                                                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                            id: "demo-selected-text",
-                                                                            className: "mdc-select__selected-text"
-                                                                        }, void 0, false, {
-                                                                            fileName: "components/SignUp/index.jsx",
-                                                                            lineNumber: 257,
-                                                                            columnNumber: 27
-                                                                        }, this)
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 256,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-select__dropdown-icon",
-                                                                        children: [
-                                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                                className: "mdc-select__dropdown-icon-inactive material-icons",
-                                                                                children: "arrow_drop_down"
-                                                                            }, void 0, false, {
-                                                                                fileName: "components/SignUp/index.jsx",
-                                                                                lineNumber: 260,
-                                                                                columnNumber: 27
-                                                                            }, this),
-                                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                                className: "mdc-select__dropdown-icon-active material-icons",
-                                                                                children: "arrow_drop_up"
-                                                                            }, void 0, false, {
-                                                                                fileName: "components/SignUp/index.jsx",
-                                                                                lineNumber: 261,
-                                                                                columnNumber: 27
-                                                                            }, this)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 259,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-line-ripple"
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 263,
-                                                                        columnNumber: 25
-                                                                    }, this)
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "components/SignUp/index.jsx",
-                                                                lineNumber: 246,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                                className: "mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth",
-                                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
-                                                                    className: "mdc-list",
-                                                                    id: "select_dropdown",
-                                                                    role: "listbox",
-                                                                    "aria-label": "listbox",
-                                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                                                                        className: "mdc-list-item ",
-                                                                        "data-value": "Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles. You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.",
-                                                                        role: "option",
-                                                                        children: [
-                                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                                className: "mdc-list-item__ripple"
-                                                                            }, void 0, false, {
-                                                                                fileName: "components/SignUp/index.jsx",
-                                                                                lineNumber: 272,
-                                                                                columnNumber: 29
-                                                                            }, this),
-                                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                                className: "mdc-list-item__text",
-                                                                                children: "Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles. You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere."
-                                                                            }, void 0, false, {
-                                                                                fileName: "components/SignUp/index.jsx",
-                                                                                lineNumber: 273,
-                                                                                columnNumber: 29
-                                                                            }, this)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 267,
-                                                                        columnNumber: 27
-                                                                    }, this)
-                                                                }, void 0, false, {
-                                                                    fileName: "components/SignUp/index.jsx",
-                                                                    lineNumber: 266,
-                                                                    columnNumber: 25
-                                                                }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "components/SignUp/index.jsx",
-                                                                lineNumber: 265,
-                                                                columnNumber: 23
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 245,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 244,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "object-1",
-                                                    children: [
-                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                            className: "input-1",
-                                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
-                                                                className: "label-1 roboto-normal-black-16px",
-                                                                children: label1
-                                                            }, void 0, false, {
-                                                                fileName: "components/SignUp/index.jsx",
-                                                                lineNumber: 288,
-                                                                columnNumber: 23
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "components/SignUp/index.jsx",
-                                                            lineNumber: 287,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                                            className: "icon-1",
-                                                            src: "/img/icon-4@2x.svg"
-                                                        }, void 0, false, {
-                                                            fileName: "components/SignUp/index.jsx",
-                                                            lineNumber: 290,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 286,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "drop-down-filled-dis-3",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "mdc-select mdc-select--filled demo-width-class",
-                                                        "data-id": "anima-widget",
-                                                        children: [
-                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                                className: "mdc-select__anchor custom-enhanced-select-width",
-                                                                role: "button",
-                                                                "aria-haspopup": "listbox",
-                                                                "aria-expanded": "false",
-                                                                children: [
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-select__ripple"
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 300,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        id: "demo-label",
-                                                                        className: "mdc-floating-label",
-                                                                        children: "How do i cancel?"
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 301,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-select__selected-text-container",
-                                                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                            id: "demo-selected-text",
-                                                                            className: "mdc-select__selected-text"
-                                                                        }, void 0, false, {
-                                                                            fileName: "components/SignUp/index.jsx",
-                                                                            lineNumber: 305,
-                                                                            columnNumber: 27
-                                                                        }, this)
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 304,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-select__dropdown-icon",
-                                                                        children: [
-                                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                                className: "mdc-select__dropdown-icon-inactive material-icons",
-                                                                                children: "arrow_drop_down"
-                                                                            }, void 0, false, {
-                                                                                fileName: "components/SignUp/index.jsx",
-                                                                                lineNumber: 308,
-                                                                                columnNumber: 27
-                                                                            }, this),
-                                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                                className: "mdc-select__dropdown-icon-active material-icons",
-                                                                                children: "arrow_drop_up"
-                                                                            }, void 0, false, {
-                                                                                fileName: "components/SignUp/index.jsx",
-                                                                                lineNumber: 309,
-                                                                                columnNumber: 27
-                                                                            }, this)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 307,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-line-ripple"
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 311,
-                                                                        columnNumber: 25
-                                                                    }, this)
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "components/SignUp/index.jsx",
-                                                                lineNumber: 294,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                                className: "mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth",
-                                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
-                                                                    className: "mdc-list",
-                                                                    id: "select_dropdown",
-                                                                    role: "listbox",
-                                                                    "aria-label": "listbox",
-                                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                                                                        className: "mdc-list-item ",
-                                                                        "data-value": "Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees \u2013 start or stop your account anytime.",
-                                                                        role: "option",
-                                                                        children: [
-                                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                                className: "mdc-list-item__ripple"
-                                                                            }, void 0, false, {
-                                                                                fileName: "components/SignUp/index.jsx",
-                                                                                lineNumber: 320,
-                                                                                columnNumber: 29
-                                                                            }, this),
-                                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                                className: "mdc-list-item__text",
-                                                                                children: "Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees \u2013 start or stop your account anytime."
-                                                                            }, void 0, false, {
-                                                                                fileName: "components/SignUp/index.jsx",
-                                                                                lineNumber: 321,
-                                                                                columnNumber: 29
-                                                                            }, this)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 315,
-                                                                        columnNumber: 27
-                                                                    }, this)
-                                                                }, void 0, false, {
-                                                                    fileName: "components/SignUp/index.jsx",
-                                                                    lineNumber: 314,
-                                                                    columnNumber: 25
-                                                                }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "components/SignUp/index.jsx",
-                                                                lineNumber: 313,
-                                                                columnNumber: 23
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 293,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 292,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "drop-down-filled-dis-4",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "mdc-select mdc-select--filled demo-width-class",
-                                                        "data-id": "anima-widget",
-                                                        children: [
-                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                                className: "mdc-select__anchor custom-enhanced-select-width",
-                                                                role: "button",
-                                                                "aria-haspopup": "listbox",
-                                                                "aria-expanded": "false",
-                                                                children: [
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-select__ripple"
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 339,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        id: "demo-label",
-                                                                        className: "mdc-floating-label",
-                                                                        children: "What can I watch on Netflix?"
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 340,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-select__selected-text-container",
-                                                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                            id: "demo-selected-text",
-                                                                            className: "mdc-select__selected-text"
-                                                                        }, void 0, false, {
-                                                                            fileName: "components/SignUp/index.jsx",
-                                                                            lineNumber: 344,
-                                                                            columnNumber: 27
-                                                                        }, this)
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 343,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-select__dropdown-icon",
-                                                                        children: [
-                                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                                className: "mdc-select__dropdown-icon-inactive material-icons",
-                                                                                children: "arrow_drop_down"
-                                                                            }, void 0, false, {
-                                                                                fileName: "components/SignUp/index.jsx",
-                                                                                lineNumber: 347,
-                                                                                columnNumber: 27
-                                                                            }, this),
-                                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                                className: "mdc-select__dropdown-icon-active material-icons",
-                                                                                children: "arrow_drop_up"
-                                                                            }, void 0, false, {
-                                                                                fileName: "components/SignUp/index.jsx",
-                                                                                lineNumber: 348,
-                                                                                columnNumber: 27
-                                                                            }, this)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 346,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-line-ripple"
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 350,
-                                                                        columnNumber: 25
-                                                                    }, this)
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "components/SignUp/index.jsx",
-                                                                lineNumber: 333,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                                className: "mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth",
-                                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
-                                                                    className: "mdc-list",
-                                                                    id: "select_dropdown",
-                                                                    role: "listbox",
-                                                                    "aria-label": "listbox",
-                                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                                                                        className: "mdc-list-item ",
-                                                                        "data-value": "Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.",
-                                                                        role: "option",
-                                                                        children: [
-                                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                                className: "mdc-list-item__ripple"
-                                                                            }, void 0, false, {
-                                                                                fileName: "components/SignUp/index.jsx",
-                                                                                lineNumber: 359,
-                                                                                columnNumber: 29
-                                                                            }, this),
-                                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                                className: "mdc-list-item__text",
-                                                                                children: "Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want."
-                                                                            }, void 0, false, {
-                                                                                fileName: "components/SignUp/index.jsx",
-                                                                                lineNumber: 360,
-                                                                                columnNumber: 29
-                                                                            }, this)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 354,
-                                                                        columnNumber: 27
-                                                                    }, this)
-                                                                }, void 0, false, {
-                                                                    fileName: "components/SignUp/index.jsx",
-                                                                    lineNumber: 353,
-                                                                    columnNumber: 25
-                                                                }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "components/SignUp/index.jsx",
-                                                                lineNumber: 352,
-                                                                columnNumber: 23
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 332,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 331,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "drop-down-filled-dis-5",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "mdc-select mdc-select--filled demo-width-class",
-                                                        "data-id": "anima-widget",
-                                                        children: [
-                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                                className: "mdc-select__anchor custom-enhanced-select-width",
-                                                                role: "button",
-                                                                "aria-haspopup": "listbox",
-                                                                "aria-expanded": "false",
-                                                                children: [
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-select__ripple"
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 377,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        id: "demo-label",
-                                                                        className: "mdc-floating-label",
-                                                                        children: "Is Netflix good for kids?"
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 378,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-select__selected-text-container",
-                                                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                            id: "demo-selected-text",
-                                                                            className: "mdc-select__selected-text"
-                                                                        }, void 0, false, {
-                                                                            fileName: "components/SignUp/index.jsx",
-                                                                            lineNumber: 382,
-                                                                            columnNumber: 27
-                                                                        }, this)
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 381,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-select__dropdown-icon",
-                                                                        children: [
-                                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                                className: "mdc-select__dropdown-icon-inactive material-icons",
-                                                                                children: "arrow_drop_down"
-                                                                            }, void 0, false, {
-                                                                                fileName: "components/SignUp/index.jsx",
-                                                                                lineNumber: 385,
-                                                                                columnNumber: 27
-                                                                            }, this),
-                                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                                className: "mdc-select__dropdown-icon-active material-icons",
-                                                                                children: "arrow_drop_up"
-                                                                            }, void 0, false, {
-                                                                                fileName: "components/SignUp/index.jsx",
-                                                                                lineNumber: 386,
-                                                                                columnNumber: 27
-                                                                            }, this)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 384,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                        className: "mdc-line-ripple"
-                                                                    }, void 0, false, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 388,
-                                                                        columnNumber: 25
-                                                                    }, this)
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "components/SignUp/index.jsx",
-                                                                lineNumber: 371,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                                className: "mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth",
-                                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
-                                                                    className: "mdc-list",
-                                                                    id: "select_dropdown",
-                                                                    role: "listbox",
-                                                                    "aria-label": "listbox",
-                                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                                                                        className: "mdc-list-item ",
-                                                                        "data-value": "The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space. Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don't want kids to see.",
-                                                                        role: "option",
-                                                                        children: [
-                                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                                className: "mdc-list-item__ripple"
-                                                                            }, void 0, false, {
-                                                                                fileName: "components/SignUp/index.jsx",
-                                                                                lineNumber: 397,
-                                                                                columnNumber: 29
-                                                                            }, this),
-                                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
-                                                                                className: "mdc-list-item__text",
-                                                                                children: "The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space. Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don't want kids to see."
-                                                                            }, void 0, false, {
-                                                                                fileName: "components/SignUp/index.jsx",
-                                                                                lineNumber: 398,
-                                                                                columnNumber: 29
-                                                                            }, this)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "components/SignUp/index.jsx",
-                                                                        lineNumber: 392,
-                                                                        columnNumber: 27
-                                                                    }, this)
-                                                                }, void 0, false, {
-                                                                    fileName: "components/SignUp/index.jsx",
-                                                                    lineNumber: 391,
-                                                                    columnNumber: 25
-                                                                }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "components/SignUp/index.jsx",
-                                                                lineNumber: 390,
-                                                                columnNumber: 23
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 370,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 369,
-                                                    columnNumber: 19
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "components/SignUp/index.jsx",
-                                            lineNumber: 164,
-                                            columnNumber: 17
-                                        }, this)
+                                        className: "rectangle-85"
                                     }, void 0, false, {
                                         fileName: "components/SignUp/index.jsx",
-                                        lineNumber: 163,
+                                        lineNumber: 52,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                        className: "overlap-group2-5",
+                                        className: "hero-image-text-container",
                                         children: [
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                className: "rectangle-106"
-                                            }, void 0, false, {
-                                                fileName: "components/SignUp/index.jsx",
-                                                lineNumber: 412,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                className: "frequently-asked-questions valign-text-middle",
-                                                children: frequentlyAskedQuestions
-                                            }, void 0, false, {
-                                                fileName: "components/SignUp/index.jsx",
-                                                lineNumber: 413,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "components/SignUp/index.jsx",
-                                        lineNumber: 411,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                        className: "email-address-get-started",
-                                        children: [
-                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                className: "overlap-group4-3",
+                                                className: "hero-image-text-div",
                                                 children: [
-                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "rectangle-107"
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                                                        className: "title valign-text-middle",
+                                                        children: title
                                                     }, void 0, false, {
                                                         fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 417,
+                                                        lineNumber: 55,
                                                         columnNumber: 19
                                                     }, this),
-                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
-                                                        className: "ready-to-watch-ente-1",
-                                                        children: readyToWatchEnte2
-                                                    }, void 0, false, {
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                        className: "watch-container",
+                                                        children: [
+                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                                className: "watch-anywhere-cancel-anytime valign-text-middle",
+                                                                children: watchAnywhereCancelAnytime
+                                                            }, void 0, false, {
+                                                                fileName: "components/SignUp/index.jsx",
+                                                                lineNumber: 57,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                                className: "ready-to-watch-ente valign-text-middle",
+                                                                children: readyToWatchEnte1
+                                                            }, void 0, false, {
+                                                                fileName: "components/SignUp/index.jsx",
+                                                                lineNumber: 58,
+                                                                columnNumber: 21
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
                                                         fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 418,
+                                                        lineNumber: 56,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "components/SignUp/index.jsx",
-                                                lineNumber: 416,
+                                                lineNumber: 54,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                className: "overlap-group3-1",
+                                                className: "overlap-group1-1",
                                                 children: [
                                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "rectangle-1"
+                                                        className: "rectangle-6"
                                                     }, void 0, false, {
                                                         fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 421,
+                                                        lineNumber: 62,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                        className: "rectangle-90"
+                                                    }, void 0, false, {
+                                                        fileName: "components/SignUp/index.jsx",
+                                                        lineNumber: 63,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
                                                         to: "/home",
                                                         children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                                                             className: "get-started valign-text-middle inter-normal-white-30px",
-                                                            children: getStarted2
+                                                            children: getStarted1
                                                         }, void 0, false, {
                                                             fileName: "components/SignUp/index.jsx",
-                                                            lineNumber: 423,
+                                                            lineNumber: 65,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 422,
+                                                        lineNumber: 64,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "rectangle-110"
+                                                        className: "rectangle-93"
                                                     }, void 0, false, {
                                                         fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 425,
-                                                        columnNumber: 19
-                                                    }, this),
-                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                                        className: "vector",
-                                                        src: "/img/vector@2x.png"
-                                                    }, void 0, false, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 426,
-                                                        columnNumber: 19
-                                                    }, this),
-                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                                        className: "vector-1",
-                                                        src: "/img/vector-1@2x.svg"
-                                                    }, void 0, false, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 427,
+                                                        lineNumber: 67,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "label-2 roboto-normal-black-16px",
-                                                        children: label2
+                                                        className: "text-field-filled-di",
+                                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                            className: "mdc-text-field mdc-text-field--filled mdc-text-field--with--icon ",
+                                                            children: [
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-text-field__ripple"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 70,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-floating-label",
+                                                                    id: "my-label-id",
+                                                                    children: "Email address"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 71,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                                    type: "text",
+                                                                    className: "mdc-text-field__input",
+                                                                    "aria-labelledby": "my-label-id"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 74,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-line-ripple"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 75,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "components/SignUp/index.jsx",
+                                                            lineNumber: 69,
+                                                            columnNumber: 21
+                                                        }, this)
                                                     }, void 0, false, {
                                                         fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 428,
+                                                        lineNumber: 68,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "components/SignUp/index.jsx",
-                                                lineNumber: 420,
+                                                lineNumber: 61,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "components/SignUp/index.jsx",
-                                        lineNumber: 415,
+                                        lineNumber: 53,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "overlap-group2-2",
+                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "sign-in-2 valign-text-middle",
+                                            children: signIn
+                                        }, void 0, false, {
+                                            fileName: "components/SignUp/index.jsx",
+                                            lineNumber: 81,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/SignUp/index.jsx",
+                                        lineNumber: 80,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "components/SignUp/index.jsx",
-                                lineNumber: 162,
+                                lineNumber: 50,
                                 columnNumber: 13
                             }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/SignUp/index.jsx",
-                        lineNumber: 160,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                        className: "footer-master-div",
-                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                            className: "footer-inner-container",
-                            children: [
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                    className: "questions-call-1-844-505-2993-1",
-                                    children: questionsCall18445052993
+                        }, void 0, false, {
+                            fileName: "components/SignUp/index.jsx",
+                            lineNumber: 49,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                            to: "/login",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "netflix-logo-container",
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                    className: "netflix-logo",
+                                    src: netflixLogo
                                 }, void 0, false, {
                                     fileName: "components/SignUp/index.jsx",
-                                    lineNumber: 435,
+                                    lineNumber: 87,
                                     columnNumber: 15
-                                }, this),
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "components/SignUp/index.jsx",
+                                lineNumber: 86,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/SignUp/index.jsx",
+                            lineNumber: 85,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/SignUp/index.jsx",
+                    lineNumber: 48,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "media-master-container",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "container-container-1",
+                            children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                    className: "footer-link-container",
+                                    className: "enjoy-your-tv-container",
                                     children: [
                                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "overlap-group-container-3",
+                                            className: "on-container",
                                             children: [
                                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "overlap-group-6",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "faq-1 inter-normal-gray-11px",
-                                                        children: faq
-                                                    }, void 0, false, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 439,
-                                                        columnNumber: 21
-                                                    }, this)
+                                                    className: "enjoy-on-your-tv valign-text-middle inter-bold-white-24px",
+                                                    children: enjoyOnYourTv
                                                 }, void 0, false, {
                                                     fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 438,
-                                                    columnNumber: 19
+                                                    lineNumber: 95,
+                                                    columnNumber: 17
                                                 }, this),
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "overlap-group-7",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "investor-relations inter-normal-gray-11px",
-                                                        children: investorRelations
-                                                    }, void 0, false, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 442,
-                                                        columnNumber: 21
-                                                    }, this)
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                                    className: "watch-on-smart-t-vs valign-text-middle inter-normal-white-13px",
+                                                    children: watchOnSmartTvs
                                                 }, void 0, false, {
                                                     fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 441,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "overlap-group-7",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "ways-to-watch inter-normal-gray-11px",
-                                                        children: waysToWatch
-                                                    }, void 0, false, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 445,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 444,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "overlap-group-7",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "corporate-information-1 inter-normal-gray-11px",
-                                                        children: corporateInformation
-                                                    }, void 0, false, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 448,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 447,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "overlap-group4-4",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "only-on-netflix inter-normal-gray-11px",
-                                                        children: onlyOnNetflix
-                                                    }, void 0, false, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 451,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 450,
-                                                    columnNumber: 19
+                                                    lineNumber: 96,
+                                                    columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/SignUp/index.jsx",
-                                            lineNumber: 437,
-                                            columnNumber: 17
+                                            lineNumber: 94,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "overlap-group-container-4",
-                                            children: [
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "overlap-group-6",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "help-center-1 inter-normal-gray-11px",
-                                                        children: helpCenter
-                                                    }, void 0, false, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 456,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 455,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "overlap-group-7",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "jobs inter-normal-gray-11px",
-                                                        children: jobs
-                                                    }, void 0, false, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 459,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 458,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "overlap-group-7",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "terms-of-use inter-normal-gray-11px",
-                                                        children: termsOfUse
-                                                    }, void 0, false, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 462,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 461,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "overlap-group-7",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "contact-us inter-normal-gray-11px",
-                                                        children: contactUs
-                                                    }, void 0, false, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 465,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 464,
-                                                    columnNumber: 19
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
+                                            className: "will-smith-ad",
+                                            style: {
+                                                backgroundImage: `url(${willSmithAd})`
+                                            }
+                                        }, void 0, false, {
                                             fileName: "components/SignUp/index.jsx",
-                                            lineNumber: 454,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "overlap-group-container-5",
-                                            children: [
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "overlap-group-6",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "account inter-normal-gray-11px",
-                                                        children: account
-                                                    }, void 0, false, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 470,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 469,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "overlap-group-7",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "redeem-giftcards inter-normal-gray-11px",
-                                                        children: redeemGiftcards
-                                                    }, void 0, false, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 473,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 472,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "overlap-group-7",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "privacy inter-normal-gray-11px",
-                                                        children: privacy
-                                                    }, void 0, false, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 476,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 475,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "overlap-group-7",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "speed-test inter-normal-gray-11px",
-                                                        children: speedTest
-                                                    }, void 0, false, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 479,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 478,
-                                                    columnNumber: 19
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "components/SignUp/index.jsx",
-                                            lineNumber: 468,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                            className: "overlap-group-container-6",
-                                            children: [
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "overlap-group-6",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "media-center inter-normal-gray-11px",
-                                                        children: mediaCenter
-                                                    }, void 0, false, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 484,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 483,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "overlap-group-7",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "buy-gift-cards inter-normal-gray-11px",
-                                                        children: buyGiftCards
-                                                    }, void 0, false, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 487,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 486,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "overlap-group-7",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "cookie-preferences-1 inter-normal-gray-11px",
-                                                        children: cookiePreferences
-                                                    }, void 0, false, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 490,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 489,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                    className: "overlap-group-7",
-                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                                                        className: "legal-notices inter-normal-gray-11px",
-                                                        children: legalNotices
-                                                    }, void 0, false, {
-                                                        fileName: "components/SignUp/index.jsx",
-                                                        lineNumber: 493,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/SignUp/index.jsx",
-                                                    lineNumber: 492,
-                                                    columnNumber: 19
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "components/SignUp/index.jsx",
-                                            lineNumber: 482,
-                                            columnNumber: 17
+                                            lineNumber: 98,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/SignUp/index.jsx",
-                                    lineNumber: 436,
-                                    columnNumber: 15
+                                    lineNumber: 93,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "download-your-shows-container-div",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "group-2",
+                                            style: {
+                                                backgroundImage: `url(${group2})`
+                                            }
+                                        }, void 0, false, {
+                                            fileName: "components/SignUp/index.jsx",
+                                            lineNumber: 101,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "group-15",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    className: "download-your-shows-to-watch-offline valign-text-middle inter-bold-white-24px",
+                                                    children: downloadYourShowsToWatchOffline
+                                                }, void 0, false, {
+                                                    fileName: "components/SignUp/index.jsx",
+                                                    lineNumber: 103,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                                    className: "save-your-favorites valign-text-middle inter-normal-white-13px",
+                                                    children: saveYourFavorites
+                                                }, void 0, false, {
+                                                    fileName: "components/SignUp/index.jsx",
+                                                    lineNumber: 106,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "components/SignUp/index.jsx",
+                                            lineNumber: 102,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "components/SignUp/index.jsx",
+                                    lineNumber: 100,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "components/SignUp/index.jsx",
-                            lineNumber: 434,
-                            columnNumber: 13
+                            lineNumber: 92,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group4-2",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "overlap-group1-2",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "rectangle-83"
+                                        }, void 0, false, {
+                                            fileName: "components/SignUp/index.jsx",
+                                            lineNumber: 112,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "watch-everywhere-div",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    className: "overlap-group-5",
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                            className: "watch-everywhere valign-text-middle inter-bold-white-24px",
+                                                            children: watchEverywhere
+                                                        }, void 0, false, {
+                                                            fileName: "components/SignUp/index.jsx",
+                                                            lineNumber: 115,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                                            className: "stream-unlimited-mov valign-text-middle inter-normal-white-13px",
+                                                            children: streamUnlimitedMov
+                                                        }, void 0, false, {
+                                                            fileName: "components/SignUp/index.jsx",
+                                                            lineNumber: 116,
+                                                            columnNumber: 19
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "components/SignUp/index.jsx",
+                                                    lineNumber: 114,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    className: "group-4",
+                                                    style: {
+                                                        backgroundImage: `url(${group4})`
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "components/SignUp/index.jsx",
+                                                    lineNumber: 120,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "components/SignUp/index.jsx",
+                                            lineNumber: 113,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "components/SignUp/index.jsx",
+                                    lineNumber: 111,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "create-profiles-for-kids-container-div",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "overlap-group2-3",
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "create-profiles-for-kids valign-text-middle inter-bold-white-24px",
+                                                children: createProfilesForKids
+                                            }, void 0, false, {
+                                                fileName: "components/SignUp/index.jsx",
+                                                lineNumber: 125,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "group-11",
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                                        className: "kids-value-prop-1",
+                                                        src: kidsvalueprop1
+                                                    }, void 0, false, {
+                                                        fileName: "components/SignUp/index.jsx",
+                                                        lineNumber: 129,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                                        className: "send-kids-on-adventu valign-text-middle inter-normal-white-13px",
+                                                        children: sendKidsOnAdventu
+                                                    }, void 0, false, {
+                                                        fileName: "components/SignUp/index.jsx",
+                                                        lineNumber: 130,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "components/SignUp/index.jsx",
+                                                lineNumber: 128,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/SignUp/index.jsx",
+                                        lineNumber: 124,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/SignUp/index.jsx",
+                                    lineNumber: 123,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/SignUp/index.jsx",
+                            lineNumber: 110,
+                            columnNumber: 11
                         }, this)
-                    }, void 0, false, {
-                        fileName: "components/SignUp/index.jsx",
-                        lineNumber: 433,
-                        columnNumber: 11
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "components/SignUp/index.jsx",
-                lineNumber: 65,
-                columnNumber: 9
-            }, this)
-        }, void 0, false, {
+                    ]
+                }, void 0, true, {
+                    fileName: "components/SignUp/index.jsx",
+                    lineNumber: 91,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "overlap-group19",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "indicator"
+                        }, void 0, false, {
+                            fileName: "components/SignUp/index.jsx",
+                            lineNumber: 137,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group17",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "frequently-asked-questions-container",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "overlap-group1-3",
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "overlap-group-6",
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                        className: "rectangle-98"
+                                                    }, void 0, false, {
+                                                        fileName: "components/SignUp/index.jsx",
+                                                        lineNumber: 142,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                        className: "rectangle-7"
+                                                    }, void 0, false, {
+                                                        fileName: "components/SignUp/index.jsx",
+                                                        lineNumber: 143,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                        className: "rectangle-101"
+                                                    }, void 0, false, {
+                                                        fileName: "components/SignUp/index.jsx",
+                                                        lineNumber: 144,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                        className: "rectangle-103"
+                                                    }, void 0, false, {
+                                                        fileName: "components/SignUp/index.jsx",
+                                                        lineNumber: 145,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                        className: "rectangle-102"
+                                                    }, void 0, false, {
+                                                        fileName: "components/SignUp/index.jsx",
+                                                        lineNumber: 146,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                        className: "rectangle-104"
+                                                    }, void 0, false, {
+                                                        fileName: "components/SignUp/index.jsx",
+                                                        lineNumber: 147,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                        className: "rectangle-105"
+                                                    }, void 0, false, {
+                                                        fileName: "components/SignUp/index.jsx",
+                                                        lineNumber: 148,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "components/SignUp/index.jsx",
+                                                lineNumber: 141,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "drop-down-filled-dis",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    className: "mdc-select mdc-select--filled demo-width-class",
+                                                    "data-id": "anima-widget",
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                            className: "mdc-select__anchor custom-enhanced-select-width",
+                                                            role: "button",
+                                                            "aria-haspopup": "listbox",
+                                                            "aria-expanded": "false",
+                                                            children: [
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-select__ripple"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 158,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    id: "demo-label",
+                                                                    className: "mdc-floating-label",
+                                                                    children: "What is Netflix?"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 159,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-select__selected-text-container",
+                                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                        id: "demo-selected-text",
+                                                                        className: "mdc-select__selected-text"
+                                                                    }, void 0, false, {
+                                                                        fileName: "components/SignUp/index.jsx",
+                                                                        lineNumber: 163,
+                                                                        columnNumber: 25
+                                                                    }, this)
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 162,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-select__dropdown-icon",
+                                                                    children: [
+                                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                            className: "mdc-select__dropdown-icon-inactive material-icons",
+                                                                            children: "arrow_drop_down"
+                                                                        }, void 0, false, {
+                                                                            fileName: "components/SignUp/index.jsx",
+                                                                            lineNumber: 166,
+                                                                            columnNumber: 25
+                                                                        }, this),
+                                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                            className: "mdc-select__dropdown-icon-active material-icons",
+                                                                            children: "arrow_drop_up"
+                                                                        }, void 0, false, {
+                                                                            fileName: "components/SignUp/index.jsx",
+                                                                            lineNumber: 167,
+                                                                            columnNumber: 25
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 165,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-line-ripple"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 169,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "components/SignUp/index.jsx",
+                                                            lineNumber: 152,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                            className: "mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth",
+                                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
+                                                                className: "mdc-list",
+                                                                id: "select_dropdown",
+                                                                role: "listbox",
+                                                                "aria-label": "listbox",
+                                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                                    className: "mdc-list-item ",
+                                                                    "data-value": "Item",
+                                                                    role: "option",
+                                                                    children: [
+                                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                            className: "mdc-list-item__ripple"
+                                                                        }, void 0, false, {
+                                                                            fileName: "components/SignUp/index.jsx",
+                                                                            lineNumber: 174,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        " ",
+                                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                            className: "mdc-list-item__text",
+                                                                            children: "Item"
+                                                                        }, void 0, false, {
+                                                                            fileName: "components/SignUp/index.jsx",
+                                                                            lineNumber: 175,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 173,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "components/SignUp/index.jsx",
+                                                                lineNumber: 172,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "components/SignUp/index.jsx",
+                                                            lineNumber: 171,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "components/SignUp/index.jsx",
+                                                    lineNumber: 151,
+                                                    columnNumber: 19
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "components/SignUp/index.jsx",
+                                                lineNumber: 150,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "drop-down-filled-dis-1",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    className: "mdc-select mdc-select--filled demo-width-class",
+                                                    "data-id": "anima-widget",
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                            className: "mdc-select__anchor custom-enhanced-select-width",
+                                                            role: "button",
+                                                            "aria-haspopup": "listbox",
+                                                            "aria-expanded": "false",
+                                                            children: [
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-select__ripple"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 189,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    id: "demo-label",
+                                                                    className: "mdc-floating-label",
+                                                                    children: "How much does Netflix cost?"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 190,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-select__selected-text-container",
+                                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                        id: "demo-selected-text",
+                                                                        className: "mdc-select__selected-text"
+                                                                    }, void 0, false, {
+                                                                        fileName: "components/SignUp/index.jsx",
+                                                                        lineNumber: 194,
+                                                                        columnNumber: 25
+                                                                    }, this)
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 193,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-select__dropdown-icon",
+                                                                    children: [
+                                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                            className: "mdc-select__dropdown-icon-inactive material-icons",
+                                                                            children: "arrow_drop_down"
+                                                                        }, void 0, false, {
+                                                                            fileName: "components/SignUp/index.jsx",
+                                                                            lineNumber: 197,
+                                                                            columnNumber: 25
+                                                                        }, this),
+                                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                            className: "mdc-select__dropdown-icon-active material-icons",
+                                                                            children: "arrow_drop_up"
+                                                                        }, void 0, false, {
+                                                                            fileName: "components/SignUp/index.jsx",
+                                                                            lineNumber: 198,
+                                                                            columnNumber: 25
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 196,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-line-ripple"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 200,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "components/SignUp/index.jsx",
+                                                            lineNumber: 183,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                            className: "mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth",
+                                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
+                                                                className: "mdc-list",
+                                                                id: "select_dropdown",
+                                                                role: "listbox",
+                                                                "aria-label": "listbox",
+                                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                                    className: "mdc-list-item ",
+                                                                    "data-value": "Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from $9.99 to $19.99 a month. No extra costs, no contracts.",
+                                                                    role: "option",
+                                                                    children: [
+                                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                            className: "mdc-list-item__ripple"
+                                                                        }, void 0, false, {
+                                                                            fileName: "components/SignUp/index.jsx",
+                                                                            lineNumber: 209,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                            className: "mdc-list-item__text",
+                                                                            children: "Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from $9.99 to $19.99 a month. No extra costs, no contracts."
+                                                                        }, void 0, false, {
+                                                                            fileName: "components/SignUp/index.jsx",
+                                                                            lineNumber: 210,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 204,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "components/SignUp/index.jsx",
+                                                                lineNumber: 203,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "components/SignUp/index.jsx",
+                                                            lineNumber: 202,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "components/SignUp/index.jsx",
+                                                    lineNumber: 182,
+                                                    columnNumber: 19
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "components/SignUp/index.jsx",
+                                                lineNumber: 181,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "drop-down-filled-dis-2",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    className: "mdc-select mdc-select--filled demo-width-class",
+                                                    "data-id": "anima-widget",
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                            className: "mdc-select__anchor custom-enhanced-select-width",
+                                                            role: "button",
+                                                            "aria-haspopup": "listbox",
+                                                            "aria-expanded": "false",
+                                                            children: [
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-select__ripple"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 227,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    id: "demo-label",
+                                                                    className: "mdc-floating-label",
+                                                                    children: "Where can I watch?"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 228,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-select__selected-text-container",
+                                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                        id: "demo-selected-text",
+                                                                        className: "mdc-select__selected-text"
+                                                                    }, void 0, false, {
+                                                                        fileName: "components/SignUp/index.jsx",
+                                                                        lineNumber: 232,
+                                                                        columnNumber: 25
+                                                                    }, this)
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 231,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-select__dropdown-icon",
+                                                                    children: [
+                                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                            className: "mdc-select__dropdown-icon-inactive material-icons",
+                                                                            children: "arrow_drop_down"
+                                                                        }, void 0, false, {
+                                                                            fileName: "components/SignUp/index.jsx",
+                                                                            lineNumber: 235,
+                                                                            columnNumber: 25
+                                                                        }, this),
+                                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                            className: "mdc-select__dropdown-icon-active material-icons",
+                                                                            children: "arrow_drop_up"
+                                                                        }, void 0, false, {
+                                                                            fileName: "components/SignUp/index.jsx",
+                                                                            lineNumber: 236,
+                                                                            columnNumber: 25
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 234,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-line-ripple"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 238,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "components/SignUp/index.jsx",
+                                                            lineNumber: 221,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                            className: "mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth",
+                                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
+                                                                className: "mdc-list",
+                                                                id: "select_dropdown",
+                                                                role: "listbox",
+                                                                "aria-label": "listbox",
+                                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                                    className: "mdc-list-item ",
+                                                                    "data-value": "Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles. You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.",
+                                                                    role: "option",
+                                                                    children: [
+                                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                            className: "mdc-list-item__ripple"
+                                                                        }, void 0, false, {
+                                                                            fileName: "components/SignUp/index.jsx",
+                                                                            lineNumber: 247,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                            className: "mdc-list-item__text",
+                                                                            children: "Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles. You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere."
+                                                                        }, void 0, false, {
+                                                                            fileName: "components/SignUp/index.jsx",
+                                                                            lineNumber: 248,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 242,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "components/SignUp/index.jsx",
+                                                                lineNumber: 241,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "components/SignUp/index.jsx",
+                                                            lineNumber: 240,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "components/SignUp/index.jsx",
+                                                    lineNumber: 220,
+                                                    columnNumber: 19
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "components/SignUp/index.jsx",
+                                                lineNumber: 219,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "object",
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                        className: "input",
+                                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                                            className: "label roboto-normal-black-16px",
+                                                            children: label1
+                                                        }, void 0, false, {
+                                                            fileName: "components/SignUp/index.jsx",
+                                                            lineNumber: 263,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "components/SignUp/index.jsx",
+                                                        lineNumber: 262,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                                        className: "icon",
+                                                        src: "/img/icon-4@2x.svg"
+                                                    }, void 0, false, {
+                                                        fileName: "components/SignUp/index.jsx",
+                                                        lineNumber: 265,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "components/SignUp/index.jsx",
+                                                lineNumber: 261,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "drop-down-filled-dis-3",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    className: "mdc-select mdc-select--filled demo-width-class",
+                                                    "data-id": "anima-widget",
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                            className: "mdc-select__anchor custom-enhanced-select-width",
+                                                            role: "button",
+                                                            "aria-haspopup": "listbox",
+                                                            "aria-expanded": "false",
+                                                            children: [
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-select__ripple"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 275,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    id: "demo-label",
+                                                                    className: "mdc-floating-label",
+                                                                    children: "How do i cancel?"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 276,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-select__selected-text-container",
+                                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                        id: "demo-selected-text",
+                                                                        className: "mdc-select__selected-text"
+                                                                    }, void 0, false, {
+                                                                        fileName: "components/SignUp/index.jsx",
+                                                                        lineNumber: 280,
+                                                                        columnNumber: 25
+                                                                    }, this)
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 279,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-select__dropdown-icon",
+                                                                    children: [
+                                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                            className: "mdc-select__dropdown-icon-inactive material-icons",
+                                                                            children: "arrow_drop_down"
+                                                                        }, void 0, false, {
+                                                                            fileName: "components/SignUp/index.jsx",
+                                                                            lineNumber: 283,
+                                                                            columnNumber: 25
+                                                                        }, this),
+                                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                            className: "mdc-select__dropdown-icon-active material-icons",
+                                                                            children: "arrow_drop_up"
+                                                                        }, void 0, false, {
+                                                                            fileName: "components/SignUp/index.jsx",
+                                                                            lineNumber: 284,
+                                                                            columnNumber: 25
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 282,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-line-ripple"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 286,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "components/SignUp/index.jsx",
+                                                            lineNumber: 269,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                            className: "mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth",
+                                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
+                                                                className: "mdc-list",
+                                                                id: "select_dropdown",
+                                                                role: "listbox",
+                                                                "aria-label": "listbox",
+                                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                                    className: "mdc-list-item ",
+                                                                    "data-value": "Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees \u2013 start or stop your account anytime.",
+                                                                    role: "option",
+                                                                    children: [
+                                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                            className: "mdc-list-item__ripple"
+                                                                        }, void 0, false, {
+                                                                            fileName: "components/SignUp/index.jsx",
+                                                                            lineNumber: 295,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                            className: "mdc-list-item__text",
+                                                                            children: "Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees \u2013 start or stop your account anytime."
+                                                                        }, void 0, false, {
+                                                                            fileName: "components/SignUp/index.jsx",
+                                                                            lineNumber: 296,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 290,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "components/SignUp/index.jsx",
+                                                                lineNumber: 289,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "components/SignUp/index.jsx",
+                                                            lineNumber: 288,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "components/SignUp/index.jsx",
+                                                    lineNumber: 268,
+                                                    columnNumber: 19
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "components/SignUp/index.jsx",
+                                                lineNumber: 267,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "drop-down-filled-dis-4",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    className: "mdc-select mdc-select--filled demo-width-class",
+                                                    "data-id": "anima-widget",
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                            className: "mdc-select__anchor custom-enhanced-select-width",
+                                                            role: "button",
+                                                            "aria-haspopup": "listbox",
+                                                            "aria-expanded": "false",
+                                                            children: [
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-select__ripple"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 314,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    id: "demo-label",
+                                                                    className: "mdc-floating-label",
+                                                                    children: "What can I watch on Netflix?"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 315,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-select__selected-text-container",
+                                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                        id: "demo-selected-text",
+                                                                        className: "mdc-select__selected-text"
+                                                                    }, void 0, false, {
+                                                                        fileName: "components/SignUp/index.jsx",
+                                                                        lineNumber: 319,
+                                                                        columnNumber: 25
+                                                                    }, this)
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 318,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-select__dropdown-icon",
+                                                                    children: [
+                                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                            className: "mdc-select__dropdown-icon-inactive material-icons",
+                                                                            children: "arrow_drop_down"
+                                                                        }, void 0, false, {
+                                                                            fileName: "components/SignUp/index.jsx",
+                                                                            lineNumber: 322,
+                                                                            columnNumber: 25
+                                                                        }, this),
+                                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                            className: "mdc-select__dropdown-icon-active material-icons",
+                                                                            children: "arrow_drop_up"
+                                                                        }, void 0, false, {
+                                                                            fileName: "components/SignUp/index.jsx",
+                                                                            lineNumber: 323,
+                                                                            columnNumber: 25
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 321,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-line-ripple"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 325,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "components/SignUp/index.jsx",
+                                                            lineNumber: 308,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                            className: "mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth",
+                                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
+                                                                className: "mdc-list",
+                                                                id: "select_dropdown",
+                                                                role: "listbox",
+                                                                "aria-label": "listbox",
+                                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                                    className: "mdc-list-item ",
+                                                                    "data-value": "Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.",
+                                                                    role: "option",
+                                                                    children: [
+                                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                            className: "mdc-list-item__ripple"
+                                                                        }, void 0, false, {
+                                                                            fileName: "components/SignUp/index.jsx",
+                                                                            lineNumber: 334,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                            className: "mdc-list-item__text",
+                                                                            children: "Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want."
+                                                                        }, void 0, false, {
+                                                                            fileName: "components/SignUp/index.jsx",
+                                                                            lineNumber: 335,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 329,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "components/SignUp/index.jsx",
+                                                                lineNumber: 328,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "components/SignUp/index.jsx",
+                                                            lineNumber: 327,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "components/SignUp/index.jsx",
+                                                    lineNumber: 307,
+                                                    columnNumber: 19
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "components/SignUp/index.jsx",
+                                                lineNumber: 306,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "drop-down-filled-dis-5",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    className: "mdc-select mdc-select--filled demo-width-class",
+                                                    "data-id": "anima-widget",
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                            className: "mdc-select__anchor custom-enhanced-select-width",
+                                                            role: "button",
+                                                            "aria-haspopup": "listbox",
+                                                            "aria-expanded": "false",
+                                                            children: [
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-select__ripple"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 352,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    id: "demo-label",
+                                                                    className: "mdc-floating-label",
+                                                                    children: "Is Netflix good for kids?"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 353,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-select__selected-text-container",
+                                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                        id: "demo-selected-text",
+                                                                        className: "mdc-select__selected-text"
+                                                                    }, void 0, false, {
+                                                                        fileName: "components/SignUp/index.jsx",
+                                                                        lineNumber: 357,
+                                                                        columnNumber: 25
+                                                                    }, this)
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 356,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-select__dropdown-icon",
+                                                                    children: [
+                                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                            className: "mdc-select__dropdown-icon-inactive material-icons",
+                                                                            children: "arrow_drop_down"
+                                                                        }, void 0, false, {
+                                                                            fileName: "components/SignUp/index.jsx",
+                                                                            lineNumber: 360,
+                                                                            columnNumber: 25
+                                                                        }, this),
+                                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                            className: "mdc-select__dropdown-icon-active material-icons",
+                                                                            children: "arrow_drop_up"
+                                                                        }, void 0, false, {
+                                                                            fileName: "components/SignUp/index.jsx",
+                                                                            lineNumber: 361,
+                                                                            columnNumber: 25
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 359,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-line-ripple"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 363,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "components/SignUp/index.jsx",
+                                                            lineNumber: 346,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                            className: "mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth",
+                                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
+                                                                className: "mdc-list",
+                                                                id: "select_dropdown",
+                                                                role: "listbox",
+                                                                "aria-label": "listbox",
+                                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                                    className: "mdc-list-item ",
+                                                                    "data-value": "The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space. Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don't want kids to see.",
+                                                                    role: "option",
+                                                                    children: [
+                                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                            className: "mdc-list-item__ripple"
+                                                                        }, void 0, false, {
+                                                                            fileName: "components/SignUp/index.jsx",
+                                                                            lineNumber: 372,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                            className: "mdc-list-item__text",
+                                                                            children: "The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space. Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don't want kids to see."
+                                                                        }, void 0, false, {
+                                                                            fileName: "components/SignUp/index.jsx",
+                                                                            lineNumber: 373,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "components/SignUp/index.jsx",
+                                                                    lineNumber: 367,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "components/SignUp/index.jsx",
+                                                                lineNumber: 366,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "components/SignUp/index.jsx",
+                                                            lineNumber: 365,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "components/SignUp/index.jsx",
+                                                    lineNumber: 345,
+                                                    columnNumber: 19
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "components/SignUp/index.jsx",
+                                                lineNumber: 344,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/SignUp/index.jsx",
+                                        lineNumber: 140,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/SignUp/index.jsx",
+                                    lineNumber: 139,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "overlap-group2-4",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "rectangle-7"
+                                        }, void 0, false, {
+                                            fileName: "components/SignUp/index.jsx",
+                                            lineNumber: 387,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "frequently-asked-questions valign-text-middle",
+                                            children: frequentlyAskedQuestions
+                                        }, void 0, false, {
+                                            fileName: "components/SignUp/index.jsx",
+                                            lineNumber: 388,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "components/SignUp/index.jsx",
+                                    lineNumber: 386,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "email-address-get-started",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "overlap-group4-3",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    className: "rectangle-107"
+                                                }, void 0, false, {
+                                                    fileName: "components/SignUp/index.jsx",
+                                                    lineNumber: 392,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                                    className: "ready-to-watch-ente-1",
+                                                    children: readyToWatchEnte2
+                                                }, void 0, false, {
+                                                    fileName: "components/SignUp/index.jsx",
+                                                    lineNumber: 393,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "components/SignUp/index.jsx",
+                                            lineNumber: 391,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "overlap-group3-3",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    className: "rectangle-6"
+                                                }, void 0, false, {
+                                                    fileName: "components/SignUp/index.jsx",
+                                                    lineNumber: 396,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                                    to: "/home",
+                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                        className: "get-started valign-text-middle inter-normal-white-30px",
+                                                        children: getStarted2
+                                                    }, void 0, false, {
+                                                        fileName: "components/SignUp/index.jsx",
+                                                        lineNumber: 398,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "components/SignUp/index.jsx",
+                                                    lineNumber: 397,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    className: "rectangle-110"
+                                                }, void 0, false, {
+                                                    fileName: "components/SignUp/index.jsx",
+                                                    lineNumber: 400,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                                    className: "vector",
+                                                    src: "/img/vector@2x.png"
+                                                }, void 0, false, {
+                                                    fileName: "components/SignUp/index.jsx",
+                                                    lineNumber: 401,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                                    className: "vector-1",
+                                                    src: "/img/vector-1@2x.svg"
+                                                }, void 0, false, {
+                                                    fileName: "components/SignUp/index.jsx",
+                                                    lineNumber: 402,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    className: "label-1 roboto-normal-black-16px",
+                                                    children: label2
+                                                }, void 0, false, {
+                                                    fileName: "components/SignUp/index.jsx",
+                                                    lineNumber: 403,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "components/SignUp/index.jsx",
+                                            lineNumber: 395,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "components/SignUp/index.jsx",
+                                    lineNumber: 390,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/SignUp/index.jsx",
+                            lineNumber: 138,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/SignUp/index.jsx",
+                    lineNumber: 136,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_footerMasterDivDefault.default, {}, void 0, false, {
+                    fileName: "components/SignUp/index.jsx",
+                    lineNumber: 408,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
             fileName: "components/SignUp/index.jsx",
-            lineNumber: 64,
+            lineNumber: 47,
             columnNumber: 7
-        }, this);
-    }
+        }, this)
+    }, void 0, false, {
+        fileName: "components/SignUp/index.jsx",
+        lineNumber: 46,
+        columnNumber: 5
+    }, this);
 }
+_s(SignUp, "OD7bBpZva5O2jO+Puf00hKivP7c=");
+_c = SignUp;
 exports.default = SignUp;
+var _c;
+$RefreshReg$(_c, "SignUp");
 
   $parcel$ReactRefreshHelpers$50bb.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","material-components-web":"88kGW","./SignUp.css":"10v8K","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"10v8K":[function() {},{}]},["kn9T2","aPJuQ","bB7Pu"], "bB7Pu", "parcelRequire3745")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","material-components-web":"88kGW","./SignUp.css":"10v8K","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../FooterMasterDiv":"aUtxx"}],"10v8K":[function() {},{}],"aUtxx":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$908e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$908e.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _footerMasterDivCss = require("./FooterMasterDiv.css");
+function FooterMasterDiv() {
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+        className: "footer-master-div",
+        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            className: "footer-inner-container",
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "questions-call-1-844-505-2993-1",
+                    children: "Questions? Call 1-844-505-2993"
+                }, void 0, false, {
+                    fileName: "components/FooterMasterDiv/index.jsx",
+                    lineNumber: 8,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "footer-link-container",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group-container-6",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "overlap-group-7",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "faq-1 inter-normal-gray-11px",
+                                        children: "FAQ"
+                                    }, void 0, false, {
+                                        fileName: "components/FooterMasterDiv/index.jsx",
+                                        lineNumber: 12,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/FooterMasterDiv/index.jsx",
+                                    lineNumber: 11,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "overlap-group-8",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "investor-relations inter-normal-gray-11px",
+                                        children: "Investor Relations"
+                                    }, void 0, false, {
+                                        fileName: "components/FooterMasterDiv/index.jsx",
+                                        lineNumber: 15,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/FooterMasterDiv/index.jsx",
+                                    lineNumber: 14,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "overlap-group-8",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "ways-to-watch inter-normal-gray-11px",
+                                        children: "Ways to Watch"
+                                    }, void 0, false, {
+                                        fileName: "components/FooterMasterDiv/index.jsx",
+                                        lineNumber: 18,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/FooterMasterDiv/index.jsx",
+                                    lineNumber: 17,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "overlap-group-8",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "corporate-information-1 inter-normal-gray-11px",
+                                        children: "Corporate Information"
+                                    }, void 0, false, {
+                                        fileName: "components/FooterMasterDiv/index.jsx",
+                                        lineNumber: 21,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/FooterMasterDiv/index.jsx",
+                                    lineNumber: 20,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "overlap-group4-4",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "only-on-netflix inter-normal-gray-11px",
+                                        children: "Only on Netflix"
+                                    }, void 0, false, {
+                                        fileName: "components/FooterMasterDiv/index.jsx",
+                                        lineNumber: 24,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/FooterMasterDiv/index.jsx",
+                                    lineNumber: 23,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/FooterMasterDiv/index.jsx",
+                            lineNumber: 10,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group-container-7",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "overlap-group-7",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "help-center-1 inter-normal-gray-11px",
+                                        children: "Help Center"
+                                    }, void 0, false, {
+                                        fileName: "components/FooterMasterDiv/index.jsx",
+                                        lineNumber: 29,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/FooterMasterDiv/index.jsx",
+                                    lineNumber: 28,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "overlap-group-8",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "jobs inter-normal-gray-11px",
+                                        children: "Jobs"
+                                    }, void 0, false, {
+                                        fileName: "components/FooterMasterDiv/index.jsx",
+                                        lineNumber: 32,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/FooterMasterDiv/index.jsx",
+                                    lineNumber: 31,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "overlap-group-8",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "terms-of-use inter-normal-gray-11px",
+                                        children: "Terms of Use"
+                                    }, void 0, false, {
+                                        fileName: "components/FooterMasterDiv/index.jsx",
+                                        lineNumber: 35,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/FooterMasterDiv/index.jsx",
+                                    lineNumber: 34,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "overlap-group-8",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "contact-us inter-normal-gray-11px",
+                                        children: "Contact Us"
+                                    }, void 0, false, {
+                                        fileName: "components/FooterMasterDiv/index.jsx",
+                                        lineNumber: 38,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/FooterMasterDiv/index.jsx",
+                                    lineNumber: 37,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/FooterMasterDiv/index.jsx",
+                            lineNumber: 27,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group-container-8",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "overlap-group-7",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "account inter-normal-gray-11px",
+                                        children: "Account"
+                                    }, void 0, false, {
+                                        fileName: "components/FooterMasterDiv/index.jsx",
+                                        lineNumber: 43,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/FooterMasterDiv/index.jsx",
+                                    lineNumber: 42,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "overlap-group-8",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "redeem-giftcards inter-normal-gray-11px",
+                                        children: "Redeem Giftcards"
+                                    }, void 0, false, {
+                                        fileName: "components/FooterMasterDiv/index.jsx",
+                                        lineNumber: 46,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/FooterMasterDiv/index.jsx",
+                                    lineNumber: 45,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "overlap-group-8",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "privacy inter-normal-gray-11px",
+                                        children: "Privacy"
+                                    }, void 0, false, {
+                                        fileName: "components/FooterMasterDiv/index.jsx",
+                                        lineNumber: 49,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/FooterMasterDiv/index.jsx",
+                                    lineNumber: 48,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "overlap-group-8",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "speed-test inter-normal-gray-11px",
+                                        children: "Speed Test"
+                                    }, void 0, false, {
+                                        fileName: "components/FooterMasterDiv/index.jsx",
+                                        lineNumber: 52,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/FooterMasterDiv/index.jsx",
+                                    lineNumber: 51,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/FooterMasterDiv/index.jsx",
+                            lineNumber: 41,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group-container-9",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "overlap-group-7",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "media-center inter-normal-gray-11px",
+                                        children: "Media Center"
+                                    }, void 0, false, {
+                                        fileName: "components/FooterMasterDiv/index.jsx",
+                                        lineNumber: 57,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/FooterMasterDiv/index.jsx",
+                                    lineNumber: 56,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "overlap-group-8",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "buy-gift-cards inter-normal-gray-11px",
+                                        children: "Buy Gift Cards"
+                                    }, void 0, false, {
+                                        fileName: "components/FooterMasterDiv/index.jsx",
+                                        lineNumber: 60,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/FooterMasterDiv/index.jsx",
+                                    lineNumber: 59,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "overlap-group-8",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "cookie-preferences-1 inter-normal-gray-11px",
+                                        children: "Cookie Preferences"
+                                    }, void 0, false, {
+                                        fileName: "components/FooterMasterDiv/index.jsx",
+                                        lineNumber: 63,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/FooterMasterDiv/index.jsx",
+                                    lineNumber: 62,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "overlap-group-8",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "legal-notices inter-normal-gray-11px",
+                                        children: "Legal Notices"
+                                    }, void 0, false, {
+                                        fileName: "components/FooterMasterDiv/index.jsx",
+                                        lineNumber: 66,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/FooterMasterDiv/index.jsx",
+                                    lineNumber: 65,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/FooterMasterDiv/index.jsx",
+                            lineNumber: 55,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/FooterMasterDiv/index.jsx",
+                    lineNumber: 9,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "components/FooterMasterDiv/index.jsx",
+            lineNumber: 7,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "components/FooterMasterDiv/index.jsx",
+        lineNumber: 6,
+        columnNumber: 5
+    }, this);
+}
+_c = FooterMasterDiv;
+exports.default = FooterMasterDiv;
+var _c;
+$RefreshReg$(_c, "FooterMasterDiv");
+
+  $parcel$ReactRefreshHelpers$908e.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./FooterMasterDiv.css":"dicYK","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dicYK":[function() {},{}],"hvyDQ":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$a255 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$a255.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _materialComponentsWeb = require("material-components-web");
+var _contentPageCss = require("./ContentPage.css");
+var _s = $RefreshSig$();
+function ContentPage(props) {
+    _s();
+    const { place1 , kisspngNetflixStreamingMediaTelevis1 , tvShows1 , movies1 , myList1 , recentlyAdded1 , kisspngNetflixStreamingMediaTelevis2 , place2 , kisspngNetflixStreamingMediaTelevis3 , tvShows2 , movies2 , myList2 , recentlyAdded2 , houseofcardsFoto1 , pngwing1 , x91Match , number1 , address , shesGotThePower , episodes , castRobinWright , generasPoliticalT , thisShowIsCerebralDark1 , screenShot20220519At10132 , whenTheNewlyElect , episode1 , number2 , x56M , screenShot20220519At10133 , screenShot20220519At10391 , name1 , episode2 , number3 , x49M1 , screenShot20220519At10401 , name2 , episode3 , number4 , x51M1 , screenShot20220519At10411 , name3 , episode4 , number5 , x49M2 , screenShot20220519At10421 , franksFightOverT , episode5 , number6 , x52M1 , screenShot20220519At10138 , screenShot20220519At10422 , name4 , episode6 , number7 , x50M , screenShot20220519At10423 , name5 , episode7 , number8 , x54M , screenShot20220519At10431 , name6 , episode8 , number9 , x47M , screenShot20220519At10432 , surname1 , episode9 , number10 , x51M2 , screenShot20220519At10433 , rebellionOnAllFon , episode10 , number11 , x52M2 , screenShot20220519At12081 , number12 , pennBadgleyGossi1 , screenShot20220519At12091 , number13 , pennBadgleyGossi2 , screenShot20220519At12101 , number14 , pennBadgleyGossi3 , screenShot20220519At12111 , number15 , pennBadgleyGossi4 , screenShot20220519At12112 , number16 , pennBadgleyGossi5 , screenShot20220519At12121 , number17 , pennBadgleyGossi6 , screenShot20220519At2351 , surname2 , screenShot20220519At2352 , surname3 , screenShot20220519At2361 , season6TeaserTheEnd , screenShot20220519At2362 , season6TeaserMyHouse , screenShot20220519At2363 , surname4 , screenShot20220519At2371 , surname5 , aboutHouseOfCards , castKevinSpacey , genresPoliticalTv , thisShowIsCerebralDark2 , maturityRatingLan ,  } = props;
+    _react.useEffect(()=>{
+        new _materialComponentsWeb.select.MDCSelect(document.querySelector(".drop-down-filled-dis .mdc-select"));
+    }, []);
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+        className: "container-center-horizontal",
+        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            className: "content-page screen",
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "overlap-group7",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-20"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 128,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "nav-bar"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 129,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "nav-bar-logo-box"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 130,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "nav-bar-home"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 131,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                            to: "/sign-up",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "place valign-text-middle inter-normal-gray-16px",
+                                children: place1
+                            }, void 0, false, {
+                                fileName: "components/ContentPage/index.jsx",
+                                lineNumber: 133,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 132,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                            to: "/login",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                className: "kisspng-netflix-stre",
+                                src: kisspngNetflixStreamingMediaTelevis1
+                            }, void 0, false, {
+                                fileName: "components/ContentPage/index.jsx",
+                                lineNumber: 136,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 135,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "nav-bar-tv-shows"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 138,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                            to: "/sign-up",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "tv-shows valign-text-middle inter-normal-gray-16px",
+                                children: tvShows1
+                            }, void 0, false, {
+                                fileName: "components/ContentPage/index.jsx",
+                                lineNumber: 140,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 139,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "nav-bar-movies"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 142,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                            to: "/sign-up",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "movies valign-text-middle inter-normal-gray-16px",
+                                children: movies1
+                            }, void 0, false, {
+                                fileName: "components/ContentPage/index.jsx",
+                                lineNumber: 144,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 143,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "nav-bar-my-list"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 146,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                            to: "/login",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "my-list valign-text-middle inter-normal-gray-16px",
+                                children: myList1
+                            }, void 0, false, {
+                                fileName: "components/ContentPage/index.jsx",
+                                lineNumber: 148,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 147,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "nav-bar-recently-added"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 150,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                            to: "/login",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "recently-added valign-text-middle inter-normal-gray-16px",
+                                children: recentlyAdded1
+                            }, void 0, false, {
+                                fileName: "components/ContentPage/index.jsx",
+                                lineNumber: 152,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 151,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-49"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 154,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-50"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 155,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                            to: "/login",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                className: "kisspng-netflix-stre-1",
+                                src: kisspngNetflixStreamingMediaTelevis2
+                            }, void 0, false, {
+                                fileName: "components/ContentPage/index.jsx",
+                                lineNumber: 157,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 156,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-51"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 159,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-52"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 160,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-53"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 161,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-54"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 162,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "nav-bar-logo-box"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 163,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "nav-bar-home"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 164,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                            to: "/sign-up",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "place valign-text-middle inter-normal-gray-16px",
+                                children: place2
+                            }, void 0, false, {
+                                fileName: "components/ContentPage/index.jsx",
+                                lineNumber: 166,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 165,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                            to: "/login",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                className: "kisspng-netflix-stre",
+                                src: kisspngNetflixStreamingMediaTelevis3
+                            }, void 0, false, {
+                                fileName: "components/ContentPage/index.jsx",
+                                lineNumber: 169,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 168,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "nav-bar-tv-shows"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 171,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                            to: "/sign-up",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "tv-shows valign-text-middle inter-normal-gray-16px",
+                                children: tvShows2
+                            }, void 0, false, {
+                                fileName: "components/ContentPage/index.jsx",
+                                lineNumber: 173,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 172,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "nav-bar-movies"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 175,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                            to: "/sign-up",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "movies valign-text-middle inter-normal-gray-16px",
+                                children: movies2
+                            }, void 0, false, {
+                                fileName: "components/ContentPage/index.jsx",
+                                lineNumber: 177,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 176,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "nav-bar-my-list"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 179,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                            to: "/login",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "my-list valign-text-middle inter-normal-gray-16px",
+                                children: myList2
+                            }, void 0, false, {
+                                fileName: "components/ContentPage/index.jsx",
+                                lineNumber: 181,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 180,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "nav-bar-recently-added"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 183,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                            to: "/login",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "recently-added valign-text-middle inter-normal-gray-16px",
+                                children: recentlyAdded2
+                            }, void 0, false, {
+                                fileName: "components/ContentPage/index.jsx",
+                                lineNumber: 185,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 184,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/ContentPage/index.jsx",
+                    lineNumber: 127,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "overlap-group15",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-15"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 189,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                            className: "houseofcards-foto-1 animate-enter",
+                            src: houseofcardsFoto1
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 190,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                            className: "pngwing-1",
+                            src: pngwing1
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 191,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-130"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 192,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "ellipse-1"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 193,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "ellipse-2"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 194,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "ellipse-3"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 195,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/ContentPage/index.jsx",
+                    lineNumber: 188,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "overlap-group3",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group-container",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "overlap-group26",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "rectangle-242"
+                                        }, void 0, false, {
+                                            fileName: "components/ContentPage/index.jsx",
+                                            lineNumber: 200,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "rectangle-246"
+                                        }, void 0, false, {
+                                            fileName: "components/ContentPage/index.jsx",
+                                            lineNumber: 201,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "x91-match valign-text-middle",
+                                            children: x91Match
+                                        }, void 0, false, {
+                                            fileName: "components/ContentPage/index.jsx",
+                                            lineNumber: 202,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "rectangle-247"
+                                        }, void 0, false, {
+                                            fileName: "components/ContentPage/index.jsx",
+                                            lineNumber: 203,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "number-2 valign-text-middle roboto-normal-white-10px",
+                                            children: number1
+                                        }, void 0, false, {
+                                            fileName: "components/ContentPage/index.jsx",
+                                            lineNumber: 204,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "rectangle-248"
+                                        }, void 0, false, {
+                                            fileName: "components/ContentPage/index.jsx",
+                                            lineNumber: 205,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "address valign-text-middle roboto-normal-white-10px",
+                                            children: address
+                                        }, void 0, false, {
+                                            fileName: "components/ContentPage/index.jsx",
+                                            lineNumber: 206,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 199,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "overlap-group24",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "rectangle-243"
+                                        }, void 0, false, {
+                                            fileName: "components/ContentPage/index.jsx",
+                                            lineNumber: 209,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "shes-got-the-power",
+                                            children: shesGotThePower
+                                        }, void 0, false, {
+                                            fileName: "components/ContentPage/index.jsx",
+                                            lineNumber: 210,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "rectangle-249"
+                                        }, void 0, false, {
+                                            fileName: "components/ContentPage/index.jsx",
+                                            lineNumber: 211,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "episodes",
+                                            children: episodes
+                                        }, void 0, false, {
+                                            fileName: "components/ContentPage/index.jsx",
+                                            lineNumber: 212,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 208,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 198,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group25 roboto-normal-gray-16px",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "drop-down-filled-dis",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "mdc-select mdc-select--filled demo-width-class",
+                                        "data-id": "anima-widget",
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "mdc-select__anchor custom-enhanced-select-width",
+                                                role: "button",
+                                                "aria-haspopup": "listbox",
+                                                "aria-expanded": "false",
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                        className: "mdc-select__ripple"
+                                                    }, void 0, false, {
+                                                        fileName: "components/ContentPage/index.jsx",
+                                                        lineNumber: 224,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    " ",
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                        id: "demo-label",
+                                                        className: "mdc-floating-label",
+                                                        children: "Season 1"
+                                                    }, void 0, false, {
+                                                        fileName: "components/ContentPage/index.jsx",
+                                                        lineNumber: 225,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                        className: "mdc-select__selected-text-container",
+                                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                            id: "demo-selected-text",
+                                                            className: "mdc-select__selected-text"
+                                                        }, void 0, false, {
+                                                            fileName: "components/ContentPage/index.jsx",
+                                                            lineNumber: 229,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "components/ContentPage/index.jsx",
+                                                        lineNumber: 228,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                        className: "mdc-select__dropdown-icon",
+                                                        children: [
+                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                className: "mdc-select__dropdown-icon-inactive material-icons",
+                                                                children: "arrow_drop_down"
+                                                            }, void 0, false, {
+                                                                fileName: "components/ContentPage/index.jsx",
+                                                                lineNumber: 232,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                className: "mdc-select__dropdown-icon-active material-icons",
+                                                                children: "arrow_drop_up"
+                                                            }, void 0, false, {
+                                                                fileName: "components/ContentPage/index.jsx",
+                                                                lineNumber: 233,
+                                                                columnNumber: 21
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "components/ContentPage/index.jsx",
+                                                        lineNumber: 231,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                        className: "mdc-line-ripple"
+                                                    }, void 0, false, {
+                                                        fileName: "components/ContentPage/index.jsx",
+                                                        lineNumber: 235,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "components/ContentPage/index.jsx",
+                                                lineNumber: 218,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
+                                                    className: "mdc-list",
+                                                    id: "select_dropdown",
+                                                    role: "listbox",
+                                                    "aria-label": "listbox",
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                            className: "mdc-list-item ",
+                                                            "data-value": "Season 1",
+                                                            role: "option",
+                                                            children: [
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-list-item__ripple"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/ContentPage/index.jsx",
+                                                                    lineNumber: 240,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                " ",
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-list-item__text",
+                                                                    children: "Season 1"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/ContentPage/index.jsx",
+                                                                    lineNumber: 241,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "components/ContentPage/index.jsx",
+                                                            lineNumber: 239,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                            className: "mdc-list-item ",
+                                                            "data-value": "Season 2",
+                                                            role: "option",
+                                                            children: [
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-list-item__ripple"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/ContentPage/index.jsx",
+                                                                    lineNumber: 244,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                " ",
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-list-item__text",
+                                                                    children: "Season 2"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/ContentPage/index.jsx",
+                                                                    lineNumber: 245,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "components/ContentPage/index.jsx",
+                                                            lineNumber: 243,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                            className: "mdc-list-item ",
+                                                            "data-value": "Season 3",
+                                                            role: "option",
+                                                            children: [
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-list-item__ripple"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/ContentPage/index.jsx",
+                                                                    lineNumber: 248,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                " ",
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-list-item__text",
+                                                                    children: "Season 3"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/ContentPage/index.jsx",
+                                                                    lineNumber: 249,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "components/ContentPage/index.jsx",
+                                                            lineNumber: 247,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                            className: "mdc-list-item ",
+                                                            "data-value": "Season 4",
+                                                            role: "option",
+                                                            children: [
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-list-item__ripple"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/ContentPage/index.jsx",
+                                                                    lineNumber: 252,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                " ",
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-list-item__text",
+                                                                    children: "Season 4"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/ContentPage/index.jsx",
+                                                                    lineNumber: 253,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "components/ContentPage/index.jsx",
+                                                            lineNumber: 251,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                            className: "mdc-list-item ",
+                                                            "data-value": "Season 5",
+                                                            role: "option",
+                                                            children: [
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-list-item__ripple"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/ContentPage/index.jsx",
+                                                                    lineNumber: 256,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                " ",
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-list-item__text",
+                                                                    children: "Season 5"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/ContentPage/index.jsx",
+                                                                    lineNumber: 257,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "components/ContentPage/index.jsx",
+                                                            lineNumber: 255,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                            className: "mdc-list-item ",
+                                                            "data-value": "Season 6",
+                                                            role: "option",
+                                                            children: [
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-list-item__ripple"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/ContentPage/index.jsx",
+                                                                    lineNumber: 260,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                " ",
+                                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                                                    className: "mdc-list-item__text",
+                                                                    children: "Season 6"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/ContentPage/index.jsx",
+                                                                    lineNumber: 261,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "components/ContentPage/index.jsx",
+                                                            lineNumber: 259,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "components/ContentPage/index.jsx",
+                                                    lineNumber: 238,
+                                                    columnNumber: 19
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "components/ContentPage/index.jsx",
+                                                lineNumber: 237,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/ContentPage/index.jsx",
+                                        lineNumber: 217,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 216,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-144"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 267,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-244"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 268,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    className: "cast-robin-wright",
+                                    children: castRobinWright
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 269,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    className: "generas-political-t",
+                                    children: generasPoliticalT
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 270,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    className: "this-show-is-cerebral-dark valign-text-bottom",
+                                    children: thisShowIsCerebralDark1
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 271,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 215,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/ContentPage/index.jsx",
+                    lineNumber: 197,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "overlap-group",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 275,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 276,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-1"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 277,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                            className: "screen-shot-2022-05-19-at-10",
+                            src: screenShot20220519At10132
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 278,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-2"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 279,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-3"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 280,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-4"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 281,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-5"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 282,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                            className: "when-the-newly-elect roboto-normal-gray-10px",
+                            children: whenTheNewlyElect
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 283,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "episode valign-text-middle roboto-normal-white-10px",
+                            children: episode1
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 284,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "number valign-text-middle roboto-normal-white-18px",
+                            children: number2
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 285,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "x56m valign-text-middle roboto-normal-white-10px",
+                            children: x56M
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 286,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/ContentPage/index.jsx",
+                    lineNumber: 274,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "overlap-group",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 289,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 290,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-1"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 291,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                            className: "screen-shot-2022-05-19-at-10",
+                            src: screenShot20220519At10133
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 292,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-2"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 293,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-3"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 294,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-4"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 295,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-5"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 296,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 297,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 298,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 299,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-1"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 300,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-2"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 301,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-3"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 302,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-4"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 303,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-5"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 304,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                            className: "screen-shot-2022-05-19-at-10",
+                            src: screenShot20220519At10391
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 305,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                            className: "name-1 roboto-normal-gray-10px",
+                            children: name1
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 306,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "episode valign-text-middle roboto-normal-white-10px",
+                            children: episode2
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 307,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "number valign-text-middle roboto-normal-white-18px",
+                            children: number3
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 308,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "x49m valign-text-middle roboto-normal-white-10px",
+                            children: x49M1
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 309,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/ContentPage/index.jsx",
+                    lineNumber: 288,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "overlap-group",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 312,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 313,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-1"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 314,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                            className: "screen-shot-2022-05-19-at-10",
+                            src: screenShot20220519At10401
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 315,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-2"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 316,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-3"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 317,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-4"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 318,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-5"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 319,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                            className: "name-2 roboto-normal-gray-10px",
+                            children: name2
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 320,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "episode valign-text-middle roboto-normal-white-10px",
+                            children: episode3
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 321,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "number valign-text-middle roboto-normal-white-18px",
+                            children: number4
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 322,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "x51m valign-text-middle roboto-normal-white-10px",
+                            children: x51M1
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 323,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/ContentPage/index.jsx",
+                    lineNumber: 311,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "overlap-group",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 326,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 327,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-1"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 328,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                            className: "screen-shot-2022-05-19-at-10",
+                            src: screenShot20220519At10411
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 329,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-2"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 330,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-3"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 331,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-4"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 332,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-5"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 333,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                            className: "name roboto-normal-gray-10px",
+                            children: name3
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 334,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "episode valign-text-middle roboto-normal-white-10px",
+                            children: episode4
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 335,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "number valign-text-middle roboto-normal-white-18px",
+                            children: number5
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 336,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "x49m-1 valign-text-middle roboto-normal-white-10px",
+                            children: x49M2
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 337,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/ContentPage/index.jsx",
+                    lineNumber: 325,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "overlap-group",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 340,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 341,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-1"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 342,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                            className: "screen-shot-2022-05-19-at-10",
+                            src: screenShot20220519At10421
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 343,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-2"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 344,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-3"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 345,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-4"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 346,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-5"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 347,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                            className: "franks-fight-over-t roboto-normal-gray-10px",
+                            children: franksFightOverT
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 348,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "episode valign-text-middle roboto-normal-white-10px",
+                            children: episode5
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 349,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "number valign-text-middle roboto-normal-white-18px",
+                            children: number6
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 350,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "x52m valign-text-middle roboto-normal-white-10px",
+                            children: x52M1
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 351,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/ContentPage/index.jsx",
+                    lineNumber: 339,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "overlap-group",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 354,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 355,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-1"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 356,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                            className: "screen-shot-2022-05-19-at-10",
+                            src: screenShot20220519At10138
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 357,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-2"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 358,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-3"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 359,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-4"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 360,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-5"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 361,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 362,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 363,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 364,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-1"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 365,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                            className: "screen-shot-2022-05-19-at-10",
+                            src: screenShot20220519At10422
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 366,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-2"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 367,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-3"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 368,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-4"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 369,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-5"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 370,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                            className: "name-3 roboto-normal-gray-10px",
+                            children: name4
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 371,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "episode valign-text-middle roboto-normal-white-10px",
+                            children: episode6
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 372,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "number valign-text-middle roboto-normal-white-18px",
+                            children: number7
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 373,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "x50m valign-text-middle roboto-normal-white-10px",
+                            children: x50M
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 374,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/ContentPage/index.jsx",
+                    lineNumber: 353,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "overlap-group",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 377,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 378,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-1"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 379,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                            className: "screen-shot-2022-05-19-at-10",
+                            src: screenShot20220519At10423
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 380,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-2"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 381,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-2"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 382,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-3"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 383,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-4"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 384,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-5"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 385,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                            className: "name-4 roboto-normal-gray-10px",
+                            children: name5
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 386,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "episode valign-text-middle roboto-normal-white-10px",
+                            children: episode7
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 387,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "number valign-text-middle roboto-normal-white-18px",
+                            children: number8
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 388,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "x54m valign-text-middle roboto-normal-white-10px",
+                            children: x54M
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 389,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/ContentPage/index.jsx",
+                    lineNumber: 376,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "overlap-group",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 392,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 393,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-1"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 394,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                            className: "screen-shot-2022-05-19-at-10",
+                            src: screenShot20220519At10431
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 395,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-2"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 396,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-3"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 397,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-4"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 398,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-5"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 399,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                            className: "name-5 roboto-normal-gray-10px",
+                            children: name6
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 400,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "episode valign-text-middle roboto-normal-white-10px",
+                            children: episode8
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 401,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "number valign-text-middle roboto-normal-white-18px",
+                            children: number9
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 402,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "x47m valign-text-middle roboto-normal-white-10px",
+                            children: x47M
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 403,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/ContentPage/index.jsx",
+                    lineNumber: 391,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "overlap-group",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 406,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 407,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-1"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 408,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                            className: "screen-shot-2022-05-19-at-10",
+                            src: screenShot20220519At10432
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 409,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-2"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 410,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-3"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 411,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-4"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 412,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-5"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 413,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                            className: "name roboto-normal-gray-10px",
+                            children: surname1
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 414,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "episode valign-text-middle roboto-normal-white-10px",
+                            children: episode9
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 415,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "number valign-text-middle roboto-normal-white-18px",
+                            children: number10
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 416,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "x51m-1 valign-text-middle roboto-normal-white-10px",
+                            children: x51M2
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 417,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/ContentPage/index.jsx",
+                    lineNumber: 405,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "overlap-group",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 420,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 421,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-1"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 422,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                            className: "screen-shot-2022-05-19-at-10",
+                            src: screenShot20220519At10433
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 423,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-2"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 424,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-3"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 425,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-4"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 426,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "rectangle-5"
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 427,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                            className: "rebellion-on-all-fon roboto-normal-gray-10px",
+                            children: rebellionOnAllFon
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 428,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "episode valign-text-middle roboto-normal-white-10px",
+                            children: episode10
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 429,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "number valign-text-middle roboto-normal-white-18px",
+                            children: number11
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 430,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "x52m-1 valign-text-middle roboto-normal-white-10px",
+                            children: x52M2
+                        }, void 0, false, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 431,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/ContentPage/index.jsx",
+                    lineNumber: 419,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "overlap-group-container-1",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group31",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-25"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 435,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-2-1"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 436,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                    className: "screen-shot-2022-05-19-at-1208-1",
+                                    src: screenShot20220519At12081
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 437,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-274"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 438,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "ellipse-9"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 439,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "number-3 inter-normal-white-16px",
+                                    children: number12
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 440,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    className: "penn-badgley-gossi-2 inter-normal-gray-14px",
+                                    children: pennBadgleyGossi1
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 441,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 434,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group32",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-25-1"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 444,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-2-2"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 445,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                    className: "screen-shot-2022-05-19-at-12",
+                                    src: screenShot20220519At12091
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 446,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-27"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 447,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "ellipse"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 448,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "number-1 inter-normal-white-16px",
+                                    children: number13
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 449,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    className: "penn-badgley-gossi inter-normal-gray-14px",
+                                    children: pennBadgleyGossi2
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 450,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 443,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group-1",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-25-1"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 453,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-2-2"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 454,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                    className: "screen-shot-2022-05-19-at-12",
+                                    src: screenShot20220519At12101
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 455,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-27"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 456,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "ellipse"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 457,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "number-1 inter-normal-white-16px",
+                                    children: number14
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 458,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    className: "penn-badgley-gossi inter-normal-gray-14px",
+                                    children: pennBadgleyGossi3
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 459,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 452,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group28",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-253"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 462,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-259"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 463,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                    className: "screen-shot-2022-05-19-at-1211-1",
+                                    src: screenShot20220519At12111
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 464,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-276"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 465,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "ellipse-6"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 466,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "number-1 inter-normal-white-16px",
+                                    children: number15
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 467,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    className: "penn-badgley-gossi-1 inter-normal-gray-14px",
+                                    children: pennBadgleyGossi4
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 468,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 461,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group29",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-25"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 471,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-2-1"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 472,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                    className: "screen-shot-2022-05-19-at-1211-2",
+                                    src: screenShot20220519At12112
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 473,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-275"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 474,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "ellipse-4"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 475,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "number-1 inter-normal-white-16px",
+                                    children: number16
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 476,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    className: "penn-badgley-gossi-1 inter-normal-gray-14px",
+                                    children: pennBadgleyGossi5
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 477,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 470,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group-1",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-25-1"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 480,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-2-2"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 481,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                    className: "screen-shot-2022-05-19-at-1212-1",
+                                    src: screenShot20220519At12121
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 482,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-27"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 483,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "ellipse"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 484,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "number-1 inter-normal-white-16px",
+                                    children: number17
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 485,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    className: "penn-badgley-gossi-3 inter-normal-gray-14px",
+                                    children: pennBadgleyGossi6
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 486,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 479,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/ContentPage/index.jsx",
+                    lineNumber: 433,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "overlap-group-container-2",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group20",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-26"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 491,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                    className: "screen-shot-2022-05-19-at-235-1",
+                                    src: screenShot20220519At2351
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 492,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-2-3"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 493,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    className: "surname-1 valign-text-bottom roboto-normal-white-15px",
+                                    children: surname2
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 494,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 490,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group-2",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-26"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 497,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                    className: "screen-shot-2022-05-19-at-23",
+                                    src: screenShot20220519At2352
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 498,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-2-3"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 499,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    className: "surname valign-text-bottom roboto-normal-white-15px",
+                                    children: surname3
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 500,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 496,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group-2",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-26"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 503,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                    className: "screen-shot-2022-05-19-at-23",
+                                    src: screenShot20220519At2361
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 504,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-2-3"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 505,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    className: "season-6-teaser-the-end valign-text-middle roboto-normal-white-15px",
+                                    children: season6TeaserTheEnd
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 506,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 502,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group-2",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-26"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 509,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                    className: "screen-shot-2022-05-19-at-23",
+                                    src: screenShot20220519At2362
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 510,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-2-3"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 511,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    className: "season-6-teaser-my-house valign-text-middle roboto-normal-white-15px",
+                                    children: season6TeaserMyHouse
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 512,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 508,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group-2",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-26"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 517,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                    className: "screen-shot-2022-05-19-at-23",
+                                    src: screenShot20220519At2363
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 518,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-2-3"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 519,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    className: "surname-2 valign-text-bottom roboto-normal-white-15px",
+                                    children: surname4
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 520,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 516,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group-2",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-26"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 523,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                    className: "screen-shot-2022-05-19-at-23",
+                                    src: screenShot20220519At2371
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 524,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-2-3"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 525,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    className: "surname valign-text-bottom roboto-normal-white-15px",
+                                    children: surname5
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 526,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 522,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/ContentPage/index.jsx",
+                    lineNumber: 489,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "overlap-group-container-3",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group23",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-280"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 531,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "about-house-of-cards valign-text-middle",
+                                    children: aboutHouseOfCards
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 532,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 530,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "overlap-group22 roboto-normal-gray-15px",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "rectangle-281"
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 535,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    className: "cast-kevin-spacey valign-text-middle",
+                                    children: castKevinSpacey
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 536,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    className: "genres-political-tv valign-text-middle",
+                                    children: genresPoliticalTv
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 537,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    className: "this-show-is-cerebral-dark-1 valign-text-middle",
+                                    children: thisShowIsCerebralDark2
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 538,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    className: "maturity-rating-lan valign-text-middle",
+                                    children: maturityRatingLan
+                                }, void 0, false, {
+                                    fileName: "components/ContentPage/index.jsx",
+                                    lineNumber: 539,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/ContentPage/index.jsx",
+                            lineNumber: 534,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/ContentPage/index.jsx",
+                    lineNumber: 529,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "components/ContentPage/index.jsx",
+            lineNumber: 126,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "components/ContentPage/index.jsx",
+        lineNumber: 125,
+        columnNumber: 5
+    }, this);
+}
+_s(ContentPage, "OD7bBpZva5O2jO+Puf00hKivP7c=");
+_c = ContentPage;
+exports.default = ContentPage;
+var _c;
+$RefreshReg$(_c, "ContentPage");
+
+  $parcel$ReactRefreshHelpers$a255.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","material-components-web":"88kGW","./ContentPage.css":"5rsEp","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"5rsEp":[function() {},{}]},["kn9T2","aPJuQ","bB7Pu"], "bB7Pu", "parcelRequire3745")
 
 //# sourceMappingURL=index.3d214d75.js.map

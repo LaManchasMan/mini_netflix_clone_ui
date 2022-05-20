@@ -1,25 +1,15 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import HeroImageTextDiv from "../HeroImageTextDiv";
-import FrequentlyAskedQuestionsContainer from "../FrequentlyAskedQuestionsContainer";
 import FooterMasterDiv from "../FooterMasterDiv";
 import * as mdc from "material-components-web";
-import styled from "styled-components";
-import {
-  RobotoNormalBlack16px,
-  InterNormalWhite30px,
-  InterBoldWhite24px,
-  RobotoBoldWhite48px,
-  RobotoNormalWhite14px,
-  InterNormalWhite13px,
-  InterBoldWhite15px,
-  ValignTextMiddle,
-} from "../../styledMixins";
 import "./SignUp.css";
 
 function SignUp(props) {
   const {
     signUpPageBackground,
+    title,
+    watchAnywhereCancelAnytime,
+    readyToWatchEnte1,
     getStarted1,
     signIn,
     netflixLogo,
@@ -35,33 +25,46 @@ function SignUp(props) {
     createProfilesForKids,
     kidsvalueprop1,
     sendKidsOnAdventu,
+    label1,
     frequentlyAskedQuestions,
-    readyToWatchEnte,
+    readyToWatchEnte2,
     getStarted2,
-    label,
+    label2,
   } = props;
 
   useEffect(() => {
     new mdc.textField.MDCTextField(document.querySelector(".text-field-filled-di .mdc-text-field"));
+    new mdc.select.MDCSelect(document.querySelector(".drop-down-filled-dis .mdc-select"));
+    new mdc.select.MDCSelect(document.querySelector(".drop-down-filled-dis-1 .mdc-select"));
+    new mdc.select.MDCSelect(document.querySelector(".drop-down-filled-dis-2 .mdc-select"));
+    new mdc.select.MDCSelect(document.querySelector(".drop-down-filled-dis-3 .mdc-select"));
+    new mdc.select.MDCSelect(document.querySelector(".drop-down-filled-dis-4 .mdc-select"));
+    new mdc.select.MDCSelect(document.querySelector(".drop-down-filled-dis-5 .mdc-select"));
   }, []);
 
   return (
     <div className="container-center-horizontal">
       <div className="sign-up screen">
-        <ContainerContainer>
-          <HeroImageContainerDiv>
-            <OverlapGroup18>
-              <SignUpPageBackground src={signUpPageBackground} />
-              <Rectangle85></Rectangle85>
-              <HeroImageTextContainer>
-                <HeroImageTextDiv />
-                <OverlapGroup1>
-                  <Rectangle91></Rectangle91>
-                  <Rectangle90></Rectangle90>
+        <div className="container-container">
+          <div className="hero-image-container-div">
+            <div className="overlap-group18">
+              <img className="sign-up-page-background" src={signUpPageBackground} />
+              <div className="rectangle-85"></div>
+              <div className="hero-image-text-container">
+                <div className="hero-image-text-div">
+                  <h1 className="title valign-text-middle">{title}</h1>
+                  <div className="watch-container">
+                    <div className="watch-anywhere-cancel-anytime valign-text-middle">{watchAnywhereCancelAnytime}</div>
+                    <div className="ready-to-watch-ente valign-text-middle">{readyToWatchEnte1}</div>
+                  </div>
+                </div>
+                <div className="overlap-group1-1">
+                  <div className="rectangle-6"></div>
+                  <div className="rectangle-90"></div>
                   <Link to="/home">
-                    <GetStarted>{getStarted1}</GetStarted>
+                    <div className="get-started valign-text-middle inter-normal-white-30px">{getStarted1}</div>
                   </Link>
-                  <Rectangle93></Rectangle93>
+                  <div className="rectangle-93"></div>
                   <div className="text-field-filled-di">
                     <label className="mdc-text-field mdc-text-field--filled mdc-text-field--with--icon ">
                       <span className="mdc-text-field__ripple"></span>
@@ -72,608 +75,340 @@ function SignUp(props) {
                       <span className="mdc-line-ripple"></span>
                     </label>
                   </div>
-                </OverlapGroup1>
-              </HeroImageTextContainer>
-              <OverlapGroup2>
-                <SignIn>{signIn}</SignIn>
-              </OverlapGroup2>
-            </OverlapGroup18>
-          </HeroImageContainerDiv>
+                </div>
+              </div>
+              <div className="overlap-group2-2">
+                <div className="sign-in-2 valign-text-middle">{signIn}</div>
+              </div>
+            </div>
+          </div>
           <Link to="/login">
-            <NetflixLogoContainer>
-              <NetflixLogo src={netflixLogo} />
-            </NetflixLogoContainer>
+            <div className="netflix-logo-container">
+              <img className="netflix-logo" src={netflixLogo} />
+            </div>
           </Link>
-        </ContainerContainer>
-        <OverlapGroup18>
-          <ContainerContainer1>
-            <EnjoyYourTVContainer>
-              <OnContainer>
-                <EnjoyOnYourTV>{enjoyOnYourTv}</EnjoyOnYourTV>
-                <WatchOnSmartTVs>{watchOnSmartTvs}</WatchOnSmartTVs>
-              </OnContainer>
-              <WillSmithAd style={{ backgroundImage: `url(${willSmithAd})` }}></WillSmithAd>
-            </EnjoyYourTVContainer>
-            <DownloadYourShowsContainerDiv>
-              <Group2 style={{ backgroundImage: `url(${group2})` }}></Group2>
-              <Group15>
-                <DownloadYourShowsToWatchOffline>{downloadYourShowsToWatchOffline}</DownloadYourShowsToWatchOffline>
-                <SaveYourFavorites>{saveYourFavorites}</SaveYourFavorites>
-              </Group15>
-            </DownloadYourShowsContainerDiv>
-          </ContainerContainer1>
-          <OverlapGroup4>
-            <OverlapGroup11>
-              <Rectangle83></Rectangle83>
-              <WatchEverywhereDiv>
-                <OverlapGroup>
-                  <WatchEverywhere>{watchEverywhere}</WatchEverywhere>
-                  <StreamUnlimitedMov>{streamUnlimitedMov}</StreamUnlimitedMov>
-                </OverlapGroup>
-                <Group4 style={{ backgroundImage: `url(${group4})` }}></Group4>
-              </WatchEverywhereDiv>
-            </OverlapGroup11>
-            <CreateProfilesForKidsContainerDiv>
-              <OverlapGroup21>
-                <CreateProfilesForKids>{createProfilesForKids}</CreateProfilesForKids>
-                <Group11>
-                  <KidsValueProp1 src={kidsvalueprop1} />
-                  <SendKidsOnAdventu>{sendKidsOnAdventu}</SendKidsOnAdventu>
-                </Group11>
-              </OverlapGroup21>
-            </CreateProfilesForKidsContainerDiv>
-          </OverlapGroup4>
-        </OverlapGroup18>
-        <OverlapGroup19>
-          <Indicator></Indicator>
-          <OverlapGroup17>
-            <FrequentlyAskedQuestionsContainer />
-            <OverlapGroup22>
-              <Rectangle106></Rectangle106>
-              <FrequentlyAskedQuestions>{frequentlyAskedQuestions}</FrequentlyAskedQuestions>
-            </OverlapGroup22>
-            <EmailAddressGetStarted>
-              <OverlapGroup41>
-                <Rectangle107></Rectangle107>
-                <ReadyToWatchEnte>{readyToWatchEnte}</ReadyToWatchEnte>
-              </OverlapGroup41>
-              <OverlapGroup3>
-                <Rectangle91></Rectangle91>
+        </div>
+        <div className="media-master-container">
+          <div className="container-container-1">
+            <div className="enjoy-your-tv-container">
+              <div className="on-container">
+                <div className="enjoy-on-your-tv valign-text-middle inter-bold-white-24px">{enjoyOnYourTv}</div>
+                <p className="watch-on-smart-t-vs valign-text-middle inter-normal-white-13px">{watchOnSmartTvs}</p>
+              </div>
+              <div className="will-smith-ad" style={{ backgroundImage: `url(${willSmithAd})` }}></div>
+            </div>
+            <div className="download-your-shows-container-div">
+              <div className="group-2" style={{ backgroundImage: `url(${group2})` }}></div>
+              <div className="group-15">
+                <div className="download-your-shows-to-watch-offline valign-text-middle inter-bold-white-24px">
+                  {downloadYourShowsToWatchOffline}
+                </div>
+                <p className="save-your-favorites valign-text-middle inter-normal-white-13px">{saveYourFavorites}</p>
+              </div>
+            </div>
+          </div>
+          <div className="overlap-group4-2">
+            <div className="overlap-group1-2">
+              <div className="rectangle-83"></div>
+              <div className="watch-everywhere-div">
+                <div className="overlap-group-5">
+                  <div className="watch-everywhere valign-text-middle inter-bold-white-24px">{watchEverywhere}</div>
+                  <p className="stream-unlimited-mov valign-text-middle inter-normal-white-13px">
+                    {streamUnlimitedMov}
+                  </p>
+                </div>
+                <div className="group-4" style={{ backgroundImage: `url(${group4})` }}></div>
+              </div>
+            </div>
+            <div className="create-profiles-for-kids-container-div">
+              <div className="overlap-group2-3">
+                <div className="create-profiles-for-kids valign-text-middle inter-bold-white-24px">
+                  {createProfilesForKids}
+                </div>
+                <div className="group-11">
+                  <img className="kids-value-prop-1" src={kidsvalueprop1} />
+                  <p className="send-kids-on-adventu valign-text-middle inter-normal-white-13px">{sendKidsOnAdventu}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="overlap-group19">
+          <div className="indicator"></div>
+          <div className="overlap-group17">
+            <div className="frequently-asked-questions-container">
+              <div className="overlap-group1-3">
+                <div className="overlap-group-6">
+                  <div className="rectangle-98"></div>
+                  <div className="rectangle-7"></div>
+                  <div className="rectangle-101"></div>
+                  <div className="rectangle-103"></div>
+                  <div className="rectangle-102"></div>
+                  <div className="rectangle-104"></div>
+                  <div className="rectangle-105"></div>
+                </div>
+                <div className="drop-down-filled-dis">
+                  <div className="mdc-select   mdc-select--filled  demo-width-class" data-id="anima-widget">
+                    <div
+                      className="mdc-select__anchor custom-enhanced-select-width"
+                      role="button"
+                      aria-haspopup="listbox"
+                      aria-expanded="false"
+                    >
+                      <span className="mdc-select__ripple"></span>
+                      <span id="demo-label" className="mdc-floating-label">
+                        What is Netflix?
+                      </span>
+                      <span className="mdc-select__selected-text-container">
+                        <span id="demo-selected-text" className="mdc-select__selected-text"></span>
+                      </span>
+                      <span className="mdc-select__dropdown-icon">
+                        <span className="mdc-select__dropdown-icon-inactive material-icons">arrow_drop_down</span>
+                        <span className="mdc-select__dropdown-icon-active material-icons">arrow_drop_up</span>
+                      </span>
+                      <span className="mdc-line-ripple"></span>
+                    </div>
+                    <div className="mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth">
+                      <ul className="mdc-list" id="select_dropdown" role="listbox" aria-label="listbox">
+                        <li className="mdc-list-item " data-value="Item" role="option">
+                          <span className="mdc-list-item__ripple"></span>{" "}
+                          <span className="mdc-list-item__text">Item</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="drop-down-filled-dis-1">
+                  <div className="mdc-select   mdc-select--filled  demo-width-class" data-id="anima-widget">
+                    <div
+                      className="mdc-select__anchor custom-enhanced-select-width"
+                      role="button"
+                      aria-haspopup="listbox"
+                      aria-expanded="false"
+                    >
+                      <span className="mdc-select__ripple"></span>
+                      <span id="demo-label" className="mdc-floating-label">
+                        How much does Netflix cost?
+                      </span>
+                      <span className="mdc-select__selected-text-container">
+                        <span id="demo-selected-text" className="mdc-select__selected-text"></span>
+                      </span>
+                      <span className="mdc-select__dropdown-icon">
+                        <span className="mdc-select__dropdown-icon-inactive material-icons">arrow_drop_down</span>
+                        <span className="mdc-select__dropdown-icon-active material-icons">arrow_drop_up</span>
+                      </span>
+                      <span className="mdc-line-ripple"></span>
+                    </div>
+                    <div className="mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth">
+                      <ul className="mdc-list" id="select_dropdown" role="listbox" aria-label="listbox">
+                        <li
+                          className="mdc-list-item "
+                          data-value="Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from $9.99 to $19.99 a month. No extra costs, no contracts."
+                          role="option"
+                        >
+                          <span className="mdc-list-item__ripple"></span>
+                          <span className="mdc-list-item__text">
+                            Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one
+                            fixed monthly fee. Plans range from $9.99 to $19.99 a month. No extra costs, no contracts.
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="drop-down-filled-dis-2">
+                  <div className="mdc-select   mdc-select--filled  demo-width-class" data-id="anima-widget">
+                    <div
+                      className="mdc-select__anchor custom-enhanced-select-width"
+                      role="button"
+                      aria-haspopup="listbox"
+                      aria-expanded="false"
+                    >
+                      <span className="mdc-select__ripple"></span>
+                      <span id="demo-label" className="mdc-floating-label">
+                        Where can I watch?
+                      </span>
+                      <span className="mdc-select__selected-text-container">
+                        <span id="demo-selected-text" className="mdc-select__selected-text"></span>
+                      </span>
+                      <span className="mdc-select__dropdown-icon">
+                        <span className="mdc-select__dropdown-icon-inactive material-icons">arrow_drop_down</span>
+                        <span className="mdc-select__dropdown-icon-active material-icons">arrow_drop_up</span>
+                      </span>
+                      <span className="mdc-line-ripple"></span>
+                    </div>
+                    <div className="mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth">
+                      <ul className="mdc-list" id="select_dropdown" role="listbox" aria-label="listbox">
+                        <li
+                          className="mdc-list-item "
+                          data-value="Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.  You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you&#39;re on the go and without an internet connection. Take Netflix with you anywhere."
+                          role="option"
+                        >
+                          <span className="mdc-list-item__ripple"></span>
+                          <span className="mdc-list-item__text">
+                            Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at
+                            netflix.com from your personal computer or on any internet-connected device that offers the
+                            Netflix app, including smart TVs, smartphones, tablets, streaming media players and game
+                            consoles. You can also download your favorite shows with the iOS, Android, or Windows 10
+                            app. Use downloads to watch while you&#39;re on the go and without an internet connection.
+                            Take Netflix with you anywhere.
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="object">
+                  <div className="input">
+                    <p className="label roboto-normal-black-16px">{label1}</p>
+                  </div>
+                  <img className="icon" src="/img/icon-4@2x.svg" />
+                </div>
+                <div className="drop-down-filled-dis-3">
+                  <div className="mdc-select   mdc-select--filled  demo-width-class" data-id="anima-widget">
+                    <div
+                      className="mdc-select__anchor custom-enhanced-select-width"
+                      role="button"
+                      aria-haspopup="listbox"
+                      aria-expanded="false"
+                    >
+                      <span className="mdc-select__ripple"></span>
+                      <span id="demo-label" className="mdc-floating-label">
+                        How do i cancel?
+                      </span>
+                      <span className="mdc-select__selected-text-container">
+                        <span id="demo-selected-text" className="mdc-select__selected-text"></span>
+                      </span>
+                      <span className="mdc-select__dropdown-icon">
+                        <span className="mdc-select__dropdown-icon-inactive material-icons">arrow_drop_down</span>
+                        <span className="mdc-select__dropdown-icon-active material-icons">arrow_drop_up</span>
+                      </span>
+                      <span className="mdc-line-ripple"></span>
+                    </div>
+                    <div className="mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth">
+                      <ul className="mdc-list" id="select_dropdown" role="listbox" aria-label="listbox">
+                        <li
+                          className="mdc-list-item "
+                          data-value="Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime."
+                          role="option"
+                        >
+                          <span className="mdc-list-item__ripple"></span>
+                          <span className="mdc-list-item__text">
+                            Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel
+                            your account online in two clicks. There are no cancellation fees – start or stop your
+                            account anytime.
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="drop-down-filled-dis-4">
+                  <div className="mdc-select   mdc-select--filled  demo-width-class" data-id="anima-widget">
+                    <div
+                      className="mdc-select__anchor custom-enhanced-select-width"
+                      role="button"
+                      aria-haspopup="listbox"
+                      aria-expanded="false"
+                    >
+                      <span className="mdc-select__ripple"></span>
+                      <span id="demo-label" className="mdc-floating-label">
+                        What can I watch on Netflix?
+                      </span>
+                      <span className="mdc-select__selected-text-container">
+                        <span id="demo-selected-text" className="mdc-select__selected-text"></span>
+                      </span>
+                      <span className="mdc-select__dropdown-icon">
+                        <span className="mdc-select__dropdown-icon-inactive material-icons">arrow_drop_down</span>
+                        <span className="mdc-select__dropdown-icon-active material-icons">arrow_drop_up</span>
+                      </span>
+                      <span className="mdc-line-ripple"></span>
+                    </div>
+                    <div className="mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth">
+                      <ul className="mdc-list" id="select_dropdown" role="listbox" aria-label="listbox">
+                        <li
+                          className="mdc-list-item "
+                          data-value="Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want."
+                          role="option"
+                        >
+                          <span className="mdc-list-item__ripple"></span>
+                          <span className="mdc-list-item__text">
+                            Netflix has an extensive library of feature films, documentaries, TV shows, anime,
+                            award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="drop-down-filled-dis-5">
+                  <div className="mdc-select   mdc-select--filled  demo-width-class" data-id="anima-widget">
+                    <div
+                      className="mdc-select__anchor custom-enhanced-select-width"
+                      role="button"
+                      aria-haspopup="listbox"
+                      aria-expanded="false"
+                    >
+                      <span className="mdc-select__ripple"></span>
+                      <span id="demo-label" className="mdc-floating-label">
+                        Is Netflix good for kids?
+                      </span>
+                      <span className="mdc-select__selected-text-container">
+                        <span id="demo-selected-text" className="mdc-select__selected-text"></span>
+                      </span>
+                      <span className="mdc-select__dropdown-icon">
+                        <span className="mdc-select__dropdown-icon-inactive material-icons">arrow_drop_down</span>
+                        <span className="mdc-select__dropdown-icon-active material-icons">arrow_drop_up</span>
+                      </span>
+                      <span className="mdc-line-ripple"></span>
+                    </div>
+                    <div className="mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth">
+                      <ul className="mdc-list" id="select_dropdown" role="listbox" aria-label="listbox">
+                        <li
+                          className="mdc-list-item "
+                          data-value="The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.  Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don't want kids to see."
+                          role="option"
+                        >
+                          <span className="mdc-list-item__ripple"></span>
+                          <span className="mdc-list-item__text">
+                            The Netflix Kids experience is included in your membership to give parents control while
+                            kids enjoy family-friendly TV shows and movies in their own space. Kids profiles come with
+                            PIN-protected parental controls that let you restrict the maturity rating of content kids
+                            can watch and block specific titles you don't want kids to see.
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="overlap-group2-4">
+              <div className="rectangle-7"></div>
+              <div className="frequently-asked-questions valign-text-middle">{frequentlyAskedQuestions}</div>
+            </div>
+            <div className="email-address-get-started">
+              <div className="overlap-group4-3">
+                <div className="rectangle-107"></div>
+                <p className="ready-to-watch-ente-1">{readyToWatchEnte2}</p>
+              </div>
+              <div className="overlap-group3-3">
+                <div className="rectangle-6"></div>
                 <Link to="/home">
-                  <GetStarted>{getStarted2}</GetStarted>
+                  <div className="get-started valign-text-middle inter-normal-white-30px">{getStarted2}</div>
                 </Link>
-                <Rectangle110></Rectangle110>
-                <Vector src="/img/vector@2x.png" />
-                <Vector1 src="/img/vector-1@2x.svg" />
-                <Label>{label}</Label>
-              </OverlapGroup3>
-            </EmailAddressGetStarted>
-          </OverlapGroup17>
-        </OverlapGroup19>
+                <div className="rectangle-110"></div>
+                <img className="vector" src="/img/vector@2x.png" />
+                <img className="vector-1" src="/img/vector-1@2x.svg" />
+                <div className="label-1 roboto-normal-black-16px">{label2}</div>
+              </div>
+            </div>
+          </div>
+        </div>
         <FooterMasterDiv />
       </div>
     </div>
   );
 }
-
-const ContainerContainer = styled.div`
-  width: 1440px;
-  height: 585px;
-  position: relative;
-`;
-
-const HeroImageContainerDiv = styled.div`
-  position: absolute;
-  height: 585px;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: flex-start;
-  min-width: 1440px;
-  background-color: var(--black);
-`;
-
-const OverlapGroup18 = styled.div`
-  width: 1440px;
-  height: 584px;
-  position: relative;
-`;
-
-const SignUpPageBackground = styled.img`
-  position: absolute;
-  width: 1440px;
-  height: 583px;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-`;
-
-const Rectangle85 = styled.div`
-  position: absolute;
-  width: 1440px;
-  height: 584px;
-  top: 0;
-  left: 0;
-  background-color: var(--heavy-metal);
-`;
-
-const HeroImageTextContainer = styled.div`
-  position: absolute;
-  width: 882px;
-  top: 138px;
-  left: 279px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 360px;
-`;
-
-const OverlapGroup1 = styled.div`
-  width: 674px;
-  height: 59px;
-  position: relative;
-  margin-left: 4px;
-`;
-
-const Rectangle91 = styled.div`
-  position: absolute;
-  width: 209px;
-  height: 59px;
-  top: 0;
-  left: 464px;
-  background-color: var(--tamarillo);
-`;
-
-const Rectangle90 = styled.div`
-  position: absolute;
-  width: 674px;
-  height: 59px;
-  top: 0;
-  left: 0;
-  background-color: var(--red);
-`;
-
-const GetStarted = styled.div`
-  ${ValignTextMiddle}
-  ${InterNormalWhite30px}
-            position: absolute;
-  width: 210px;
-  height: 59px;
-  top: 0;
-  left: 464px;
-  text-align: center;
-  letter-spacing: 0;
-  cursor: pointer;
-`;
-
-const Rectangle93 = styled.div`
-  position: absolute;
-  width: 465px;
-  height: 59px;
-  top: 0;
-  left: 0;
-  background-color: var(--mist-gray);
-`;
-
-const OverlapGroup2 = styled.div`
-  position: absolute;
-  height: 25px;
-  top: 41px;
-  left: 1321px;
-  display: flex;
-  align-items: flex-start;
-  min-width: 75px;
-  background-color: var(--red);
-  border-radius: 4px;
-`;
-
-const SignIn = styled.div`
-  ${ValignTextMiddle}
-  ${InterBoldWhite15px}
-            width: 75px;
-  height: 25px;
-  text-align: center;
-  letter-spacing: 0;
-`;
-
-const NetflixLogoContainer = styled.div`
-  position: absolute;
-  height: 51px;
-  top: 41px;
-  left: 46px;
-  display: flex;
-  padding: 4px 17px;
-  align-items: flex-end;
-  min-width: 220px;
-  cursor: pointer;
-`;
-
-const NetflixLogo = styled.img`
-  width: 178px;
-  height: 42px;
-  object-fit: cover;
-`;
-
-const ContainerContainer1 = styled.div`
-  position: absolute;
-  width: 1440px;
-  height: 293px;
-  top: 0;
-  left: 0;
-`;
-
-const EnjoyYourTVContainer = styled.div`
-  position: absolute;
-  height: 146px;
-  top: 0;
-  left: 0;
-  display: flex;
-  padding: 0 382.2px;
-  justify-content: flex-end;
-  align-items: flex-start;
-  min-width: 1440px;
-  background-color: var(--black);
-`;
-
-const OnContainer = styled.div`
-  width: 303px;
-  height: 117px;
-  position: relative;
-`;
-
-const EnjoyOnYourTV = styled.div`
-  ${ValignTextMiddle}
-  ${InterBoldWhite24px}
-            position: absolute;
-  width: 303px;
-  height: 82px;
-  top: 0;
-  left: 0;
-  letter-spacing: 0;
-`;
-
-const WatchOnSmartTVs = styled.p`
-  ${ValignTextMiddle}
-  ${InterNormalWhite13px}
-            position: absolute;
-  width: 302px;
-  height: 47px;
-  top: 70px;
-  left: 1px;
-  letter-spacing: 0;
-`;
-
-const WillSmithAd = styled.div`
-  width: 287px;
-  height: 145px;
-  margin-left: 24px;
-  margin-top: -0.25px;
-  background-color: var(--mist-gray);
-  background-size: cover;
-  background-position: 50% 50%;
-`;
-
-const DownloadYourShowsContainerDiv = styled.div`
-  position: absolute;
-  height: 148px;
-  top: 145px;
-  left: 0;
-  display: flex;
-  padding: 0 380px;
-  justify-content: flex-end;
-  align-items: flex-start;
-  min-width: 1440px;
-  background-color: var(--black);
-`;
-
-const Group2 = styled.div`
-  width: 195px;
-  height: 148px;
-  margin-top: 0;
-  background-color: var(--mist-gray);
-  background-size: cover;
-  background-position: 50% 50%;
-`;
-
-const Group15 = styled.div`
-  width: 440px;
-  align-self: center;
-  margin-left: 39px;
-  margin-top: 2.72px;
-  display: flex;
-  flex-direction: column;
-  padding: 0 25.7px;
-  align-items: flex-end;
-  min-height: 122px;
-`;
-
-const DownloadYourShowsToWatchOffline = styled.div`
-  ${ValignTextMiddle}
-  ${InterBoldWhite24px}
-            width: 350px;
-  height: 51px;
-  letter-spacing: 0;
-`;
-
-const SaveYourFavorites = styled.p`
-  ${ValignTextMiddle}
-  ${InterNormalWhite13px}
-            width: 277px;
-  height: 43px;
-  align-self: center;
-  margin-top: 2px;
-  margin-right: 0.58px;
-  letter-spacing: 0;
-`;
-
-const OverlapGroup4 = styled.div`
-  position: absolute;
-  width: 1440px;
-  height: 291px;
-  top: 293px;
-  left: 0;
-`;
-
-const OverlapGroup11 = styled.div`
-  position: absolute;
-  width: 1440px;
-  height: 146px;
-  top: 0;
-  left: 0;
-`;
-
-const Rectangle83 = styled.div`
-  position: absolute;
-  width: 1440px;
-  height: 146px;
-  top: 0;
-  left: 0;
-  background-color: var(--black);
-`;
-
-const WatchEverywhereDiv = styled.div`
-  position: absolute;
-  height: 146px;
-  top: 0;
-  left: 385px;
-  display: flex;
-  padding: 0 0.2px;
-  justify-content: flex-end;
-  align-items: flex-start;
-  min-width: 673px;
-`;
-
-const OverlapGroup = styled.div`
-  width: 323px;
-  height: 93px;
-  position: relative;
-  align-self: center;
-  margin-bottom: 7.32px;
-`;
-
-const WatchEverywhere = styled.div`
-  ${ValignTextMiddle}
-  ${InterBoldWhite24px}
-            position: absolute;
-  width: 323px;
-  height: 59px;
-  top: 0;
-  left: 0;
-  letter-spacing: 0;
-`;
-
-const StreamUnlimitedMov = styled.p`
-  ${ValignTextMiddle}
-  ${InterNormalWhite13px}
-            position: absolute;
-  width: 320px;
-  height: 45px;
-  top: 48px;
-  left: 0;
-  letter-spacing: 0;
-`;
-
-const Group4 = styled.div`
-  width: 233px;
-  height: 146px;
-  margin-left: 53px;
-  margin-top: -0.25px;
-  background-color: var(--mist-gray);
-  background-size: cover;
-  background-position: 50% 50%;
-`;
-
-const CreateProfilesForKidsContainerDiv = styled.div`
-  position: absolute;
-  height: 146px;
-  top: 146px;
-  left: 0;
-  display: flex;
-  padding: 0 380px;
-  justify-content: flex-end;
-  align-items: flex-end;
-  min-width: 1440px;
-  background-color: var(--black);
-`;
-
-const OverlapGroup21 = styled.div`
-  width: 674px;
-  height: 145px;
-  position: relative;
-  margin-bottom: 0;
-`;
-
-const CreateProfilesForKids = styled.div`
-  ${ValignTextMiddle}
-  ${InterBoldWhite24px}
-            position: absolute;
-  width: 350px;
-  height: 55px;
-  top: 26px;
-  left: 302px;
-  letter-spacing: 0;
-`;
-
-const Group11 = styled.div`
-  position: absolute;
-  height: 145px;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: flex-start;
-  min-width: 674px;
-`;
-
-const KidsValueProp1 = styled.img`
-  width: 302px;
-  height: 145px;
-  margin-top: -0.25px;
-  object-fit: cover;
-`;
-
-const SendKidsOnAdventu = styled.p`
-  ${ValignTextMiddle}
-  ${InterNormalWhite13px}
-            width: 346px;
-  height: 43px;
-  align-self: center;
-  margin-top: 40.58px;
-  letter-spacing: 0;
-`;
-
-const OverlapGroup19 = styled.div`
-  width: 1440px;
-  height: 587px;
-  position: relative;
-`;
-
-const Indicator = styled.div`
-  position: absolute;
-  width: 467px;
-  height: 3px;
-  top: 565px;
-  left: 382px;
-  background-color: var(--black-2);
-`;
-
-const OverlapGroup17 = styled.div`
-  position: absolute;
-  width: 1440px;
-  height: 587px;
-  top: 0;
-  left: 0;
-`;
-
-const OverlapGroup22 = styled.div`
-  position: absolute;
-  width: 838px;
-  height: 49px;
-  top: 29px;
-  left: 301px;
-`;
-
-const Rectangle106 = styled.div`
-  position: absolute;
-  width: 837px;
-  height: 49px;
-  top: 0;
-  left: 1px;
-  background-color: var(--black);
-`;
-
-const FrequentlyAskedQuestions = styled.div`
-  ${ValignTextMiddle}
-  ${RobotoBoldWhite48px}
-            position: absolute;
-  width: 838px;
-  height: 49px;
-  top: 0;
-  left: 0;
-  text-align: center;
-  letter-spacing: 0.15px;
-  line-height: 24px;
-`;
-
-const EmailAddressGetStarted = styled.div`
-  position: absolute;
-  width: 756px;
-  top: 482px;
-  left: 345px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 85px;
-`;
-
-const OverlapGroup41 = styled.div`
-  width: 750px;
-  height: 26px;
-  position: relative;
-  margin-right: 6px;
-`;
-
-const Rectangle107 = styled.div`
-  position: absolute;
-  width: 750px;
-  height: 25px;
-  top: 1px;
-  left: 0;
-  background-color: var(--black);
-`;
-
-const ReadyToWatchEnte = styled.p`
-  ${RobotoNormalWhite14px}
-  position: absolute;
-  width: 750px;
-  top: 0;
-  left: 0;
-  text-align: center;
-  letter-spacing: 0.15px;
-  line-height: 24px;
-  white-space: nowrap;
-`;
-
-const OverlapGroup3 = styled.div`
-  width: 674px;
-  height: 59px;
-  position: relative;
-  margin-right: 6px;
-  background-color: var(--congo-brown);
-`;
-
-const Rectangle110 = styled.div`
-  position: absolute;
-  width: 465px;
-  height: 59px;
-  top: 0;
-  left: 0;
-  background-color: var(--white);
-`;
-
-const Vector = styled.img`
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  top: 29px;
-  left: 28px;
-`;
-
-const Vector1 = styled.img`
-  position: absolute;
-  width: 20px;
-  height: 16px;
-  top: 21px;
-  left: 18px;
-`;
-
-const Label = styled.div`
-  ${RobotoNormalBlack16px}
-  position: absolute;
-  top: 17px;
-  left: 54px;
-  letter-spacing: 0.15px;
-  line-height: 24px;
-  white-space: nowrap;
-`;
 
 export default SignUp;
